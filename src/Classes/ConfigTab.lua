@@ -28,7 +28,7 @@ local ConfigTabClass = newClass("ConfigTab", "UndoHandler", "ControlHost", "Cont
 	local lastSection
 	for _, varData in ipairs(varList) do
 		if varData.section then
-			lastSection = new("SectionControl", {"TOPLEFT",self,"TOPLEFT"}, 0, 0, 360, 0, varData.section)
+			lastSection = new("SectionControl", {"TOPLEFT",self,"TOPLEFT"}, 0, 0, 389, 0, varData.section)
 			lastSection.varControlList = { }
 			lastSection.col = varData.col
 			lastSection.height = function(self)
@@ -45,35 +45,35 @@ local ConfigTabClass = newClass("ConfigTab", "UndoHandler", "ControlHost", "Cont
 		else
 			local control
 			if varData.type == "check" then
-				control = new("CheckBoxControl", {"TOPLEFT",lastSection,"TOPLEFT"}, 234, 0, 18, varData.label, function(state)
+				control = new("CheckBoxControl", {"TOPLEFT",lastSection,"TOPLEFT"}, 263, 0, 16, varData.label, function(state)
 					self.input[varData.var] = state
 					self:AddUndoState()
 					self:BuildModList()
 					self.build.buildFlag = true
 				end)
 			elseif varData.type == "count" or varData.type == "integer" or varData.type == "countAllowZero" then
-				control = new("EditControl", {"TOPLEFT",lastSection,"TOPLEFT"}, 234, 0, 90, 18, "", nil, varData.type == "integer" and "^%-%d" or "%D", 6, function(buf)
+				control = new("EditControl", {"TOPLEFT",lastSection,"TOPLEFT"}, 263, 0, 90, 16, "", nil, varData.type == "integer" and "^%-%d" or "%D", 6, function(buf)
 					self.input[varData.var] = tonumber(buf)
 					self:AddUndoState()
 					self:BuildModList()
 					self.build.buildFlag = true
 				end)
 			elseif varData.type == "list" then
-				control = new("DropDownControl", {"TOPLEFT",lastSection,"TOPLEFT"}, 234, 0, 118, 16, varData.list, function(index, value)
+				control = new("DropDownControl", {"TOPLEFT",lastSection,"TOPLEFT"}, 263, 0, 118, 16, varData.list, function(index, value)
 					self.input[varData.var] = value.val
 					self:AddUndoState()
 					self:BuildModList()
 					self.build.buildFlag = true
 				end)
 			elseif varData.type == "text" then
-				control = new("EditControl", {"TOPLEFT",lastSection,"TOPLEFT"}, 8, 0, 344, 118, "", nil, "^%C\t\n", nil, function(buf)
+				control = new("EditControl", {"TOPLEFT",lastSection,"TOPLEFT"}, 8, 0, 373, 118, "", nil, "^%C\t\n", nil, function(buf)
 					self.input[varData.var] = tostring(buf)
 					self:AddUndoState()
 					self:BuildModList()
 					self.build.buildFlag = true
 				end, 16)
 			else 
-				control = new("Control", {"TOPLEFT",lastSection,"TOPLEFT"}, 234, 0, 16, 16)
+				control = new("Control", {"TOPLEFT",lastSection,"TOPLEFT"}, 260, 0, 16, 16)
 			end
 			if varData.ifNode then
 				control.shown = function()
@@ -217,7 +217,7 @@ local ConfigTabClass = newClass("ConfigTab", "UndoHandler", "ControlHost", "Cont
 				control.tooltipText = varData.tooltip
 			end
 			if varData.label and varData.type ~= "check" then
-				t_insert(self.controls, new("LabelControl", {"RIGHT",control,"LEFT"}, -4, 0, 0, DrawStringWidth(14, "VAR", varData.label) > 228 and 12 or 14, "^7"..varData.label))
+				t_insert(self.controls, new("LabelControl", {"RIGHT",control,"LEFT"}, -4, 0, 0, DrawStringWidth(14, "VAR", varData.label) > 228 and 12 or 12, "^7"..varData.label))
 			end
 			if varData.var then
 				self.input[varData.var] = varData.defaultState
@@ -338,7 +338,7 @@ function ConfigTabClass:Draw(viewPort, inputEvents)
 		end
 	end
 
-	local maxCol = m_floor((viewPort.width - 10) / 370)
+	local maxCol = m_floor((viewPort.width - 10) / 399)
 	local maxColY = 0
 	local colY = { }
 	for _, section in ipairs(self.sectionList) do
@@ -358,7 +358,7 @@ function ConfigTabClass:Draw(viewPort, inputEvents)
 		if doShow then
 			local width, height = section:GetSize()
 			local col
-			if section.col and (colY[section.col] or 0) + height + 28 <= viewPort.height and 10 + section.col * 370 <= viewPort.width then
+			if section.col and (colY[section.col] or 0) + height + 28 <= viewPort.height and 10 + section.col * 399 <= viewPort.width then
 				col = section.col
 			else
 				col = 1
@@ -370,7 +370,7 @@ function ConfigTabClass:Draw(viewPort, inputEvents)
 				end
 			end
 			colY[col] = colY[col] or 0
-			section.x = 10 + (col - 1) * 370
+			section.x = 10 + (col - 1) * 399
 			section.y = colY[col] + 18
 			colY[col] = colY[col] + height + 18
 			maxColY = m_max(maxColY, colY[col])
