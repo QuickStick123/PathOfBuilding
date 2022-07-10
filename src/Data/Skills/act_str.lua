@@ -1429,6 +1429,9 @@ skills["Boneshatter"] = {
 		["attack_speed_+%_per_trauma"] = {
 			mod("Speed", "INC", nil, ModFlag.Attack, 0, { type = "Multiplier", var = "TraumaStacks" }),
 		},
+		["trauma_strike_shockwave_area_of_effect_+%_per_100ms_stun_duration_up_to_400%"] = {
+			mod("AreaOfEffect", "INC", nil, 0, 0, { type = "PerStat", stat = "EnemyStunDuration", div = 0.1, globalLimit = 400, globalLimitKey = "BoneShatter"}, { type = "SkillPart", skillPart = 2 })
+		},
 	},
 	baseFlags = {
 		attack = true,

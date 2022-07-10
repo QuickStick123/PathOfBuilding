@@ -1114,6 +1114,7 @@ local modTagList = {
 	["per spectre you own"] = { tag = { type = "PerStat", stat = "ActiveSpectreLimit", actor = "parent" } },
 	["for each remaining chain"] = { tag = { type = "PerStat", stat = "ChainRemaining" } },
 	["for each enemy pierced"] = { tag = { type = "PerStat", stat = "PiercedCount" } },
+	["per ([%d%.]+)s of stun duration, up to (%d+)%%"] = function(num, _, limit) return { tag = { type = "PerStat", stat = "EnemyStunDuration", div = num, globalLimit = tonumber(limit)} } end,
 	-- Stat conditions
 	["with (%d+) or more strength"] = function(num) return { tag = { type = "StatThreshold", stat = "Str", threshold = num } } end,
 	["with at least (%d+) strength"] = function(num) return { tag = { type = "StatThreshold", stat = "Str", threshold = num } } end,
