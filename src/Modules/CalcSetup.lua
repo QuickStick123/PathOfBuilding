@@ -104,14 +104,6 @@ function calcs.buildModListForNode(env, node)
 		wipeTable(modList)
 	end
 
-	-- Apply effect scaling
-	local scale = calcLib.mod(modList, nil, "PassiveSkillEffect")
-	if scale ~= 1 then
-		local scaledList = new("ModList")
-		scaledList:ScaleAddList(modList, scale)
-		modList = scaledList
-	end
-
 	-- Run second pass radius jewels
 	for _, rad in pairs(env.radiusJewelList) do
 		if rad.nodes[node.id] and (rad.type == "Threshold" or (rad.type == "Self" and env.allocNodes[node.id]) or (rad.type == "SelfUnalloc" and not env.allocNodes[node.id])) then

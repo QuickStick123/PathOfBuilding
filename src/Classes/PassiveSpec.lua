@@ -1456,10 +1456,14 @@ function PassiveSpecClass:BuildSubgraph(jewel, parentSocket, id, upSize, importe
 	for _, node in ipairs(subGraph.nodes) do
 		node.linked = { }
 		node.power = { }
-		self.tree:ProcessNode(node)
-		if node.modList and jewelData.clusterJewelIncEffect and node.type == "Normal" then
-			node.modList:NewMod("PassiveSkillEffect", "INC", jewelData.clusterJewelIncEffect)
+		if jewelData.clusterJewelIncEffect and node.type == "Normal" then
+			if node.effect then
+				t_insert(node.effect, jewelData.clusterJewelIncEffect)
+			else
+				node.effect = { jewelData.clusterJewelIncEffect }
+			end
 		end
+		self.tree:ProcessNode(node)
 	end
 
 	-- Generate connectors

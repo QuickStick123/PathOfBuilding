@@ -516,6 +516,14 @@ function PassiveTreeClass:ProcessStats(node)
 				il = il + 1
 			end
 		end
+		ConPrintTable(node.mods)
+		if node.effect then
+			local scale = 1
+			for _, inc in ipairs(node.effect) do
+				scale = scale + inc / 100
+			end
+			node.sd[i] = itemLib.applyRange(node.sd[i], 1, scale) -- scale node appropriately
+		end
 		local line = node.sd[i]
 		local list, extra = modLib.parseMod(line)
 		if not list or extra then
