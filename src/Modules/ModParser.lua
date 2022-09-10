@@ -3902,17 +3902,21 @@ local jewelOtherFuncs = {
 	end,
 	["50% increased Effect of non-Keystone Passive Skills in Radius"] = function(node, out, data)
 		if node and node.type ~= "Keystone" then
-			out:NewMod("PassiveSkillEffect", "INC", 50, data.modSource)
+			if node.effect then
+				t_insert(node.effect, 50)
+			else
+				node.effect = { 50 }
+			end
 		end
 	end,
 	["Notable Passive Skills in Radius grant nothing"] = function(node, out, data)
 		if node and node.type == "Notable" then
-			out:NewMod("PassiveSkillHasNoEffect", "FLAG", true, data.modSource)
+			node.disabled = true
 		end
 	end,
 	["Allocated Small Passive Skills in Radius grant nothing"] = function(node, out, data)
 		if node and node.type == "Normal" then
-			out:NewMod("AllocatedPassiveSkillHasNoEffect", "FLAG", true, data.modSource)
+			node.disabled = true
 		end
 	end,
 	["Passive Skills in Radius also grant: Traps and Mines deal (%d+) to (%d+) added Physical Damage"] = function(min, max)

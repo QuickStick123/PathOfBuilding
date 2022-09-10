@@ -516,7 +516,37 @@ function PassiveTreeClass:ProcessStats(node)
 				il = il + 1
 			end
 		end
-		ConPrintTable(node.mods)
+
+		-- for nodeId, socket in pairs(self.sockets) do
+		-- for radiusIndex, radiusInfo in ipairs(data.jewelRadius) do
+		-- 	jewelData.nodesInRadius[radiusIndex][node.id] = node
+		-- end
+
+
+		-- ConPrintTable(node.mods)
+		-- Run first pass radius jewels
+		-- Finalise radius jewels
+		-- for _, rad in pairs(env.radiusJewelList) do
+		-- 	rad.func(nil, modList, rad.data)
+		-- 	if env.mode == "MAIN" then
+		-- 		if not rad.item.jewelRadiusData then
+		-- 			rad.item.jewelRadiusData = { }
+		-- 		end
+		-- 		rad.item.jewelRadiusData[rad.nodeId] = rad.data
+		-- 	end
+		-- end
+
+		-- for _, rad in pairs(env.radiusJewelList) do
+		-- 	if rad.type == "Other" and rad.nodes[node.id] then
+		-- 		rad.func(node, _, rad.data)
+		-- 	end
+		-- end
+
+		-- if modList:Flag(nil, "PassiveSkillHasNoEffect") or (env.allocNodes[node.id] and modList:Flag(nil, "AllocatedPassiveSkillHasNoEffect")) then
+		-- 	wipeTable(node.sd)
+		-- end
+
+
 		if node.effect then
 			local scale = 1
 			for _, inc in ipairs(node.effect) do
