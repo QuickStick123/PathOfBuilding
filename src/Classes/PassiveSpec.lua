@@ -650,6 +650,13 @@ function PassiveSpecClass:BuildAllDependsAndPaths()
 							if item.jewelData.conqueredBy then
 								node.conqueredBy = item.jewelData.conqueredBy
 							end
+							-- ConPrintTable(item.jewelData.funcList)
+							for _, func in ipairs(item.jewelData.funcList) do
+								if type(func) == "function" then
+									func(node, _, item.jewelData)
+								end
+							end
+							ConPrintTable(node)
 						end
 					end
 

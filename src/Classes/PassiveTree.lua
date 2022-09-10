@@ -522,7 +522,6 @@ function PassiveTreeClass:ProcessStats(node)
 		-- 	jewelData.nodesInRadius[radiusIndex][node.id] = node
 		-- end
 
-
 		-- ConPrintTable(node.mods)
 		-- Run first pass radius jewels
 		-- Finalise radius jewels
@@ -533,12 +532,6 @@ function PassiveTreeClass:ProcessStats(node)
 		-- 			rad.item.jewelRadiusData = { }
 		-- 		end
 		-- 		rad.item.jewelRadiusData[rad.nodeId] = rad.data
-		-- 	end
-		-- end
-
-		-- for _, rad in pairs(env.radiusJewelList) do
-		-- 	if rad.type == "Other" and rad.nodes[node.id] then
-		-- 		rad.func(node, _, rad.data)
 		-- 	end
 		-- end
 
