@@ -125,6 +125,9 @@ return {
 	end },
 	{ var = "EHPUnluckyWorstOf", type = "list", label = "EHP calc unlucky:", tooltip = "Sets the EHP calc to pretend its unlucky and reduce the effects of random events", list = {{val=1,label="Average"},{val=2,label="Unlucky"},{val=4,label="Very Unlucky"}} },
 	{ var = "DisableEHPGainOnBlock", type = "check", label = "Disable EHP gain on block:", tooltip = "Sets the EHP calc to not apply gain on block effects"},
+	{ var = "DisableEHPGainOnSuppression", type = "check", label = "Disable EHP gain on suppression:", tooltip = "Sets the EHP calc to not apply gain on suppression effects"},
+	{ var = "DisableEHPGainOnRegenDegen", type = "check", label = "Disable EHP regen / degen:", tooltip = "Sets the EHP calc to not apply regen / degen"},
+	{ var = "DisableEHPGainOnLeech", type = "check" , defaultState = true, label = "Disable EHP leech:", tooltip = "Sets the EHP calc to not apply leech"},
 	{ var = "armourCalculationMode", type = "list", label = "Armour calculation mode:", tooltip = "Controls how Defending with Double Armour is calculated:\n\tMinimum: never Defend with Double Armour\n\tAverage: Damage Reduction from Defending with Double Armour is proportional to chance\n\tMaximum: always Defend with Double Armour\nThis setting has no effect if you have 100% chance to Defend with Double Armour.", list = {{val="MIN",label="Minimum"},{val="AVERAGE",label="Average"},{val="MAX",label="Maximum"}}, apply = function(val, modList, enemyModList)
 		if val == "MAX" then
 			modList:NewMod("Condition:ArmourMax", "FLAG", true, "Config")

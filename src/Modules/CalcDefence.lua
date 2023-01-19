@@ -860,8 +860,9 @@ function calcs.defence(env, actor)
 	output.EnergyShieldOnBlock = modDB:Sum("BASE", nil, "EnergyShieldOnBlock")
 	output.EnergyShieldOnSpellBlock = modDB:Sum("BASE", nil, "EnergyShieldOnSpellBlock")
 	
-	output.EnergyShieldOnSuppress = modDB:Sum("BASE", nil, "EnergyShieldOnSuppress")
 	output.LifeOnSuppress = modDB:Sum("BASE", nil, "LifeOnSuppress")
+	output.ManaOnSuppress = modDB:Sum("BASE", nil, "ManaOnSuppress")
+	output.EnergyShieldOnSuppress = modDB:Sum("BASE", nil, "EnergyShieldOnSuppress")
 	
 	-- damage avoidances
 	output.specificTypeAvoidance = false
@@ -1843,8 +1844,8 @@ function calcs.defence(env, actor)
 				if DamageIn.GainWhenHit then
 					Damage.GainWhenHit = true
 					Damage.LifeWhenHit = DamageIn.LifeWhenHit
-					Damage.ManaWhenHit= DamageIn.ManaWhenHit
-					Damage.EnergyShieldWhenHit= DamageIn.EnergyShieldWhenHit
+					Damage.ManaWhenHit = DamageIn.ManaWhenHit
+					Damage.EnergyShieldWhenHit = DamageIn.EnergyShieldWhenHit
 				end
 				Damage["cycles"] = DamageIn["cycles"] * speedUp
 				Damage["iterations"] = DamageIn["iterations"]
@@ -1872,140 +1873,12 @@ function calcs.defence(env, actor)
 		return numHits
 	end
 	
-	-- number of damaging hits needed to be taken to die
+	-- enemy attack rate
 	do
-		local DamageIn = { }
-		for _, damageType in ipairs(dmgTypeList) do
-			DamageIn[damageType] = output[damageType.."TakenHit"]
-		end
-		output["NumberOfDamagingHits"] = numberOfHitsToDie(DamageIn)
+		output.enemySkillTime = env.configInput.enemySpeed or env.configPlaceholder.enemySpeed or 700
+		output.enemySkillTime = output.enemySkillTime / 1000 / calcs.actionSpeedMod(actor.enemy)
 	end
 
-	
-	do
-		local DamageIn = { }
-		local BlockChance = 0
-		local blockEffect = 1
-		local suppressChance = 0
-		local suppressionEffect = 1
-		local ExtraAvoidChance = 0
-		local averageAvoidChance = 0
-		local worstOf = env.configInput.EHPUnluckyWorstOf or 1
-		-- block effect
-		if damageCategoryConfig == "Melee" then
-			BlockChance = output.BlockChance / 100
-		else
-			BlockChance = output[damageCategoryConfig.."BlockChance"] / 100
-		end
-		-- unlucky config to lower the value of block, dodge, evade etc for ehp
-		if worstOf > 1 then
-			BlockChance = BlockChance * BlockChance
-			if worstOf == 4 then
-				BlockChance = BlockChance * BlockChance
-			end
-		end
-		blockEffect = (1 - BlockChance * output.BlockEffect / 100)
-		if not env.configInput.DisableEHPGainOnBlock then
-			DamageIn.LifeWhenHit = output.LifeOnBlock * BlockChance
-			DamageIn.ManaWhenHit = output.ManaOnBlock * BlockChance
-			DamageIn.EnergyShieldWhenHit = output.EnergyShieldOnBlock * BlockChance
-			if damageCategoryConfig == "Spell" or damageCategoryConfig == "SpellProjectile" then
-				DamageIn.EnergyShieldWhenHit = DamageIn.EnergyShieldWhenHit + output.EnergyShieldOnSpellBlock * BlockChance
-			elseif damageCategoryConfig == "Average" then
-				DamageIn.EnergyShieldWhenHit = DamageIn.EnergyShieldWhenHit + output.EnergyShieldOnSpellBlock / 2 * BlockChance
-			end
-		end
-		-- suppression
-		if damageCategoryConfig == "Spell" or damageCategoryConfig == "SpellProjectile" or damageCategoryConfig == "Average" then
-			suppressChance = output.SpellSuppressionChance / 100
-		end
-		-- We include suppression in damage reduction if it is 100% otherwise we handle it here.
-		if suppressChance < 1 then
-			-- unlucky config to lower the value of block, dodge, evade etc for ehp
-			if worstOf > 1 then
-				suppressChance = suppressChance * suppressChance
-				if worstOf == 4 then
-					suppressChance = suppressChance * suppressChance
-				end
-			end
-			if damageCategoryConfig == "Average" then
-				suppressChance = suppressChance / 2
-			end
-			DamageIn.EnergyShieldWhenHit = (DamageIn.EnergyShieldWhenHit or 0) + output.EnergyShieldOnSuppress * suppressChance
-			DamageIn.LifeWhenHit = (DamageIn.LifeWhenHit or 0) + output.LifeOnSuppress * suppressChance
-			suppressionEffect = 1 - suppressChance * output.SpellSuppressionEffect / 100
-		else
-			DamageIn.EnergyShieldWhenHit = (DamageIn.EnergyShieldWhenHit or 0) + output.EnergyShieldOnSuppress * ( damageCategoryConfig == "Average" and 0.5 or 1 )
-			DamageIn.LifeWhenHit = (DamageIn.LifeWhenHit or 0) + output.LifeOnSuppress * ( damageCategoryConfig == "Average" and 0.5 or 1 )
-		end
-		-- extra avoid chance
-		if damageCategoryConfig == "Projectile" or damageCategoryConfig == "SpellProjectile" then
-			ExtraAvoidChance = ExtraAvoidChance + output.AvoidProjectilesChance
-		elseif damageCategoryConfig == "Average" then
-			ExtraAvoidChance = ExtraAvoidChance + output.AvoidProjectilesChance / 2
-		end
-		-- gain when hit (currently just gain on block/suppress)
-		if not env.configInput.DisableEHPGainOnBlock then
-			if (DamageIn.LifeWhenHit or 0) ~= 0 or (DamageIn.ManaWhenHit or 0) ~= 0 or DamageIn.EnergyShieldWhenHit ~= 0 then
-				DamageIn.GainWhenHit = true
-			end
-		else
-			DamageIn.LifeWhenHit = 0
-			DamageIn.ManaWhenHit = 0
-			DamageIn.EnergyShieldWhenHit = 0
-		end
-		for _, damageType in ipairs(dmgTypeList) do
-			 -- Emperor's Vigilance (this needs to fail with divine flesh as it can't override it, hence the check for high bypass)
-			if modDB:Flag(nil, "BlockedDamageDoesntBypassES") and (output[damageType.."EnergyShieldBypass"] < 100 and damageType ~= "Chaos") then
-				DamageIn[damageType.."EnergyShieldBypass"] = output[damageType.."EnergyShieldBypass"] * (1 - BlockChance) 
-			end
-			local AvoidChance = 0
-			if output.specificTypeAvoidance then
-				AvoidChance = m_min(output["Avoid"..damageType.."DamageChance"] + ExtraAvoidChance, data.misc.AvoidChanceCap)
-				-- unlucky config to lower the value of block, dodge, evade etc for ehp
-				if worstOf > 1 then
-					AvoidChance = AvoidChance / 100 * AvoidChance
-					if worstOf == 4 then
-						AvoidChance = AvoidChance / 100 * AvoidChance
-					end
-				end
-				averageAvoidChance = averageAvoidChance + AvoidChance
-			end
-			DamageIn[damageType] = output[damageType.."TakenHit"] * (blockEffect * suppressionEffect * (1 - AvoidChance / 100))
-		end
-		-- recoup initialisation
-		if output["anyRecoup"] > 0 then
-			DamageIn["TrackPoolLoss"] = true
-			for _, damageType in ipairs(dmgTypeList) do
-				output[damageType.."PoolLost"] = 0
-			end
-		end
-		-- taken over time degen initialisation
-		if output["preventedLifeLossTotal"] > 0 then
-			DamageIn["TrackLifeLossOverTime"] = true
-			output["LifeLossLostOverTime"] = 0
-			output["LifeBelowHalfLossLostOverTime"] = 0
-		end
-		averageAvoidChance = averageAvoidChance / 5
-		output["ConfiguredDamageChance"] = 100 * (blockEffect * suppressionEffect * (1 - averageAvoidChance / 100))
-		output["NumberOfMitigatedDamagingHits"] = (output["ConfiguredDamageChance"] ~= 100 or DamageIn["TrackPoolLoss"] or DamageIn["TrackLifeLossOverTime"]) and numberOfHitsToDie(DamageIn) or output["NumberOfDamagingHits"]
-		if breakdown then
-			breakdown["ConfiguredDamageChance"] = {
-				s_format("%.2f ^8(chance for block to fail)", 1 - BlockChance)
-			}	
-			if output.ShowBlockEffect then
-				t_insert(breakdown["ConfiguredDamageChance"], s_format("x %.2f ^8(block effect)", output.BlockEffect / 100))
-			end
-			if suppressionEffect ~= 1 then
-				t_insert(breakdown["ConfiguredDamageChance"], s_format("x %.3f ^8(suppression effect)", suppressionEffect))
-			end
-			if averageAvoidChance > 0 then
-				t_insert(breakdown["ConfiguredDamageChance"], s_format("x %.2f ^8(chance for avoidance to fail)", 1 - averageAvoidChance / 100))
-			end
-			t_insert(breakdown["ConfiguredDamageChance"], s_format("= %.1f%% ^8(of damage taken from a%s hit)", output["ConfiguredDamageChance"], (damageCategoryConfig == "Average" and "n " or " ")..damageCategoryConfig))
-		end
-	end
-	
 	-- chance to not be hit
 	do
 		local worstOf = env.configInput.EHPUnluckyWorstOf or 1
@@ -2022,7 +1895,6 @@ function calcs.defence(env, actor)
 				output.ConfiguredNotHitChance = output.ConfiguredNotHitChance / 100 * output.ConfiguredNotHitChance
 			end
 		end
-		output["TotalNumberOfHits"] = output["NumberOfMitigatedDamagingHits"] / (1 - output["ConfiguredNotHitChance"] / 100)
 		if breakdown then
 			breakdown.ConfiguredNotHitChance = { }
 			if damageCategoryConfig == "Melee" or damageCategoryConfig == "Projectile" then
@@ -2060,12 +1932,159 @@ function calcs.defence(env, actor)
 				t_insert(breakdown["ConfiguredNotHitChance"], s_format("unlucky worst of %d", worstOf))
 			end
 			t_insert(breakdown["ConfiguredNotHitChance"], s_format("= %d%% ^8(chance to be hit by a%s hit)", 100 - output.ConfiguredNotHitChance, (damageCategoryConfig == "Average" and "n " or " ")..damageCategoryConfig))
-			breakdown["TotalNumberOfHits"] = {
-				s_format("%.2f ^8(Number of mitigated hits)", output["NumberOfMitigatedDamagingHits"]),
-				s_format("/ %.2f ^8(Chance to even be hit)", 1 - output["ConfiguredNotHitChance"] / 100),
-				s_format("= %.2f ^8(total average number of hits you can take)", output["TotalNumberOfHits"]),
-			}
+
 		end
+	end
+
+	-- number of damaging hits needed to be taken to die
+	do
+		local DamageIn = { }
+		for _, damageType in ipairs(dmgTypeList) do
+			DamageIn[damageType] = output[damageType.."TakenHit"]
+		end
+		output["NumberOfDamagingHits"] = numberOfHitsToDie(DamageIn)
+	end
+
+	
+	do
+		local DamageIn = { }
+		local BlockChance = 0
+		local blockEffect = 1
+		local suppressChance = 0
+		local suppressionEffect = 1
+		local ExtraAvoidChance = 0
+		local averageAvoidChance = 0
+		local worstOf = env.configInput.EHPUnluckyWorstOf or 1
+		-- block effect
+		if damageCategoryConfig == "Melee" then
+			BlockChance = output.BlockChance / 100
+		else
+			BlockChance = output[damageCategoryConfig.."BlockChance"] / 100
+		end
+		-- unlucky config to lower the value of block, dodge, evade etc for ehp
+		if worstOf > 1 then
+			BlockChance = BlockChance * BlockChance
+			if worstOf == 4 then
+				BlockChance = BlockChance * BlockChance
+			end
+		end
+		blockEffect = (1 - BlockChance * output.BlockEffect / 100)
+		-- suppression
+		if damageCategoryConfig == "Spell" or damageCategoryConfig == "SpellProjectile" or damageCategoryConfig == "Average" then
+			suppressChance = output.SpellSuppressionChance / 100
+		end
+		-- We include suppression in damage reduction if it is 100% otherwise we handle it here.
+		if suppressChance < 1 then
+			-- unlucky config to lower the value of block, dodge, evade etc for ehp
+			if worstOf > 1 then
+				suppressChance = suppressChance * suppressChance
+				if worstOf == 4 then
+					suppressChance = suppressChance * suppressChance
+				end
+			end
+			if damageCategoryConfig == "Average" then
+				suppressChance = suppressChance / 2
+			end
+			suppressionEffect = 1 - suppressChance * output.SpellSuppressionEffect / 100
+		end
+		-- extra avoid chance
+		if damageCategoryConfig == "Projectile" or damageCategoryConfig == "SpellProjectile" then
+			ExtraAvoidChance = ExtraAvoidChance + output.AvoidProjectilesChance
+		elseif damageCategoryConfig == "Average" then
+			ExtraAvoidChance = ExtraAvoidChance + output.AvoidProjectilesChance / 2
+		end
+		-- gain when hit
+		DamageIn.LifeWhenHit = 0
+		DamageIn.ManaWhenHit = 0
+		DamageIn.EnergyShieldWhenHit = 0
+		-- gain on block
+		if not env.configInput.DisableEHPGainOnBlock then
+			DamageIn.LifeWhenHit = output.LifeOnBlock * BlockChance
+			DamageIn.ManaWhenHit = output.ManaOnBlock * BlockChance
+			DamageIn.EnergyShieldWhenHit = output.EnergyShieldOnBlock * BlockChance
+			if damageCategoryConfig == "Spell" or damageCategoryConfig == "SpellProjectile" then
+				DamageIn.EnergyShieldWhenHit = DamageIn.EnergyShieldWhenHit + output.EnergyShieldOnSpellBlock * BlockChance
+			elseif damageCategoryConfig == "Average" then
+				DamageIn.EnergyShieldWhenHit = DamageIn.EnergyShieldWhenHit + output.EnergyShieldOnSpellBlock / 2 * BlockChance
+			end
+		end
+		-- gain on suppression
+		if not env.configInput.DisableEHPGainOnSuppression then
+			DamageIn.LifeWhenHit = DamageIn.LifeWhenHit + output.LifeOnSuppress * suppressChance
+			DamageIn.ManaWhenHit = DamageIn.ManaWhenHit + output.ManaOnSuppress * suppressChance
+			DamageIn.EnergyShieldWhenHit = DamageIn.EnergyShieldWhenHit + output.EnergyShieldOnSuppress * suppressChance
+		end
+		-- gain on resource regen / degen
+		if not env.configInput.DisableEHPGainOnRegenDegen then
+			local averageTimePerHit = output.enemySkillTime / (1 - output.ConfiguredNotHitChance / 100)
+			DamageIn.LifeWhenHit = DamageIn.LifeWhenHit + output.LifeRegenRecovery * averageTimePerHit
+			DamageIn.ManaWhenHit = DamageIn.ManaWhenHit + output.ManaRegenRecovery * averageTimePerHit
+			DamageIn.EnergyShieldWhenHit = DamageIn.EnergyShieldWhenHit + output.EnergyShieldRegenRecovery * averageTimePerHit
+		end
+		if not (DamageIn.LifeWhenHit == 0 and DamageIn.ManaWhenHit == 0 and DamageIn.EnergyShieldWhenHit == 0) then
+			DamageIn.GainWhenHit = true
+		end
+		for _, damageType in ipairs(dmgTypeList) do
+			 -- Emperor's Vigilance (this needs to fail with divine flesh as it can't override it, hence the check for high bypass)
+			if modDB:Flag(nil, "BlockedDamageDoesntBypassES") and (output[damageType.."EnergyShieldBypass"] < 100 and damageType ~= "Chaos") then
+				DamageIn[damageType.."EnergyShieldBypass"] = output[damageType.."EnergyShieldBypass"] * (1 - BlockChance) 
+			end
+			local AvoidChance = 0
+			if output.specificTypeAvoidance then
+				AvoidChance = m_min(output["Avoid"..damageType.."DamageChance"] + ExtraAvoidChance, data.misc.AvoidChanceCap)
+				-- unlucky config to lower the value of block, dodge, evade etc for ehp
+				if worstOf > 1 then
+					AvoidChance = AvoidChance / 100 * AvoidChance
+					if worstOf == 4 then
+						AvoidChance = AvoidChance / 100 * AvoidChance
+					end
+				end
+				averageAvoidChance = averageAvoidChance + AvoidChance
+			end
+			DamageIn[damageType] = output[damageType.."TakenHit"] * (blockEffect * suppressionEffect * (1 - AvoidChance / 100))
+		end
+		-- recoup initialisation
+		if output["anyRecoup"] > 0 then
+			DamageIn["TrackPoolLoss"] = true
+			for _, damageType in ipairs(dmgTypeList) do
+				output[damageType.."PoolLost"] = 0
+			end
+		end
+		-- taken over time degen initialisation
+		if output["preventedLifeLossTotal"] > 0 then
+			DamageIn["TrackLifeLossOverTime"] = true
+			output["LifeLossLostOverTime"] = 0
+			output["LifeBelowHalfLossLostOverTime"] = 0
+		end
+		averageAvoidChance = averageAvoidChance / 5
+		output["ConfiguredDamageChance"] = 100 * (blockEffect * suppressionEffect * (1 - averageAvoidChance / 100))
+		local test = (DamageIn.GainWhenHit or DamageIn["TrackPoolLoss"] or DamageIn["TrackLifeLossOverTime"])
+		output["NumberOfMitigatedDamagingHits"] = test and numberOfHitsToDie(DamageIn) or output["NumberOfDamagingHits"]
+		if breakdown then
+			breakdown["ConfiguredDamageChance"] = {
+				s_format("%.2f ^8(chance for block to fail)", 1 - BlockChance)
+			}	
+			if output.ShowBlockEffect then
+				t_insert(breakdown["ConfiguredDamageChance"], s_format("x %.2f ^8(block effect)", output.BlockEffect / 100))
+			end
+			if suppressionEffect ~= 1 then
+				t_insert(breakdown["ConfiguredDamageChance"], s_format("x %.3f ^8(suppression effect)", suppressionEffect))
+			end
+			if averageAvoidChance > 0 then
+				t_insert(breakdown["ConfiguredDamageChance"], s_format("x %.2f ^8(chance for avoidance to fail)", 1 - averageAvoidChance / 100))
+			end
+			t_insert(breakdown["ConfiguredDamageChance"], s_format("= %.1f%% ^8(of damage taken from a%s hit)", output["ConfiguredDamageChance"], (damageCategoryConfig == "Average" and "n " or " ")..damageCategoryConfig))
+		end
+	end
+
+	-- total number of hits
+	output["TotalNumberOfHits"] = output["NumberOfMitigatedDamagingHits"] / (1 - output["ConfiguredNotHitChance"] / 100)
+	if breakdown then
+		breakdown["TotalNumberOfHits"] = {
+			s_format("%.2f ^8(Number of mitigated hits)", output["NumberOfMitigatedDamagingHits"]),
+			s_format("/ %.2f ^8(Chance to even be hit)", 1 - output["ConfiguredNotHitChance"] / 100),
+			s_format("= %.2f ^8(total average number of hits you can take)", output["TotalNumberOfHits"]),
+		}
 	end
 	
 	-- effective hit pool
@@ -2080,9 +2099,6 @@ function calcs.defence(env, actor)
 	
 	-- survival time
 	do
-		output.enemySkillTime = env.configInput.enemySpeed or env.configPlaceholder.enemySpeed or 700
-		local enemyActionSpeed = calcs.actionSpeedMod(actor.enemy)
-		output.enemySkillTime = output.enemySkillTime / 1000 / enemyActionSpeed
 		output["EHPsurvivalTime"] = output["TotalNumberOfHits"] * output.enemySkillTime
 		if breakdown then
 			breakdown["EHPsurvivalTime"] = {
