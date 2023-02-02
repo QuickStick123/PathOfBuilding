@@ -18,16 +18,17 @@ local parseVeiledModName = function(string)
 	gsub("(%d)", " %1 "))
 end
 
-local veiledModIsActive = function(mod, baseType, specificType)
+local veiledModIsActive = function(mod, baseType, specificType1, specificType2)
 	local baseIndex = isValueInTable(mod.weightKey, baseType)
-	local typeIndex = isValueInTable(mod.weightKey, specificType)
-	return (typeIndex and mod.weightVal[typeIndex] > 0) or (not typeIndex and baseIndex and mod.weightVal[baseIndex] > 0)
+	local typeIndex1 = isValueInTable(mod.weightKey, specificType1)
+	local typeIndex2 = isValueInTable(mod.weightKey, specificType2)
+	return (typeIndex1 and mod.weightVal[typeIndex1] > 0) or (typeIndex2 and mod.weightVal[typeIndex2] > 0) or (not typeIndex1 and not typeIndex2 and baseIndex and mod.weightVal[baseIndex] > 0)
 end
 
-local getVeiledMods = function (baseType, specificType, canHaveCatarinaMod)
+local getVeiledMods = function (veiledPool, baseType, specificType1, specificType2)
 	local veiledMods = { }
 	for veiledModIndex, veiledMod in pairs(data.veiledMods) do
-		if veiledModIsActive(veiledMod, baseType, specificType) then
+		if veiledModIsActive(veiledMod, baseType, specificType1, specificType2) then
 			local veiledName = parseVeiledModName(veiledModIndex)
 
 			veiledName = "("..veiledMod.type..") "..veiledName
@@ -37,7 +38,11 @@ local getVeiledMods = function (baseType, specificType, canHaveCatarinaMod)
 				veiled.veiledLines[line] = value
 			end
 
-			if (canHaveCatarinaMod or (veiledMod.affix ~= "Catarina's" and veiledMod.affix ~= "Haku's")) then
+			if veiledPool == "base" and (veiledMod.affix == "Chosen" or veiledMod.affix == "of the Order") then
+				table.insert(veiledMods, veiled)
+			elseif veiledPool == "catarina" and (veiledMod.affix == "Catarina's" or veiledMod.affix == "Chosen" or veiledMod.affix == "of the Order") then
+				table.insert(veiledMods, veiled)
+			elseif veiledPool == "all" then
 				table.insert(veiledMods, veiled)
 			end
 		end
@@ -46,14 +51,15 @@ local getVeiledMods = function (baseType, specificType, canHaveCatarinaMod)
 	return veiledMods
 end
 
-local paradoxicaMods = getVeiledMods("weapon", "one_hand_weapon", false)
+local paradoxicaMods = getVeiledMods("base", "weapon", "one_hand_weapon")
 local paradoxica = {
 	"Paradoxica",
 	"Vaal Rapier",
 	"League: Betrayal",
+	"Source: Drops from unique{Intervention Leaders} in normal{Safehouses}",
 	"Has Alt Variant: true",
-	"Selected Variant: 1",
-	"Selected Alt Variant: 20"
+	"Selected Variant: 4",
+	"Selected Alt Variant: 16"
 }
 
 for index, mod in pairs(paradoxicaMods) do
@@ -66,7 +72,6 @@ for index, mod in pairs(paradoxicaMods) do
 	table.insert(paradoxica, "Variant: "..mod.veiledName)
 end
 
-table.insert(paradoxica, "Source: Drops from Bosses in Safehouse")
 table.insert(paradoxica, "Requires Level 66, 212 Dex")
 table.insert(paradoxica, "Implicits: 1")
 table.insert(paradoxica, "+25% to Global Critical Strike Multiplier")
@@ -80,10 +85,11 @@ end
 table.insert(paradoxica, "Attacks with this Weapon deal Double Damage")
 table.insert(data.uniques.generated, table.concat(paradoxica, "\n"))
 
-local caneOfKulemakMods = getVeiledMods("weapon", "staff", true)
+local caneOfKulemakMods = getVeiledMods("catarina", "weapon", "staff", "two_hand_weapon")
 local caneOfKulemak = {
 	"Cane of Kulemak",
 	"Serpentine Staff",
+	"Source: Drops from unique{Catarina, Master of Undeath}",
 	"Has Alt Variant: true",
 	"Has Alt Variant Two: true",
 	"Selected Variant: 1",
@@ -107,11 +113,12 @@ end
 
 table.insert(data.uniques.generated, table.concat(caneOfKulemak, "\n"))
 
-local replicaParadoxicaMods = getVeiledMods("weapon", "one_hand_weapon", true)
+local replicaParadoxicaMods = getVeiledMods("all", "weapon", "one_hand_weapon")
 local replicaParadoxica = {
 	"Replica Paradoxica",
 	"Vaal Rapier",
 	"League: Heist",
+	"Source: Steal from a unique{Curio Display} during a Grand Heist",
 	"Has Alt Variant: true",
 	"Has Alt Variant Two: true",
 	"Has Alt Variant Three: true",
@@ -141,11 +148,12 @@ end
 
 table.insert(data.uniques.generated, table.concat(replicaParadoxica, "\n"))
 
-local queensHungerMods = getVeiledMods("body_armour", "int_armour", false)
+local queensHungerMods = getVeiledMods("base", "body_armour", "int_armour")
 local queensHunger = {
 	"The Queen's Hunger",
 	"Vaal Regalia",
 	"League: Betrayal",
+	"Source: Drops from unique{Catarina, Master of Undeath}",
 	"Has Alt Variant: true",
 	"Selected Variant: 1",
 	"Selected Alt Variant: 24"
@@ -197,7 +205,7 @@ local forbiddenShako = {
 	"Forbidden Shako",
 	"Great Crown",
 	"League: Harvest",
-	"Source: Drops from unique{Avatar of the Grove}",
+	"Source: Drops from unique{Oshabi, Avatar of the Grove}",
 	"Requires Level 68, 59 Str, 59 Int",
 	"Has Alt Variant: true"
 }
@@ -325,7 +333,15 @@ local powerChargeMods = {
 
 local precursorsEmblem = {
 [[Precursor's Emblem
+{variant:1}Topaz Ring
+{variant:2}Sapphire Ring
+{variant:3}Ruby Ring
+{variant:4}Two-Stone Ring (Cold/Lightning)
+{variant:5}Two-Stone Ring (Fire/Lightning)
+{variant:6}Two-Stone Ring (Fire/Cold)
+{variant:7}Prismatic Ring
 League: Delve
+Source: Vendor Recipe
 Variant: Topaz Ring
 Variant: Sapphire Ring
 Variant: Ruby Ring
@@ -343,13 +359,6 @@ for _, type in ipairs({ { prefix = "Endurance - ", mods = enduranceChargeMods },
 	end
 end
 table.insert(precursorsEmblem, [[Selected Variant: 1
-{variant:1}Topaz Ring
-{variant:2}Sapphire Ring
-{variant:3}Ruby Ring
-{variant:4}Two-Stone Ring (Cold/Lightning)
-{variant:5}Two-Stone Ring (Fire/Lightning)
-{variant:6}Two-Stone Ring (Fire/Cold)
-{variant:7}Prismatic Ring
 Has Alt Variant: true
 Has Alt Variant Two: true
 Has Alt Variant Three: true
@@ -378,10 +387,10 @@ for _, type in ipairs({ enduranceChargeMods, frenzyChargeMods, powerChargeMods }
 		for desc, mod in pairs(mods) do
 			if mod:match("[%+%-]?[%d%.]*%d+%%") then
 				mod = mod:gsub("([%d%.]*%d+)", function(num) return "(" .. num .. "-" .. tonumber(num) * tier .. ")" end)
-			elseif mod:match("%(%-?[%d%.]+%-[%d%.]+%)%%") then
-				mod = mod:gsub("(%(%-?[%d%.]+%-)([%d%.]+)%)", function(preceeding, higher) return preceeding .. tonumber(higher) * tier .. ")" end)
+			elseif mod:match("%(%-?[%d%.]+%-%-?[%d%.]+%)%%") then
+				mod = mod:gsub("(%(%-?[%d%.]+%-)(%-?[%d%.]+)%)", function(preceding, higher) return preceding .. tonumber(higher) * tier .. ")" end)
 			elseif mod:match("%(%d+%-%d+%) to %(%d+%-%d+%)") then
-				mod = mod:gsub("(%(%d+%-)(%d+)(%) to %(%d+%-)(%d+)%)", function(preceeding, higher1, middle, higher2) return preceeding .. higher1 * tier .. middle .. higher2 * tier .. ")" end)
+				mod = mod:gsub("(%(%d+%-)(%d+)(%) to %(%d+%-)(%d+)%)", function(preceding, higher1, middle, higher2) return preceding .. higher1 * tier .. middle .. higher2 * tier .. ")" end)
 			end
 			table.insert(precursorsEmblem, "{variant:" .. index .. "}{range:0}" .. mod)
 			index = index + 1
@@ -389,6 +398,51 @@ for _, type in ipairs({ enduranceChargeMods, frenzyChargeMods, powerChargeMods }
 	end
 end
 table.insert(data.uniques.generated, table.concat(precursorsEmblem, "\n"))
+
+local balanceOfTerrorMods = {
+	["Vulnerability: Double Damage"] = "(6-10)% chance to deal Double Damage if you've cast Vulnerability in the past 10 seconds",
+	["Vulnerability: Unaffected by Bleeding"] = "You are Unaffected by Bleeding if you've cast Vulnerability in the past 10 seconds",
+	["Enfeeble: Critical Strike Multiplier"] = "+(30-40)% to Critical Strike Multiplier if you've cast Enfeeble in the past 10 seconds",
+	["Enfeeble: Take no Extra Crit Damage"] = "Take no Extra Damage from Critical Strikes if you've cast Enfeeble in the past 10 seconds",
+	["Despair: Immune to Curses"] = "Immune to Curses if you've cast Despair in the past 10 seconds",
+	["Despair: Inflict Withered"] = "Inflict Withered for 2 seconds on Hit if you've cast Despair in the past 10 seconds",
+	["Punishment: Immune to Reflected Damage"] = "Immune to Reflected Damage if you've cast Punishment in the past 10 seconds",
+	["Punishment: Intimidate"] = "Intimidate Enemies on Hit if you've cast Punishment in the past 10 seconds",
+	["Frostbite: Cold Exposure"] = "Cold Exposure on Hit if you've cast Frostbite in the past 10 seconds",
+	["Frostbite: Unaffected by Freeze"] = "You are Unaffected by Freeze if you've cast Frostbite in the past 10 seconds",
+	["Flammability: Fire Exposure"] = "Inflict Fire Exposure on Hit if you've cast Flammability in the past 10 seconds",
+	["Flammability: Unaffected by Ignite"] = "You are Unaffected by Ignite if you've cast Flammability in the past 10 seconds",
+	["Conductivity: Lightning Exposure"] = "Inflict Lightning Exposure on Hit if you've cast Conductivity in the past 10 seconds",
+	["Conductivity: Unaffected by Shock"] = "You are Unaffected by Shock if you've cast Conductivity in the past 10 seconds",
+	["Elemental Weakness: Immune to Exposure"] = "Immune to Exposure if you've cast Elemental Weakness in the past 10 seconds",
+	["Elemental Weakness: Physical Damage as a Random Element"] = "Gain (30-40)% of Physical Damage as a Random Element if you've cast Elemental Weakness in the past 10 seconds",
+	["Temporal Chains: Cooldown Recovery Rate"] = "(20-25)% increased Cooldown Recovery Rate if you've cast Temporal Chains in the past 10 seconds",
+	["Temporal Chains: Action Speed"] = "Action Speed cannot be Slowed below Base Value if you've cast Temporal Chains in the past 10 seconds",
+}
+
+local balanceOfTerror = {
+	"The Balance of Terror",
+	"Cobalt Jewel",
+	"League: Sanctum",
+	"Source: Drops from unique{Lycia, Herald of the Scourge} in normal{The Beyond}",
+	"Has Alt Variant: true",
+	"Limited to: 1",
+	"LevelReq: 56",
+}
+
+for name, _ in pairs(balanceOfTerrorMods) do
+	table.insert(balanceOfTerror, "Variant: "..name)
+end
+
+table.insert(balanceOfTerror, "+(10-15)% to all Elemental Resistances")
+
+local index = 1
+for _, line in pairs(balanceOfTerrorMods) do
+	table.insert(balanceOfTerror, "{variant:"..index.."}"..line)
+	index = index + 1
+end
+
+table.insert(data.uniques.generated, table.concat(balanceOfTerror, "\n"))
 
 local skinOfTheLords = {
 	"Skin of the Lords",
@@ -440,21 +494,17 @@ local impossibleEscape = {
 	"Impossible Escape",
 	"Viridian Jewel",
 	"League: Sentinel",
+	"Source: Drops from unique{The Maven}",
 	"Limited to: 1",
-	"Source: Drops from Uber unique{Maven}",
 	"Radius: Small"
 }
 for _, name in ipairs(impossibleEscapeKeystones) do
 	table.insert(impossibleEscape, "Variant: "..name)
 end
 table.insert(impossibleEscape, "Variant: Everything (QoL Test Variant)")
-local variantCount = 1
+local variantCount = #impossibleEscapeKeystones + 1
 for index, name in ipairs(impossibleEscapeKeystones) do
-	table.insert(impossibleEscape, "{variant:"..index.."}Passives in radius of "..name.." can be allocated without being connected to your tree")
-	variantCount = variantCount + 1
-end
-for _, name in ipairs(impossibleEscapeKeystones) do
-	table.insert(impossibleEscape, "{variant:"..variantCount.."}Passives in radius of "..name.." can be allocated without being connected to your tree")
+	table.insert(impossibleEscape, "{variant:"..index..","..variantCount.."}Passives in radius of "..name.." can be allocated without being connected to your tree")
 end
 table.insert(impossibleEscape, "Corrupted")
 table.insert(data.uniques.generated, table.concat(impossibleEscape, "\n"))
@@ -531,7 +581,7 @@ local watchersEye = {
 [[
 Watcher's Eye
 Prismatic Jewel
-Source: Drops from unique{The Elder}
+Source: Drops from unique{The Elder} or unique{The Elder} (Uber)
 Has Alt Variant: true
 Has Alt Variant Two: true
 ]]
@@ -541,8 +591,22 @@ local sublimeVision = {
 [[
 Sublime Vision
 Prismatic Jewel
-Source: Drops from unique{Uber Uber Elder}
+Shaper Item
+Source: Drops from unique{The Elder} (Uber Uber) or unique{The Shaper} (Uber)
 Limited to: 1
+]]
+}
+
+local voranasMarch = {
+[[
+Vorana's March
+Runic Sabatons
+League: Expedition
+Source: Drops from unique{Olroth, Origin of the Fall} in normal{Expedition Logbook}
+Has Alt Variant: true
+Has Alt Variant Two: true
+Selected Variant: 1
+Selected Alt Variant: 2
 ]]
 }
 
@@ -558,7 +622,7 @@ local abbreviateModId = function(string)
 end
 
 for _, mod in ipairs(data.uniqueMods["Watcher's Eye"]) do
-	if not mod.Id:match("^SublimeVision") then
+	if not (mod.Id:match("^SublimeVision") or mod.Id:match("^SummonArbalist")) then
 		local variantName = abbreviateModId(mod.Id):gsub("^[Purity Of ]*%u%l+", "%1:"):gsub("New", ""):gsub("[%u%d]", " %1"):gsub("_", ""):gsub("E S", "ES")
 		if watchersEyeLegacyMods[mod.Id] then
 			if watchersEyeLegacyMods[mod.Id].version then
@@ -573,9 +637,12 @@ for _, mod in ipairs(data.uniqueMods["Watcher's Eye"]) do
 		else
 			table.insert(watchersEye, "Variant:" .. variantName)
 		end
-	else
+	elseif not mod.Id:match("^SummonArbalist") then
 		local variantName = mod.Id:gsub("SublimeVision", ""):gsub("[%u%d]", " %1")
 		table.insert(sublimeVision, "Variant:" .. variantName)
+	else
+		local variantName = abbreviateModId(mod.Id):gsub("SummonArbalist", ""):gsub("[%u%d]", " %1"):gsub("_", ""):gsub("Percent To ", ""):gsub("Chance To ", ""):gsub("Targets To ", ""):gsub("[fF]or 4 ?[Ss]econds On Hit", ""):gsub(" Percent", ""):gsub("Number Of ", "")
+		table.insert(voranasMarch, "Variant:" .. variantName)
 	end
 end
 
@@ -585,10 +652,17 @@ table.insert(watchersEye,
 (4-6)% increased maximum Life
 (4-6)% increased maximum Mana]])
 
+table.insert(voranasMarch,
+[[Requires Level 69, 46 Str, 46 Dex, 46 Int
+Has no Sockets
+Triggers Level 20 Summon Arbalists when Equipped
+25% increased Movement Speed]])
+
 local indexWatchersEye = 1
 local indexSublimeVision = 1
+local indexVoranasMarch = 1
 for _, mod in ipairs(data.uniqueMods["Watcher's Eye"]) do
-	if not mod.Id:match("^SublimeVision") then
+	if not (mod.Id:match("^SublimeVision") or mod.Id:match("^SummonArbalist")) then
 		if watchersEyeLegacyMods[mod.Id] then
 			if watchersEyeLegacyMods[mod.Id].legacyMod then
 				table.insert(watchersEye, "{variant:" .. indexWatchersEye .. "}" .. watchersEyeLegacyMods[mod.Id].legacyMod(mod.mod[1]))
@@ -602,16 +676,22 @@ for _, mod in ipairs(data.uniqueMods["Watcher's Eye"]) do
 			table.insert(watchersEye, "{variant:" .. indexWatchersEye .. "}" .. mod.mod[1])
 			indexWatchersEye = indexWatchersEye + 1
 		end
-	else
+	elseif not mod.Id:match("^SummonArbalist") then
 		for i, _ in ipairs(mod.mod) do
 			table.insert(sublimeVision, "{variant:" .. indexSublimeVision .. "}" .. mod.mod[i])
 		end
 		indexSublimeVision = indexSublimeVision + 1
+	else
+		for i, _ in ipairs(mod.mod) do
+			table.insert(voranasMarch, "{variant:" .. indexVoranasMarch .. "}" .. mod.mod[i])
+		end
+		indexVoranasMarch = indexVoranasMarch + 1
 	end
 end
 
 table.insert(data.uniques.generated, table.concat(watchersEye, "\n"))
 table.insert(data.uniques.generated, table.concat(sublimeVision, "\n"))
+table.insert(data.uniques.generated, table.concat(voranasMarch, "\n"))
 
 function buildTreeDependentUniques(tree)
 	buildForbidden(tree.classNotables)

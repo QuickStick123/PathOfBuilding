@@ -11,19 +11,19 @@ return {
 					[1] = { line = "You cannot be Stunned if you've been Stunned or Blocked a Stunning Hit in the past 2 seconds", value = { 1 }, },
 				},
 			},
-			[2] = { name = "Captain Clayborne, The Accursed",
+			[2] = { name = "Captain Tanner Lightfoot",
 				mods = {
 					-- base_stun_recovery_+%
 					[1] = { line = "30% increased Stun and Block Recovery", value = { 30 }, },
 				},
 			},
-			[3] = { name = "Puruna, the Challenger",
+			[3] = { name = "Captain Clayborne, The Accursed",
 				mods = {
 					-- base_avoid_freeze_%
-					[1] = { line = "Cannot be Frozen", value = { 100 }, },
+					[1] = { line = "100% chance to Avoid being Frozen", value = { 100 }, },
 				},
 			},
-			[4] = { name = "Captain Tanner Lightfoot",
+			[4] = { name = "Merveil, the Returned",
 				mods = {
 					-- chill_effectiveness_on_self_+%
 					[1] = { line = "50% reduced Effect of Chill on you", value = { -50 }, },
@@ -40,13 +40,13 @@ return {
 					[1] = { line = "10% reduced Damage taken from Damage Over Time", value = { -10 }, },
 				},
 			},
-			[2] = { name = "Arachnoxia",
+			[2] = { name = "The Primal One",
 				mods = {
 					-- life_and_energy_shield_recovery_rate_+%_if_stopped_taking_damage_over_time_recently
 					[1] = { line = "20% increased Recovery rate of Life and Energy Shield if you've stopped taking Damage Over Time Recently", value = { 20 }, },
 				},
 			},
-			[3] = { name = "Queen of the Great Tangle",
+			[3] = { name = "Maligaro the Mutilator",
 				mods = {
 					-- debuff_time_passed_+%
 					[1] = { line = "Debuffs on you expire 20% faster", value = { 20 }, },
@@ -71,19 +71,19 @@ return {
 					[2] = { line = "20% chance to take 50% less Area Damage from Hits", value = { 20 }, },
 				},
 			},
-			[2] = { name = "Forest of Flames",
+			[2] = { name = "Jorus, Sky's Edge",
 				mods = {
 					-- elemental_damage_taken_+%_if_not_hit_recently
 					[1] = { line = "8% reduced Elemental Damage taken if you haven't been Hit Recently", value = { -8 }, },
 				},
 			},
-			[3] = { name = "Vision of Justice",
+			[3] = { name = "Forest of Flames",
 				mods = {
 					-- self_take_no_extra_damage_from_critical_strikes_if_have_been_crit_recently
 					[1] = { line = "Take no Extra Damage from Critical Strikes if you have taken a Critical Strike Recently", value = { 1 }, },
 				},
 			},
-			[4] = { name = "The Infernal King",
+			[4] = { name = "Lord of the Ashen Arrow",
 				mods = {
 					-- avoid_ailments_%_from_crit
 					[1] = { line = "50% chance to avoid Ailments from Critical Strikes", value = { 50 }, },
@@ -108,18 +108,28 @@ return {
 					[1] = { line = "10% chance to avoid Projectiles", value = { 10 }, },
 				},
 			},
-			[3] = { name = "Varhesh, Shimmering Aberration",
+			[3] = { name = "Corruptor Eedaiak",
 				mods = {
 					-- elemental_damage_taken_+%_if_been_hit_recently
 					[1] = { line = "6% reduced Elemental Damage taken if you have been Hit Recently", value = { -6 }, },
 				},
 			},
-			[4] = { name = "Shock and Horror",
+			[4] = { name = "Khor, Sister of Shadows",
 				mods = {
 					-- avoid_chained_projectile_%_chance
 					[1] = { line = "Avoid Projectiles that have Chained", value = { 100 }, },
 				},
 			},
+		},
+	},
+	["Minor God 1"] = {
+		isMajorGod = false,
+		souls = {
+		},
+	},
+	["Minor God 2"] = {
+		isMajorGod = false,
+		souls = {
 		},
 	},
 	["Abberath"] = {
@@ -131,7 +141,7 @@ return {
 					[1] = { line = "60% less Duration of Ignite on You", value = { -60 }, },
 				},
 			},
-			[2] = { name = "Mephod, the Earth Scorcher",
+			[2] = { name = "Megaera",
 				mods = {
 					-- unaffected_by_burning_ground
 					[1] = { line = "Unaffected by Burning Ground", value = { 1 }, },
@@ -139,6 +149,11 @@ return {
 					[2] = { line = "10% increased Movement Speed while on Burning Ground", value = { 10 }, },
 				},
 			},
+		},
+	},
+	["Minor God 4"] = {
+		isMajorGod = false,
+		souls = {
 		},
 	},
 	["Gruthkul"] = {
@@ -169,7 +184,7 @@ return {
 					[2] = { line = "50% chance to Reflect Hexes", value = { 50 }, },
 				},
 			},
-			[2] = { name = "Pagan Bishop of Agony",
+			[2] = { name = "Varhesh, Shimmering Aberration",
 				mods = {
 					-- curse_effect_on_self_+%
 					[1] = { line = "30% reduced Effect of Curses on you", value = { -30 }, },
@@ -215,6 +230,11 @@ return {
 			},
 		},
 	},
+	["Minor God 9"] = {
+		isMajorGod = false,
+		souls = {
+		},
+	},
 	["Ralakesh"] = {
 		isMajorGod = false,
 		souls = {
@@ -226,7 +246,7 @@ return {
 					[2] = { line = "Moving while Bleeding doesn't cause you to take extra Damage", value = { 1 }, },
 				},
 			},
-			[2] = { name = "The Hallowed Husk",
+			[2] = { name = "The Sanguine Siren",
 				mods = {
 					-- cannot_gain_corrupted_blood_while_you_have_at_least_5_stacks
 					[1] = { line = "Corrupted Blood cannot be inflicted on you if you have at least 5 Corrupted Blood Debuffs on you", value = { 1 }, },
@@ -243,7 +263,7 @@ return {
 					[1] = { line = "60% reduced Effect of Shock on you", value = { -60 }, },
 				},
 			},
-			[2] = { name = "Drek, Apex Hunter",
+			[2] = { name = "Pesquin, the Mad Baron",
 				mods = {
 					-- cannot_be_blinded
 					[1] = { line = "Cannot be Blinded", value = { 1 }, },
@@ -260,12 +280,14 @@ return {
 				mods = {
 					-- life_flasks_gain_X_charges_every_3_seconds_if_you_have_not_used_a_life_flask_recently
 					[1] = { line = "Life Flasks gain 3 Charges every 3 seconds if you haven't used a Life Flask Recently", value = { 3 }, },
+					-- life_recovery_+%_from_flasks_while_on_low_life
+					[2] = { line = "60% increased Life Recovery from Flasks used when on Low Life", value = { 60 }, },
 				},
 			},
-			[2] = { name = "Lycius, Midnight's Howl",
+			[2] = { name = "Gorulis, Will-Thief",
 				mods = {
-					-- life_recovery_+%_from_flasks_while_on_low_life
-					[1] = { line = "60% increased Life Recovery from Flasks used when on Low Life", value = { 60 }, },
+					-- enemy_life_regeneration_rate_+%_for_4_seconds_on_hit
+					[1] = { line = "Enemies you've Hit Recently have 50% reduced Life Regeneration rate", value = { -50 }, },
 				},
 			},
 		},

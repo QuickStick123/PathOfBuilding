@@ -14,6 +14,14 @@ return {
 			"Summoned Sentinels of Absolution have 24% increased Area of Effect",
 		},
 	},
+	["Alchemist's Mark"] = {
+		["MERCILESS"] = {
+			"20% increased Alchemist's Mark Curse Effect",
+		},
+		["ENDGAME"] = {
+			"30% increased Alchemist's Mark Curse Effect",
+		},
+	},
 	["Ambush"] = {
 		["MERCILESS"] = {
 			"20% increased Ambush Cooldown Recovery Rate",
@@ -122,11 +130,9 @@ return {
 	},
 	["Arctic Armour"] = {
 		["MERCILESS"] = {
-			"24% increased Arctic Armour Buff Effect",
 			"Arctic Armour has 50% increased Mana Reservation Efficiency",
 		},
 		["ENDGAME"] = {
-			"36% increased Arctic Armour Buff Effect",
 			"Arctic Armour has 75% increased Mana Reservation Efficiency",
 		},
 	},
@@ -176,12 +182,11 @@ return {
 		["MERCILESS"] = {
 			"Bane deals 25% increased Damage",
 			"Bane has 16% increased Area of Effect",
-			"10% increased Effect of Curses applied by Bane",
 		},
 		["ENDGAME"] = {
 			"Bane deals 40% increased Damage",
 			"Bane has 24% increased Area of Effect",
-			"15% increased Effect of Curses applied by Bane",
+			"10% increased Effect of Curses applied by Bane",
 		},
 	},
 	["Barrage"] = {
@@ -492,11 +497,11 @@ return {
 	},
 	["Conductivity"] = {
 		["MERCILESS"] = {
-			"20% increased Conductivity Curse Effect",
+			"10% increased Conductivity Curse Effect",
 			"30% increased Conductivity Duration",
 		},
 		["ENDGAME"] = {
-			"30% increased Conductivity Curse Effect",
+			"15% increased Conductivity Curse Effect",
 			"45% increased Conductivity Duration",
 		},
 	},
@@ -652,11 +657,11 @@ return {
 	["Despair"] = {
 		["MERCILESS"] = {
 			"30% increased Despair Duration",
-			"20% increased Despair Curse Effect",
+			"10% increased Despair Curse Effect",
 		},
 		["ENDGAME"] = {
 			"45% increased Despair Duration",
-			"30% increased Despair Curse Effect",
+			"15% increased Despair Curse Effect",
 		},
 	},
 	["Destructive Link"] = {
@@ -811,11 +816,11 @@ return {
 	},
 	["Elemental Weakness"] = {
 		["MERCILESS"] = {
-			"20% increased Elemental Weakness Curse Effect",
+			"10% increased Elemental Weakness Curse Effect",
 			"30% increased Elemental Weakness Duration",
 		},
 		["ENDGAME"] = {
-			"30% increased Elemental Weakness Curse Effect",
+			"15% increased Elemental Weakness Curse Effect",
 			"45% increased Elemental Weakness Duration",
 		},
 	},
@@ -840,11 +845,11 @@ return {
 	},
 	["Enfeeble"] = {
 		["MERCILESS"] = {
-			"20% increased Enfeeble Curse Effect",
+			"10% increased Enfeeble Curse Effect",
 			"30% increased Enfeeble Duration",
 		},
 		["ENDGAME"] = {
-			"30% increased Enfeeble Curse Effect",
+			"15% increased Enfeeble Curse Effect",
 			"45% increased Enfeeble Duration",
 		},
 	},
@@ -876,7 +881,7 @@ return {
 		["ENDGAME"] = {
 			"40% increased Ethereal Knives Damage",
 			"30% increased Ethereal Knives Projectile Speed",
-			"Ethereal Knives Pierces an additional Target",
+			"Ethereal Knives fires Projectiles in a circle",
 		},
 	},
 	["Explosive Arrow"] = {
@@ -1000,12 +1005,12 @@ return {
 		["MERCILESS"] = {
 			"25% increased Flame Surge Damage",
 			"60% increased Flame Surge Critical Strike Chance",
-			"40% increased Flame Surge Damage against Burning Enemies",
+			"40% increased Flame Surge Damage with Hits and Ailments against Burning Enemies",
 		},
 		["ENDGAME"] = {
 			"40% increased Flame Surge Damage",
 			"90% increased Flame Surge Critical Strike Chance",
-			"60% increased Flame Surge Damage against Burning Enemies",
+			"60% increased Flame Surge Damage with Hits and Ailments against Burning Enemies",
 		},
 	},
 	["Flame Wall"] = {
@@ -1047,11 +1052,11 @@ return {
 	},
 	["Flammability"] = {
 		["MERCILESS"] = {
-			"20% increased Flammability Curse Effect",
+			"10% increased Flammability Curse Effect",
 			"30% increased Flammability Duration",
 		},
 		["ENDGAME"] = {
-			"30% increased Flammability Curse Effect",
+			"15% increased Flammability Curse Effect",
 			"45% increased Flammability Duration",
 		},
 	},
@@ -1165,11 +1170,11 @@ return {
 	},
 	["Frostbite"] = {
 		["MERCILESS"] = {
-			"20% increased Frostbite Curse Effect",
+			"10% increased Frostbite Curse Effect",
 			"30% increased Frostbite Duration",
 		},
 		["ENDGAME"] = {
-			"30% increased Frostbite Curse Effect",
+			"15% increased Frostbite Curse Effect",
 			"45% increased Frostbite Duration",
 		},
 	},
@@ -1195,6 +1200,24 @@ return {
 			"Frostbolt has +15% chance to Freeze",
 		},
 	},
+	["Frozen Legion"] = {
+		["MERCILESS"] = {
+			"Frozen Legion has 20% increased Cooldown Recovery Rate",
+			"Frozen Legion has +1 Cooldown Use",
+		},
+		["ENDGAME"] = {
+			"Frozen Legion has 30% increased Cooldown Recovery Rate",
+			"Frozen Legion has +2 Cooldown Uses",
+		},
+	},
+	["Frozen Sweep"] = {
+		["MERCILESS"] = {
+			"Frozen Sweep deals 25% increased Damage",
+		},
+		["ENDGAME"] = {
+			"Frozen Sweep deals 40% increased Damage",
+		},
+	},
 	["Galvanic Arrow"] = {
 		["MERCILESS"] = {
 			"25% increased Galvanic Arrow Damage",
@@ -1205,6 +1228,17 @@ return {
 			"40% increased Galvanic Arrow Damage",
 			"15% of Galvanic Arrow Physical Damage gained as extra Lightning Damage",
 			"Galvanic Arrow has 30% increased Projectile Speed",
+		},
+	},
+	["Galvanic Field"] = {
+		["MERCILESS"] = {
+			"Galvanic Field deals 25% increased Damage",
+			"Galvanic Field has 8% increased Cast Speed",
+		},
+		["ENDGAME"] = {
+			"Galvanic Field deals 40% increased Damage",
+			"Galvanic Field has 12% increased Cast Speed",
+			"Galvanic Field Chains an additional time",
 		},
 	},
 	["General's Cry"] = {
@@ -1583,6 +1617,18 @@ return {
 			"Lightning Arrow hits 2 additional Enemies",
 		},
 	},
+	["Lightning Conduit"] = {
+		["MERCILESS"] = {
+			"Lightning Conduit deals 25% increased Damage",
+			"Lightning Conduit has 8% increased Cast Speed",
+			"Lightning Conduit has 16% increased Area of Effect",
+		},
+		["ENDGAME"] = {
+			"Lightning Conduit deals 40% increased Damage",
+			"Lightning Conduit has 12% increased Cast Speed",
+			"Lightning Conduit has 24% increased Area of Effect",
+		},
+	},
 	["Lightning Spire Trap"] = {
 		["MERCILESS"] = {
 			"Lightning Spire Trap deals 25% increased Damage",
@@ -1601,12 +1647,12 @@ return {
 	["Lightning Strike"] = {
 		["MERCILESS"] = {
 			"25% increased Lightning Strike Damage",
-			"Lightning Strike fires 2 additional Projectiles",
+			"Lightning Strike fires an additional Projectile",
 			"Lightning Strike pierces 2 additional Targets",
 		},
 		["ENDGAME"] = {
 			"40% increased Lightning Strike Damage",
-			"Lightning Strike fires 3 additional Projectiles",
+			"Lightning Strike fires 2 additional Projectiles",
 			"Lightning Strike pierces 3 additional Targets",
 		},
 	},
@@ -1683,11 +1729,9 @@ return {
 	["Molten Shell"] = {
 		["MERCILESS"] = {
 			"Molten Shell has 25% increased Skill Effect Duration",
-			"100% increased Molten Shell Buff Effect",
 		},
 		["ENDGAME"] = {
 			"Molten Shell has 40% increased Skill Effect Duration",
-			"150% increased Molten Shell Buff Effect",
 		},
 	},
 	["Molten Strike"] = {
@@ -1852,11 +1896,11 @@ return {
 	},
 	["Punishment"] = {
 		["MERCILESS"] = {
-			"20% increased Punishment Curse Effect",
+			"10% increased Punishment Curse Effect",
 			"30% increased Punishment Duration",
 		},
 		["ENDGAME"] = {
-			"30% increased Punishment Curse Effect",
+			"15% increased Punishment Curse Effect",
 			"45% increased Punishment Duration",
 		},
 	},
@@ -2232,10 +2276,10 @@ return {
 	},
 	["Sniper's Mark"] = {
 		["MERCILESS"] = {
-			"Sniper's Mark has 20% increased Curse Effect",
+			"Sniper's Mark has 10% increased Curse Effect",
 		},
 		["ENDGAME"] = {
-			"Sniper's Mark has 30% increased Curse Effect",
+			"Sniper's Mark has 15% increased Curse Effect",
 		},
 	},
 	["Soul Link"] = {
@@ -2261,12 +2305,11 @@ return {
 		["MERCILESS"] = {
 			"25% increased Spark Damage",
 			"Spark fires 2 additional Projectiles",
-			"20% increased Spark Projectile Speed",
 		},
 		["ENDGAME"] = {
 			"40% increased Spark Damage",
 			"Spark fires 3 additional Projectiles",
-			"30% increased Spark Projectile Speed",
+			"Spark fires Projectiles in a circle",
 		},
 	},
 	["Spectral Helix"] = {
@@ -2317,11 +2360,11 @@ return {
 	["Spirit Offering"] = {
 		["MERCILESS"] = {
 			"30% increased Spirit Offering Duration",
-			"Spirit Offering grants +8% of Physical Damage as Extra Chaos Damage",
+			"Spirit Offering grants +8% to Critical Strike Multiplier",
 		},
 		["ENDGAME"] = {
 			"45% increased Spirit Offering Duration",
-			"Spirit Offering grants +12% of Physical Damage as Extra Chaos Damage",
+			"Spirit Offering grants +12% to Critical Strike Multiplier",
 		},
 	},
 	["Split Arrow"] = {
@@ -2483,12 +2526,12 @@ return {
 		["MERCILESS"] = {
 			"Summoned Holy Relics deal 25% increased Damage",
 			"Summoned Holy Relics have 16% increased Area of Effect",
-			"Summoned Holy Relics have 75% increased Buff Effect",
+			"Summoned Holy Relics have 40% increased Buff Effect",
 		},
 		["ENDGAME"] = {
 			"Summoned Holy Relics deal 40% increased Damage",
 			"Summoned Holy Relics have 24% increased Area of Effect",
-			"Summoned Holy Relics have 100% increased Buff Effect",
+			"Summoned Holy Relics have 60% increased Buff Effect",
 		},
 	},
 	["Summon Ice Golem"] = {
@@ -2518,12 +2561,12 @@ return {
 	["Summon Raging Spirit"] = {
 		["MERCILESS"] = {
 			"Summon Raging Spirit has 20% increased Duration",
-			"Summon Raging Spirit has 12% chance to summon an extra Minion",
+			"Summon Raging Spirit has 16% chance to summon an extra Minion",
 			"Summoned Raging Spirits deal 25% increased Damage",
 		},
 		["ENDGAME"] = {
 			"Summon Raging Spirit has 30% increased Duration",
-			"Summon Raging Spirit has 18% chance to summon an extra Minion",
+			"Summon Raging Spirit has 24% chance to summon an extra Minion",
 			"Summoned Raging Spirits deal 40% increased Damage",
 		},
 	},
@@ -2539,14 +2582,14 @@ return {
 			"30% increased Summon Reaper Cooldown Recovery Rate",
 		},
 	},
-	["Summon Skeleton"] = {
+	["Summon Skeletons"] = {
 		["MERCILESS"] = {
 			"Skeletons deal 25% increased Damage",
-			"20% chance to Summon an additional Skeleton Warrior with Summon Skeleton",
+			"20% chance to Summon an additional Skeleton with Summon Skeletons",
 		},
 		["ENDGAME"] = {
 			"Skeletons deal 40% increased Damage",
-			"40% chance to Summon an additional Skeleton Warrior with Summon Skeleton",
+			"40% chance to Summon an additional Skeleton with Summon Skeletons",
 		},
 	},
 	["Summon Skitterbots"] = {
@@ -2619,11 +2662,11 @@ return {
 	},
 	["Temporal Chains"] = {
 		["MERCILESS"] = {
-			"20% increased Temporal Chains Curse Effect",
+			"10% increased Temporal Chains Curse Effect",
 			"30% increased Temporal Chains Duration",
 		},
 		["ENDGAME"] = {
-			"30% increased Temporal Chains Curse Effect",
+			"15% increased Temporal Chains Curse Effect",
 			"45% increased Temporal Chains Duration",
 		},
 	},
@@ -2715,7 +2758,7 @@ return {
 		["ENDGAME"] = {
 			"Venom Gyre deals 40% increased Damage",
 			"Venom Gyre has a 20% chance to inflict Withered for 2 seconds on Hit",
-			"Venom Gyre has a 25% chance to keep caught Projectiles fired by using Whirling Blades",
+			"Venom Gyre has a 25% chance to keep each caught Projectile fired with Whirling Blades",
 		},
 	},
 	["Vigilant Strike"] = {
@@ -2771,6 +2814,18 @@ return {
 			"12% increased Volatile Dead Cast Speed",
 		},
 	},
+	["Volcanic Fissure"] = {
+		["MERCILESS"] = {
+			"Volcanic Fissure deals 25% increased Damage",
+			"Volcanic Fissure fires an additional Projectile",
+			"Volcanic Fissure travels 60% faster",
+		},
+		["ENDGAME"] = {
+			"Volcanic Fissure deals 40% increased Damage",
+			"Volcanic Fissure fires 2 additional Projectiles",
+			"Volcanic Fissure travels 80% faster",
+		},
+	},
 	["Voltaxic Burst"] = {
 		["MERCILESS"] = {
 			"25% increased Voltaxic Burst Damage",
@@ -2799,11 +2854,11 @@ return {
 	},
 	["Vulnerability"] = {
 		["MERCILESS"] = {
-			"20% increased Vulnerability Curse Effect",
+			"10% increased Vulnerability Curse Effect",
 			"30% increased Vulnerability Duration",
 		},
 		["ENDGAME"] = {
-			"30% increased Vulnerability Curse Effect",
+			"15% increased Vulnerability Curse Effect",
 			"45% increased Vulnerability Duration",
 		},
 	},
@@ -2826,12 +2881,12 @@ return {
 	["Wave of Conviction"] = {
 		["MERCILESS"] = {
 			"Wave of Conviction deals 25% increased Damage",
-			"Wave of Conviction's Exposure applies -4% Elemental Resistance",
+			"Wave of Conviction's Exposure applies an extra -4% to Elemental Resistance",
 			"Wave of Conviction has 20% increased Duration",
 		},
 		["ENDGAME"] = {
 			"Wave of Conviction deals 40% increased Damage",
-			"Wave of Conviction's Exposure applies -6% Elemental Resistance",
+			"Wave of Conviction's Exposure applies an extra -6% to Elemental Resistance",
 			"Wave of Conviction has 30% increased Duration",
 		},
 	},

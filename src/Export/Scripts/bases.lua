@@ -35,7 +35,7 @@ directiveTable.socketLimit = function(state, args, out)
 end
 
 directiveTable.base = function(state, args, out)
-	local baseTypeId, displayName = args:match("([%w/]+) (.+)")
+	local baseTypeId, displayName = args:match("([%w/_]+) (.+)")
 	if not baseTypeId then
 		baseTypeId = args
 	end
@@ -48,7 +48,7 @@ directiveTable.base = function(state, args, out)
 		if baseItemType == "nothing" then -- base case
 			return {}
 		end
-		local file = getFile(baseItemType .. ".ot")
+		local file = getFile(baseItemType .. ".it")
 		if not file then return nil end
 		local text = convertUTF16to8(file)
 		local tags = {}
@@ -172,6 +172,9 @@ directiveTable.base = function(state, args, out)
 			local stats = { }
 			for i, stat in ipairs(flask.Buff.Stats) do
 				stats[stat.Id] = { min = flask.BuffMagnitudes[i], max = flask.BuffMagnitudes[i] }
+			end
+			for i, stat in ipairs(flask.Buff.GrantedFlags) do
+				stats[stat.Id] = { min = 1, max = 1 }
 			end
 			out:write('buff = { "', table.concat(describeStats(stats), '", "'), '" }, ')
 		end

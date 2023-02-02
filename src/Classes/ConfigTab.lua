@@ -20,6 +20,8 @@ local ConfigTabClass = newClass("ConfigTab", "UndoHandler", "ControlHost", "Cont
 
 	self.input = { }
 	self.placeholder = { }
+	
+	self.enemyLevel = 1
 
 	self.sectionList = { }
 	self.varControls = { }
@@ -53,7 +55,7 @@ local ConfigTabClass = newClass("ConfigTab", "UndoHandler", "ControlHost", "Cont
 					self.build.buildFlag = true
 				end)
 			elseif varData.type == "count" or varData.type == "integer" or varData.type == "countAllowZero" then
-				control = new("EditControl", {"TOPLEFT",lastSection,"TOPLEFT"}, 234, 0, 90, 18, "", nil, varData.type == "integer" and "^%-%d" or "%D", 6, function(buf, placeholder)
+				control = new("EditControl", {"TOPLEFT",lastSection,"TOPLEFT"}, 234, 0, 90, 18, "", nil, varData.type == "integer" and "^%-%d" or "%D", 7, function(buf, placeholder)
 					if placeholder then
 						self.placeholder[varData.var] = tonumber(buf)
 					else
@@ -188,6 +190,12 @@ local ConfigTabClass = newClass("ConfigTab", "UndoHandler", "ControlHost", "Cont
 					return skillFlags[varData.ifFlag] or skillModList:Flag(nil, varData.ifFlag)
 				end
 				control.tooltipText = varData.tooltip
+			elseif varData.ifMod then
+				control.shown = function()
+					local skillModList = self.build.calcsTab.mainEnv.player.mainSkill.skillModList
+					return skillModList:Sum(varData.ifModType or "BASE", nil, varData.ifMod) > 0
+				end
+				control.tooltipText = varData.tooltip
 			elseif varData.ifSkill or varData.ifSkillList then
 				control.shown = function()
 					if varData.ifSkillList then
@@ -237,7 +245,44 @@ local ConfigTabClass = newClass("ConfigTab", "UndoHandler", "ControlHost", "Cont
 				self.varControls[varData.var] = control
 				self.placeholder[varData.var] = varData.defaultPlaceholderState
 				control.placeholder = varData.defaultPlaceholderState
+				if varData.defaultIndex then
+					self.input[varData.var] = varData.list[varData.defaultIndex].val
+					control.selIndex = varData.defaultIndex
+				end
 			end
+
+			local innerShown = control.shown
+			control.shown = function()
+				local shown = type(innerShown) == "boolean" and innerShown or innerShown()
+				return not shown and control.state ~= self:GetDefaultState(varData.var, type(control.state)) or shown
+			end
+			local innerLabel = control.label
+			control.label = function()
+				local shown = type(innerShown) == "boolean" and innerShown or innerShown()
+				if not shown and control.state ~= self:GetDefaultState(varData.var, type(control.state)) then
+					return "^1"..innerLabel
+				end
+				return innerLabel
+			end
+			local innerTooltipFunc = control.tooltipFunc
+			control.tooltipFunc = function (tooltip, ...)
+				tooltip:Clear()
+
+				if innerTooltipFunc then
+					innerTooltipFunc(tooltip, ...)
+				else
+					local tooltipText = control:GetProperty("tooltipText")
+					if tooltipText then
+						tooltip:AddLine(14, tooltipText)
+					end
+				end
+
+				local shown = type(innerShown) == "boolean" and innerShown or innerShown()
+				if not shown and control.state ~= self:GetDefaultState(varData.var, type(control.state)) then
+					tooltip:AddLine(14, "^1This config option is conditional with missing source and is invalid.")
+				end
+			end
+
 			t_insert(self.controls, control)
 			t_insert(lastSection.varControlList, control)
 		end
@@ -257,7 +302,7 @@ function ConfigTabClass:Load(xml, fileName)
 			elseif node.attrib.string then
 				if node.attrib.name == "enemyIsBoss" then
 					self.input[node.attrib.name] = node.attrib.string:lower():gsub("(%l)(%w*)", function(a,b) return s_upper(a)..b end)
-					:gsub("Uber Atziri", "Boss"):gsub("Shaper", "Pinnacle"):gsub("Sirus", "Uber")
+					:gsub("Uber Atziri", "Boss"):gsub("Shaper", "Pinnacle"):gsub("Sirus", "Pinnacle")
 				else
 					self.input[node.attrib.name] = node.attrib.string
 				end
@@ -288,6 +333,10 @@ function ConfigTabClass:Load(xml, fileName)
 end
 
 function ConfigTabClass:GetDefaultState(var, varType)
+	if self.placeholder[var] ~= nil then
+		return self.placeholder[var]
+	end
+
 	for i = 1, #varList do
 		if varList[i].var == var then
 			if varType == "number" then
@@ -331,7 +380,6 @@ function ConfigTabClass:Save(xml)
 		end
 		t_insert(xml, child)
 	end
-	self.modFlag = false
 end
 
 function ConfigTabClass:UpdateControls()
@@ -435,6 +483,14 @@ function ConfigTabClass:BuildModList()
 	self.enemyModList = enemyModList
 	local input = self.input
 	local placeholder = self.placeholder
+	--enemy level handled here because it's needed to correctly set boss stats
+	if input.enemyLevel and input.enemyLevel > 0 then
+		self.enemyLevel = m_min(data.misc.MaxEnemyLevel, input.enemyLevel)
+	elseif placeholder.enemyLevel and placeholder.enemyLevel > 0 then
+		self.enemyLevel = m_min(data.misc.MaxEnemyLevel, placeholder.enemyLevel)
+	else
+		self.enemyLevel = m_min(data.misc.MaxEnemyLevel, self.build.characterLevel)
+	end
 	for _, varData in ipairs(varList) do
 		if varData.apply then
 			if varData.type == "check" then
@@ -469,6 +525,8 @@ function ConfigTabClass:ImportCalcSettings()
 	end
 	import("Cond_LowLife", "conditionLowLife")
 	import("Cond_FullLife", "conditionFullLife")
+	import("Cond_LowMana", "conditionLowMana")
+	import("Cond_FullMana", "conditionFullMana")
 	import("buff_power", "usePowerCharges")
 	import("buff_frenzy", "useFrenzyCharges")
 	import("buff_endurance", "useEnduranceCharges")

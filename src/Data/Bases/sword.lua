@@ -186,7 +186,7 @@ itemBases["Gladius"] = {
 itemBases["Legion Sword"] = {
 	type = "One Handed Sword",
 	socketLimit = 3,
-	tags = { onehand = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
+	tags = { onehand = true, top_tier_base_item_type = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "40% increased Global Accuracy Rating",
 	implicitModTypes = { { "attack" }, },
 	weapon = { PhysicalMin = 53, PhysicalMax = 98, CritChanceBase = 5, AttackRateBase = 1.2, Range = 11, },
@@ -195,7 +195,7 @@ itemBases["Legion Sword"] = {
 itemBases["Vaal Blade"] = {
 	type = "One Handed Sword",
 	socketLimit = 3,
-	tags = { onehand = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
+	tags = { onehand = true, top_tier_base_item_type = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+460 to Accuracy Rating",
 	implicitModTypes = { { "attack" }, },
 	weapon = { PhysicalMin = 46, PhysicalMax = 86, CritChanceBase = 5, AttackRateBase = 1.3, Range = 11, },
@@ -204,7 +204,7 @@ itemBases["Vaal Blade"] = {
 itemBases["Eternal Sword"] = {
 	type = "One Handed Sword",
 	socketLimit = 3,
-	tags = { onehand = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
+	tags = { onehand = true, top_tier_base_item_type = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+475 to Accuracy Rating",
 	implicitModTypes = { { "attack" }, },
 	weapon = { PhysicalMin = 41, PhysicalMax = 68, CritChanceBase = 5, AttackRateBase = 1.5, Range = 11, },
@@ -213,7 +213,7 @@ itemBases["Eternal Sword"] = {
 itemBases["Midnight Blade"] = {
 	type = "One Handed Sword",
 	socketLimit = 3,
-	tags = { onehand = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
+	tags = { onehand = true, top_tier_base_item_type = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "40% increased Global Accuracy Rating",
 	implicitModTypes = { { "attack" }, },
 	weapon = { PhysicalMin = 35, PhysicalMax = 99, CritChanceBase = 5, AttackRateBase = 1.3, Range = 11, },
@@ -277,7 +277,8 @@ itemBases["Energy Blade One Handed"] = {
 }
 
 itemBases["Rusted Spike"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+25% to Global Critical Strike Multiplier",
@@ -286,7 +287,8 @@ itemBases["Rusted Spike"] = {
 	req = { dex = 20, },
 }
 itemBases["Whalebone Rapier"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+25% to Global Critical Strike Multiplier",
@@ -295,7 +297,8 @@ itemBases["Whalebone Rapier"] = {
 	req = { level = 7, dex = 32, },
 }
 itemBases["Battered Foil"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+25% to Global Critical Strike Multiplier",
@@ -304,7 +307,8 @@ itemBases["Battered Foil"] = {
 	req = { level = 12, dex = 47, },
 }
 itemBases["Basket Rapier"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+25% to Global Critical Strike Multiplier",
@@ -313,7 +317,8 @@ itemBases["Basket Rapier"] = {
 	req = { level = 17, dex = 62, },
 }
 itemBases["Jagged Foil"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+25% to Global Critical Strike Multiplier",
@@ -322,7 +327,8 @@ itemBases["Jagged Foil"] = {
 	req = { level = 22, dex = 77, },
 }
 itemBases["Antique Rapier"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+25% to Global Critical Strike Multiplier",
@@ -331,7 +337,8 @@ itemBases["Antique Rapier"] = {
 	req = { level = 26, dex = 89, },
 }
 itemBases["Elegant Foil"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+25% to Global Critical Strike Multiplier",
@@ -340,7 +347,8 @@ itemBases["Elegant Foil"] = {
 	req = { level = 30, dex = 101, },
 }
 itemBases["Thorn Rapier"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+35% to Global Critical Strike Multiplier",
@@ -349,7 +357,8 @@ itemBases["Thorn Rapier"] = {
 	req = { level = 34, dex = 113, },
 }
 itemBases["Smallsword"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { maraketh = true, rapier = true, onehand = true, not_for_sale = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "15% chance to cause Bleeding on Hit",
@@ -358,7 +367,8 @@ itemBases["Smallsword"] = {
 	req = { level = 36, dex = 124, },
 }
 itemBases["Wyrmbone Rapier"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+25% to Global Critical Strike Multiplier",
@@ -367,7 +377,8 @@ itemBases["Wyrmbone Rapier"] = {
 	req = { level = 37, dex = 122, },
 }
 itemBases["Burnished Foil"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+25% to Global Critical Strike Multiplier",
@@ -376,7 +387,8 @@ itemBases["Burnished Foil"] = {
 	req = { level = 40, dex = 131, },
 }
 itemBases["Estoc"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+25% to Global Critical Strike Multiplier",
@@ -385,7 +397,8 @@ itemBases["Estoc"] = {
 	req = { level = 43, dex = 140, },
 }
 itemBases["Serrated Foil"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+25% to Global Critical Strike Multiplier",
@@ -394,7 +407,8 @@ itemBases["Serrated Foil"] = {
 	req = { level = 46, dex = 149, },
 }
 itemBases["Primeval Rapier"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+25% to Global Critical Strike Multiplier",
@@ -403,7 +417,8 @@ itemBases["Primeval Rapier"] = {
 	req = { level = 49, dex = 158, },
 }
 itemBases["Fancy Foil"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+25% to Global Critical Strike Multiplier",
@@ -412,7 +427,8 @@ itemBases["Fancy Foil"] = {
 	req = { level = 52, dex = 167, },
 }
 itemBases["Apex Rapier"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+35% to Global Critical Strike Multiplier",
@@ -421,7 +437,8 @@ itemBases["Apex Rapier"] = {
 	req = { level = 55, dex = 176, },
 }
 itemBases["Courtesan Sword"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { maraketh = true, rapier = true, onehand = true, not_for_sale = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "15% chance to cause Bleeding on Hit",
@@ -430,7 +447,8 @@ itemBases["Courtesan Sword"] = {
 	req = { level = 57, dex = 190, },
 }
 itemBases["Dragonbone Rapier"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+25% to Global Critical Strike Multiplier",
@@ -439,7 +457,8 @@ itemBases["Dragonbone Rapier"] = {
 	req = { level = 58, dex = 185, },
 }
 itemBases["Tempered Foil"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+25% to Global Critical Strike Multiplier",
@@ -448,7 +467,8 @@ itemBases["Tempered Foil"] = {
 	req = { level = 60, dex = 212, },
 }
 itemBases["Pecoraro"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+25% to Global Critical Strike Multiplier",
@@ -457,43 +477,48 @@ itemBases["Pecoraro"] = {
 	req = { level = 62, dex = 212, },
 }
 itemBases["Spiraled Foil"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
-	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
+	tags = { top_tier_base_item_type = true, onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+25% to Global Critical Strike Multiplier",
 	implicitModTypes = { { "damage", "critical" }, },
 	weapon = { PhysicalMin = 27, PhysicalMax = 64, CritChanceBase = 5.5, AttackRateBase = 1.6, Range = 14, },
 	req = { level = 64, dex = 212, },
 }
 itemBases["Vaal Rapier"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
-	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
+	tags = { top_tier_base_item_type = true, onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+25% to Global Critical Strike Multiplier",
 	implicitModTypes = { { "damage", "critical" }, },
 	weapon = { PhysicalMin = 22, PhysicalMax = 87, CritChanceBase = 6.5, AttackRateBase = 1.3, Range = 14, },
 	req = { level = 66, dex = 212, },
 }
 itemBases["Jewelled Foil"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
-	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
+	tags = { top_tier_base_item_type = true, onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+25% to Global Critical Strike Multiplier",
 	implicitModTypes = { { "damage", "critical" }, },
 	weapon = { PhysicalMin = 32, PhysicalMax = 60, CritChanceBase = 5.5, AttackRateBase = 1.6, Range = 14, },
 	req = { level = 68, dex = 212, },
 }
 itemBases["Harpy Rapier"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
-	tags = { onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
+	tags = { top_tier_base_item_type = true, onehand = true, rapier = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "+35% to Global Critical Strike Multiplier",
 	implicitModTypes = { { "damage", "critical" }, },
 	weapon = { PhysicalMin = 31, PhysicalMax = 72, CritChanceBase = 5.7, AttackRateBase = 1.4, Range = 14, },
 	req = { level = 70, dex = 212, },
 }
 itemBases["Dragoon Sword"] = {
-	type = "Thrusting One Handed Sword",
+	type = "One Handed Sword",
+	subType = "Thrusting",
 	socketLimit = 3,
 	tags = { maraketh = true, rapier = true, onehand = true, not_for_sale = true, weapon = true, sword = true, one_hand_weapon = true, default = true, },
 	implicit = "20% chance to cause Bleeding on Hit",
@@ -667,7 +692,7 @@ itemBases["Reaver Sword"] = {
 itemBases["Ezomyte Blade"] = {
 	type = "Two Handed Sword",
 	socketLimit = 6,
-	tags = { two_hand_weapon = true, weapon = true, sword = true, twohand = true, default = true, },
+	tags = { two_hand_weapon = true, top_tier_base_item_type = true, weapon = true, sword = true, twohand = true, default = true, },
 	implicit = "+25% to Global Critical Strike Multiplier",
 	implicitModTypes = { { "damage", "critical" }, },
 	weapon = { PhysicalMin = 62, PhysicalMax = 115, CritChanceBase = 6.5, AttackRateBase = 1.4, Range = 13, },
@@ -676,7 +701,7 @@ itemBases["Ezomyte Blade"] = {
 itemBases["Vaal Greatsword"] = {
 	type = "Two Handed Sword",
 	socketLimit = 6,
-	tags = { two_hand_weapon = true, weapon = true, sword = true, twohand = true, default = true, },
+	tags = { two_hand_weapon = true, top_tier_base_item_type = true, weapon = true, sword = true, twohand = true, default = true, },
 	implicit = "+470 to Accuracy Rating",
 	implicitModTypes = { { "attack" }, },
 	weapon = { PhysicalMin = 68, PhysicalMax = 142, CritChanceBase = 5, AttackRateBase = 1.3, Range = 13, },
@@ -685,7 +710,7 @@ itemBases["Vaal Greatsword"] = {
 itemBases["Lion Sword"] = {
 	type = "Two Handed Sword",
 	socketLimit = 6,
-	tags = { two_hand_weapon = true, weapon = true, sword = true, twohand = true, default = true, },
+	tags = { two_hand_weapon = true, top_tier_base_item_type = true, weapon = true, sword = true, twohand = true, default = true, },
 	implicit = "+50 to Strength and Dexterity",
 	implicitModTypes = { { "attribute" }, },
 	weapon = { PhysicalMin = 69, PhysicalMax = 115, CritChanceBase = 5, AttackRateBase = 1.45, Range = 13, },
@@ -694,7 +719,7 @@ itemBases["Lion Sword"] = {
 itemBases["Infernal Sword"] = {
 	type = "Two Handed Sword",
 	socketLimit = 6,
-	tags = { two_hand_weapon = true, weapon = true, sword = true, twohand = true, default = true, },
+	tags = { two_hand_weapon = true, top_tier_base_item_type = true, weapon = true, sword = true, twohand = true, default = true, },
 	implicit = "30% increased Elemental Damage with Attack Skills",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental", "attack" }, },
 	weapon = { PhysicalMin = 62, PhysicalMax = 129, CritChanceBase = 5, AttackRateBase = 1.35, Range = 13, },
