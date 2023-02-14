@@ -158,7 +158,7 @@ local function extractRanges(modText)
 		table.insert(modValues, {min, max})
 		return "#"
 	end)
-	return modText, modValues
+	return string.lower(modText), modValues
 end
 
 -- Generate a unique mod mapping from text to mod

@@ -6,6 +6,9 @@ LoadModule("../Data/Global.lua")
 
 local t_insert = table.insert
 
+local uniqueModData = LoadModule("../Data/Uniques/Special/Uniques.lua")
+local modTextMap = LoadModule("../Data/Uniques/Special/ModTextMap.lua")
+
 local function extractRanges(modText)
 	local modValues = { }
 	modText = modText:gsub("([%-%+]?)%((%-?%d+%.?%d*)%-(%-?%d+%.?%d*)%)", function(plus, min, max)
@@ -23,7 +26,7 @@ local function extractRanges(modText)
 		table.insert(modValues, {min, max})
 		return "#"
 	end)
-	return modText, modValues
+	return string.lower(modText), modValues
 end
 
 local function equalRanges(range1, range2)
@@ -38,8 +41,56 @@ local function equalRanges(range1, range2)
 	return false
 end
 
-local uniqueModData = LoadModule("../Data/Uniques/Special/Uniques.lua")
-local modTextMap = LoadModule("../Data/Uniques/Special/ModTextMap.lua")
+local function findUniqueModCodes(mods)
+	local extractedMods = { }
+	for i, mod in ipairs(mods) do
+		local rangedRemovedLine, ranges = extractRanges(modText)
+		extractedMods[i] = { base = { line = rangedRemovedLine, ranges = ranges } } 
+		if #ranges <= 1 then -- only generate negatives for single mods to help simplify code.
+			local negatedRange = { { -ranges[1][1], -ranges[1][2] } }
+			if rangedRemovedLine:match("#% increased") then
+				extractedMods[i].negation = { line = rangedRemovedLine:gsub("#% increased", "#% reduced"), ranges = negatedRange }
+			elseif rangedRemovedLine:match("#% reduced") then
+				extractedMods[i].negation = { line = rangedRemovedLine:gsub("#% reduced", "#% increased"), ranges = negatedRange }
+			elseif rangedRemovedLine:match("#% more") then
+				extractedMods[i].negation = { line = rangedRemovedLine:gsub("#% more", "#% less"), ranges = negatedRange }
+			elseif rangedRemovedLine:match("#% less") then
+				extractedMods[i].negation = { line = rangedRemovedLine:gsub("#% less", "#% more"), ranges = negatedRange }
+			elseif rangedRemovedLine:match("gain #") then
+				extractedMods[i].negation = { line = rangedRemovedLine:gsub("gain #", "lose #"), ranges = negatedRange }
+			elseif rangedRemovedLine:match("lose #") then
+				extractedMods[i].negation = { line = rangedRemovedLine:gsub("lose #", "gain #"), ranges = negatedRange }
+			end
+		end
+	end
+	local foundMods = {}
+	for i, mod in ipairs(extractedMods) do -- simple pass
+		findPossibleCodesForGivenMod(mod)
+	end
+	
+end
+
+local function getModNamesForRanges(modList, ranges)
+	for line, uniqueMods in ipairs(modList) do
+		if equalRanges(uniqueMods.range, ranges) then
+			return uniqueMods.modNames
+		end
+	end
+	return nil
+end
+
+
+-- returns nil if none found
+local function findPossibleCodesForGivenRangeAndMod(mod)
+	local potentialMods
+	if modTextMap[mod.base.line] then
+		potentialMods = getModNamesForRanges(modTextMap[mod.base.line], mod.base.ranges)
+	end
+	if not potentialMods and mod.negation and modTextMap[mod.negation.line] then
+		potentialMods = getModNamesForRanges(modTextMap[mod.negation.line], mod.negation.ranges)
+	end
+	return potentialMods
+end
 
 for _, name in pairs(ItemTypes) do
 	local uniques = LoadModule("../Data/Uniques/"..name..".lua")
@@ -75,64 +126,59 @@ for _, name in pairs(ItemTypes) do
 		local variants = {}
 		for i = 1, numVariants do
 			variants[i] = { implicitModLines = { }, explicitModLines = { } }
-			for i, line in ipairs(implicitModLines) do
-				local variantLineNumbers = line:match("{variants:(.+)}")
+			for _, line in ipairs(implicitModLines) do
+				local variantLineNumbers = line:match("{[vV]ariant:([%d,.]+)}")
 				if not variantLineNumbers or variantLineNumbers:match(tostring(i)) then
-					t_insert(variants[i].implicitModLines, line:gsub("{variants:.+}", ""))
+					local variantStripped = string.gsub(line, "{[vV]ariant:([%d,.]+)}", "")
+					t_insert(variants[i].implicitModLines, variantStripped)
 				end
 			end
-			for i, line in ipairs(explicitModLines) do
-				local variantLineNumbers = line:match("{variants:(.+)}")
+			for _, line in ipairs(explicitModLines) do
+				local variantLineNumbers = line:match("{[vV]ariant:([%d,.]+)}")
 				if not variantLineNumbers or variantLineNumbers:match(tostring(i)) then
-					t_insert(variants[i].explicitModLines, line:gsub("{variants:.+}", ""))
+					local variantStripped = string.gsub(line, "{[vV]ariant:([%d,.]+)}", "")
+					t_insert(variants[i].explicitModLines, variantStripped)
 				end
 			end
 		end
 
-		ConPrintTable(variants)
+		-- ConPrintTable(variants)
 		-- self.requirements.level = m_max(self.requirements.level or 0, m_floor(mod.level * 0.8))
 
 
+		for i, variant in ipairs(variants) do
+			local fractured = line:match("({fractured})") or ""
+			
+			local modText = line:gsub("{.+}", ""):gsub("{.+}", ""):gsub("[–᠆‐‑‒–﹘﹣－]", "-") -- Cleanup various hyphens.
 
-		-- if line ~= "]],[[" then
-		-- 	local specName, specVal = line:match("^([%a ]+): (.+)$")
-		-- 	if line == "]],[[" then
-		-- 		uniqueLines = nil
-		-- 		implicits = 0
-		-- 	end
-		-- 	elseif uniqueLines == nil then
-		-- 		uniqueLines = { name = line }
-		-- 	else
-		-- 		local variants = line:match("{[vV]ariant:([%d,.]+)}")
-		-- 		local fractured = line:match("({fractured})") or ""
-		-- 		local modText = line:gsub("{.+}", ""):gsub("{.+}", ""):gsub("[–᠆‐‑‒–﹘﹣－]", "-") -- Cleanup various hyphens.
-		-- 		local rangedRemovedLine, ranges = extractRanges(modText)
-		-- 		local uniqueLines
-		-- 		local possibleRangeMods = modTextMap[rangedRemovedLine]
-		-- 		local possibleMods
-		-- 		for possibleModText, mod in pairs(possibleRangeMods) do
-		-- 			if equalRanges(ranges, mod.ranges) then
-		-- 				possibleMods = mod.modNames
-		-- 				modText = possibleModText
-		-- 			end
-		-- 		end
-		-- 		local gggMod
-		-- 		if possibleMods then
-		-- 			gggMod = possibleMods[1]
-		-- 			for _, modName in ipairs(possibleMods) do
-		-- 				if modName:lower():match(name) then
-		-- 					gggMod = modName
-		-- 				end
-		-- 			end
-		-- 			out:write(fractured)
-		-- 			if variants then
-		-- 				out:write("{variant:" .. variants:gsub("%.", ",") .. "}")
-		-- 			end
-		-- 			out:write(gggMod, "\n")
-		-- 		else
-		-- 			out:write(line, "\n")
-		-- 		end
-		-- 	end
+		end
+
+		local rangedRemovedLine, ranges = extractRanges(modText)
+		local possibleRangeMods = modTextMap[rangedRemovedLine]
+		local possibleMods
+		for possibleModText, mod in pairs(possibleRangeMods) do
+			if equalRanges(ranges, mod.ranges) then
+				possibleMods = mod.modNames
+				modText = possibleModText
+			end
+		end
+		local gggMod
+		if possibleMods then
+			gggMod = possibleMods[1]
+			for _, modName in ipairs(possibleMods) do
+				if modName:lower():match(name) then
+					gggMod = modName
+				end
+			end
+			out:write(fractured)
+			if variants then
+				out:write("{variant:" .. variants:gsub("%.", ",") .. "}")
+			end
+			out:write(gggMod, "\n")
+		else
+			out:write(line, "\n")
+		end
+	end
 		-- else
 		-- 	out:write(line, "\n")
 	end
