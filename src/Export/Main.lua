@@ -178,7 +178,7 @@ function main:Init()
 			return not self.curDatFile
 		end
 	}
-	self.controls.scriptOutput = new("TextListControl", nil, 380, 10, 800, 600, nil, self.scriptOutput) {
+	self.controls.scriptOutput = new("TextListControl", nil, 380, 10, 1200, 600, nil, self.scriptOutput) {
 		shown = function()
 			return not self.curDatFile
 		end
