@@ -842,9 +842,11 @@ function string:matchOrPattern(pattern)
 		local subGroups = {}
 		local index = 1
 		-- find and call generate patterns on all subGroups
-		for subGroup in pattern:gmatch("%b()") do
+		for subGroup in pattern:gmatch("%b()%??") do
 			local open, close = pattern:find(subGroup, (subGroups[index] and subGroups[index].close or 1), true)
-			t_insert(subGroups, { open = open, close = close, patterns = generateOrPatterns(subGroup:sub(2,-2)) })
+			local patterns = generateOrPatterns(subGroup:sub(2, subGroup:sub(-1) == "?" and -3 or -2))
+			if subGroup:sub(-1) == "?" then t_insert(patterns, "") end -- add empty string if subGroup is optional
+			t_insert(subGroups, { open = open, close = close, patterns = patterns })
 			index = index + 1
 		end
 
