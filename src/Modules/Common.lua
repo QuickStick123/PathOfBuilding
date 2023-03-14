@@ -837,14 +837,14 @@ function urlDecode(str)
 	return str:gsub("%%(%x%x)", hexToChar)
 end
 
-function string:matchOrPattern(pattern)
-	local function generateOrPatterns(pattern)
+function string:matchOrPattern(pattern, brackets)
+	local function generateOrPatterns(pattern, subGroupPattern)
 		local subGroups = {}
 		local index = 1
 		-- find and call generate patterns on all subGroups
-		for subGroup in pattern:gmatch("%b()%??") do
+		for subGroup in pattern:gmatch(subGroupPattern) do
 			local open, close = pattern:find(subGroup, (subGroups[index] and subGroups[index].close or 1), true)
-			local patterns = generateOrPatterns(subGroup:sub(2, subGroup:sub(-1) == "?" and -3 or -2))
+			local patterns = generateOrPatterns(subGroup:sub(2, subGroup:sub(-1) == "?" and -3 or -2), subGroupPattern)
 			if subGroup:sub(-1) == "?" then t_insert(patterns, "") end -- add empty string if subGroup is optional
 			t_insert(subGroups, { open = open, close = close, patterns = patterns })
 			index = index + 1
@@ -872,12 +872,12 @@ function string:matchOrPattern(pattern)
 		end
 		return orPatterns
 	end
-
-	local orPatterns = generateOrPatterns(pattern)
+	local orPatterns = generateOrPatterns(pattern, "%b"..(brackets or "()").."%??")
 	for orPattern in pairs(orPatterns) do
-		if self:match(orPattern) then
-			return true
+		local temp = { self:find(orPattern, 1) }
+		if temp[1] then
+			return unpack(temp)
 		end
 	end
-	return false
+	return nil
 end
