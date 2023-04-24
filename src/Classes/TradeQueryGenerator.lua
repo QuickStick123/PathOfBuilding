@@ -79,6 +79,7 @@ local tradeStatCategoryIndices = {
 	["Exarch"] = 3,
 	["Synthesis"] = 3,
 	["PassiveNode"] = 2,
+	["Crucible"] = 8,
 }
 
 local influenceSuffixes = { "_shaper", "_elder", "_adjudicator", "_basilisk", "_crusader", "_eyrie"}
@@ -154,7 +155,7 @@ local function canModSpawnForItemCategory(mod, category)
 		local tags = itemCategoryTags[category]
 		for i, key in ipairs(mod.weightKey) do
 			local influenceStrippedKey = stripInfluenceSuffix(key)
-			if key ~= "default" and mod.affix:find("Elevated") ~= nil and tags[influenceStrippedKey] == true then
+			if key ~= "default" and mod.affix and mod.affix:find("Elevated") ~= nil and tags[influenceStrippedKey] == true then
 				return true
 			elseif key ~= "default" and mod.type == "Corrupted" and tags[influenceStrippedKey] == true then
 				return true
@@ -198,7 +199,7 @@ function TradeQueryGeneratorClass:ProcessMod(modId, mod, tradeQueryStatsParsed, 
 		end
 
 		local statOrder = modLine:find("Nearby Enemies have %-") ~= nil and mod.statOrder[index + 1] or mod.statOrder[index] -- hack to get minus res mods associated with the correct statOrder
-		local modType = (mod.type == "Prefix" or mod.type == "Suffix") and (type(modId) == "string" and modId:find("AfflictionNotable") and "PassiveNode" or "Explicit") or mod.type
+		local modType = (mod.type == "Prefix" or mod.type == "Suffix") and (type(modId) == "string" and modId:find("AfflictionNotable") and "PassiveNode" or "Explicit") or (mod.type == "Spawn" and "Crucible") or mod.type
 		if modType == "ScourgeUpside" then modType = "Scourge" end
 
 		-- Special cases
@@ -215,6 +216,7 @@ function TradeQueryGeneratorClass:ProcessMod(modId, mod, tradeQueryStatsParsed, 
 		elseif modLine == "Projectiles Pierce an additional Target" then
 			specialCaseData.overrideModLineSingular = "Projectiles Pierce an additional Target"
 			modLine = "Projectiles Pierce 1 additional Target"
+		else
 		end
 
 		-- If this is the first tier for this mod, find matching trade mod and init the entry
@@ -227,6 +229,17 @@ function TradeQueryGeneratorClass:ProcessMod(modId, mod, tradeQueryStatsParsed, 
 		if self.modData[modType][uniqueIndex] == nil then
 			local tradeMod = nil
 
+			-- Try to match to a crucible mod
+			if modType == "Crucible" then
+				local matchCrucibleStr = (modLine .. " (Tier "..mod.tier..")"):gsub("[#()0-9%-%+%.]","")
+				for _, entry in pairs(tradeQueryStatsParsed.result[tradeStatCategoryIndices[modType]].entries) do
+					if entry.text:gsub("[#()0-9%-%+%.]","") == matchCrucibleStr then
+						tradeMod = entry
+						specialCaseData.overrideModLine = entry.text:sub(1, -10)
+						break
+					end
+				end
+			end
 			-- Try to match to a local mod fallback to global if no match
 			if mod.group:match("Local") then
 				local matchLocalStr = (modLine .. " (Local)"):gsub("[#()0-9%-%+%.]","")
@@ -333,6 +346,7 @@ function TradeQueryGeneratorClass:InitMods()
 		["Exarch"] = { },
 		["Synthesis"] = { },
 		["PassiveNode"] = { },
+		["Crucible"] = { },
 	}
 
 	-- originates from: https://www.pathofexile.com/api/trade/data/stats
@@ -359,6 +373,7 @@ function TradeQueryGeneratorClass:InitMods()
 		end
 	end
 	self:GenerateModData(data.itemMods.Item, tradeQueryStatsParsed, regularItemMask)
+	self:GenerateModData(data.crucible, tradeQueryStatsParsed, regularItemMask)
 	self:GenerateModData(data.veiledMods, tradeQueryStatsParsed, regularItemMask)
 	self:GenerateModData(data.itemMods.Jewel, tradeQueryStatsParsed, { ["BaseJewel"] = true, ["AnyJewel"] = true })
 	self:GenerateModData(data.itemMods.JewelAbyss, tradeQueryStatsParsed, { ["AbyssJewel"] = true, ["AnyJewel"] = true })
@@ -382,7 +397,7 @@ function TradeQueryGeneratorClass:InitMods()
 	regularItemMask.Flask = true -- Update mask as flasks can have crafted mods.
 	self:GenerateModData(data.masterMods, tradeQueryStatsParsed, regularItemMask)
 
-	-- megalomaniac
+	-- Special handling for notables
 	local clusterNotableMods = {}
 	for k, v in pairs(data.itemMods.JewelCluster) do
 		if k:find("AfflictionNotable") then
@@ -767,6 +782,9 @@ function TradeQueryGeneratorClass:ExecuteQuery()
 	if self.calcContext.options.includeSynthesis then
 		self:GenerateModWeights(self.modData["Synthesis"])
 	end
+	if self.calcContext.options.includeCrucible then
+		self:GenerateModWeights(self.modData["Crucible"])
+	end
 end
 
 function TradeQueryGeneratorClass:FinishQuery()
@@ -895,6 +913,7 @@ function TradeQueryGeneratorClass:RequestQuery(slot, context, statWeights, callb
 	local isAbyssalJewelSlot = slot and slot.slotName:find("Abyssal") ~= nil
 	local isAmuletSlot = slot and slot.slotName == "Amulet"
 	local isEldritchModSlot = slot and eldritchModSlots[slot.slotName] == true
+	local isCrucibleModSlot = slot and (slot.slotName == "Weapon 1" or slot.slotName == "Weapon 2")
 	
 	controls.includeCorrupted = new("CheckBoxControl", {"TOP",nil,"TOP"}, -40, 30, 18, "Corrupted Mods:", function(state) end)
 	controls.includeCorrupted.state = not context.slotTbl.alreadyCorrupted and (self.lastIncludeCorrupted == nil or self.lastIncludeCorrupted == true)
@@ -932,6 +951,14 @@ function TradeQueryGeneratorClass:RequestQuery(slot, context, statWeights, callb
 		controls.includeEldritch.state = (self.lastIncludeEldritch == true)
 
 		lastItemAnchor = controls.includeEldritch
+		popupHeight = popupHeight + 23
+	end
+
+	if isCrucibleModSlot then
+		controls.includeCrucible = new("CheckBoxControl", {"TOPRIGHT",lastItemAnchor,"BOTTOMRIGHT"}, 0, 5, 18, "Crucible Mods:", function(state) end)
+		controls.includeCrucible.state = (self.lastIncludeCrucible == true)
+
+		lastItemAnchor = controls.includeCrucible
 		popupHeight = popupHeight + 23
 	end
 
@@ -1019,6 +1046,9 @@ function TradeQueryGeneratorClass:RequestQuery(slot, context, statWeights, callb
 		end
 		if controls.includeEldritch then
 			self.lastIncludeEldritch, options.includeEldritch = controls.includeEldritch.state, controls.includeEldritch.state
+		end
+		if controls.includeCrucible then
+			self.lastIncludeCrucible, options.includeCrucible = controls.includeCrucible.state, controls.includeCrucible.state
 		end
 		if controls.includeScourge then
 			self.lastIncludeScourge, options.includeScourge = controls.includeScourge.state, controls.includeScourge.state

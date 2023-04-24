@@ -4811,6 +4811,16514 @@ return {
 			}, 
 		}, 
 	}, 
+	["Crucible"] = {
+		["1000_WeaponTreeSpellDamage"] = {
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "(3-7)% increased Spell Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_55287", 
+				["text"] = "(3-7)% increased Spell Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1000_WeaponTreeSpellDamageAndIncreasedEnergyShield"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "(3-7)% increased Spell Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_55287", 
+				["text"] = "(3-7)% increased Spell Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1000_WeaponTreeSpellDamageAndIncreasedMana"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "(3-7)% increased Spell Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_55287", 
+				["text"] = "(3-7)% increased Spell Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1000_WeaponTreeSpellDamageAndSpellCriticalStrikeChance"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "(3-7)% increased Spell Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_55287", 
+				["text"] = "(3-7)% increased Spell Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1007_WeaponTreePhysicalDamagePercent"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% increased Global Physical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_36639", 
+				["text"] = "15% increased Global Physical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1007_WeaponTreePhysicalDamagePercentPhysicalDamageReduction"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% increased Global Physical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_36639", 
+				["text"] = "15% increased Global Physical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1007_WeaponTreePhysicalDamagePercentReducedLifeRegenerationRate"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% increased Global Physical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_36639", 
+				["text"] = "15% increased Global Physical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1050_WeaponTreeLocalPhysicalDamage"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 2 to 600000 Physical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_7394", 
+				["text"] = "Adds 2 to 6 Physical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1050_WeaponTreeLocalPhysicalDamageAndAttackSpeed"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 2 to 6 Physical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_7394", 
+				["text"] = "Adds 2 to 6 Physical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1050_WeaponTreeLocalPhysicalDamageAndBleedChance"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 2 to 6 Physical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_7394", 
+				["text"] = "Adds 2 to 6 Physical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1050_WeaponTreeLocalPhysicalDamageAndChaosConversion"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 2 to 6 Physical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_7394", 
+				["text"] = "Adds 2 to 6 Physical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1050_WeaponTreeLocalPhysicalDamageAndColdConversion"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 2 to 6 Physical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_7394", 
+				["text"] = "Adds 2 to 6 Physical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1050_WeaponTreeLocalPhysicalDamageAndFireConversion"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 2 to 6 Physical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_7394", 
+				["text"] = "Adds 2 to 6 Physical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1050_WeaponTreeLocalPhysicalDamageAndImpaleChance"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 2 to 6 Physical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_7394", 
+				["text"] = "Adds 2 to 6 Physical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1050_WeaponTreeLocalPhysicalDamageAndLightningConversion"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 2 to 6 Physical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_7394", 
+				["text"] = "Adds 2 to 6 Physical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1050_WeaponTreeLocalPhysicalDamageAndRandomElementConversion"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 2 to 6 Physical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_7394", 
+				["text"] = "Adds 2 to 6 Physical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1131_WeaponTreeFireDamagePercentage"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% increased Fire Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_43685", 
+				["text"] = "15% increased Fire Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1131_WeaponTreeFireDamagePercentageDamageTakenAsFire"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% increased Fire Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_43685", 
+				["text"] = "15% increased Fire Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1131_WeaponTreeFireDamagePercentageMinusFireResistance"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% increased Fire Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_43685", 
+				["text"] = "15% increased Fire Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1136_WeaponTreeLocalElementalDamage"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 4 to 6 Fire Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_64191", 
+				["text"] = "Adds 4 to 6 Fire Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1136_WeaponTreeLocalElementalDamageAndCannotInflictElementalAilments"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 4 to 6 Fire Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_64191", 
+				["text"] = "Adds 4 to 6 Fire Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1136_WeaponTreeLocalElementalDamageAndElementalAilmentChance"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 4 to 6 Fire Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_64191", 
+				["text"] = "Adds 4 to 6 Fire Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1136_WeaponTreeLocalElementalDamageAndElementalAilmentEffect"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 4 to 6 Fire Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_64191", 
+				["text"] = "Adds 4 to 6 Fire Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1136_WeaponTreeLocalFireDamage"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 4 to 6 Fire Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_64191", 
+				["text"] = "Adds 4 to 6 Fire Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1136_WeaponTreeLocalFireDamageAndAttackSpeed"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 4 to 6 Fire Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_64191", 
+				["text"] = "Adds 4 to 6 Fire Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1136_WeaponTreeLocalFireDamageAndIgniteChance"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 4 to 6 Fire Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_64191", 
+				["text"] = "Adds 4 to 6 Fire Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1136_WeaponTreeLocalFireDamageAndImplicitEffect"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 4 to 6 Fire Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_64191", 
+				["text"] = "Adds 4 to 6 Fire Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1140_WeaponTreeColdDamagePercentage"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% increased Cold Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_55227", 
+				["text"] = "15% increased Cold Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1140_WeaponTreeColdDamagePercentageDamageTakenAsCold"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% increased Cold Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_55227", 
+				["text"] = "15% increased Cold Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1140_WeaponTreeColdDamagePercentageMinusColdResistance"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% increased Cold Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_55227", 
+				["text"] = "15% increased Cold Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1145_WeaponTreeLocalColdDamage"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 4 to 6 Cold Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_31374", 
+				["text"] = "Adds 4 to 6 Cold Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1145_WeaponTreeLocalColdDamageAndAttackSpeed"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 4 to 6 Cold Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_31374", 
+				["text"] = "Adds 4 to 6 Cold Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1145_WeaponTreeLocalColdDamageAndCannotChill"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 4 to 6 Cold Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_31374", 
+				["text"] = "Adds 4 to 6 Cold Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1145_WeaponTreeLocalColdDamageAndFreezeChance"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 4 to 6 Cold Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_31374", 
+				["text"] = "Adds 4 to 6 Cold Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1145_WeaponTreeLocalElementalDamage"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 4 to 6 Cold Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_31374", 
+				["text"] = "Adds 4 to 6 Cold Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1145_WeaponTreeLocalElementalDamageAndCannotInflictElementalAilments"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 4 to 6 Cold Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_31374", 
+				["text"] = "Adds 4 to 6 Cold Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1145_WeaponTreeLocalElementalDamageAndElementalAilmentChance"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 4 to 6 Cold Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_31374", 
+				["text"] = "Adds 4 to 6 Cold Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1145_WeaponTreeLocalElementalDamageAndElementalAilmentEffect"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 4 to 6 Cold Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_31374", 
+				["text"] = "Adds 4 to 6 Cold Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1151_WeaponTreeLightningDamagePercentage"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% increased Lightning Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_11891", 
+				["text"] = "15% increased Lightning Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1151_WeaponTreeLightningDamagePercentageDamageTakenAsLightning"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% increased Lightning Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_11891", 
+				["text"] = "15% increased Lightning Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1151_WeaponTreeLightningDamagePercentageMinusLightningResistance"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% increased Lightning Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_11891", 
+				["text"] = "15% increased Lightning Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1156_WeaponTreeLocalElementalDamage"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 9 Lightning Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_4424", 
+				["text"] = "Adds 1 to 9 Lightning Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1156_WeaponTreeLocalElementalDamageAndCannotInflictElementalAilments"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 9 Lightning Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_4424", 
+				["text"] = "Adds 1 to 9 Lightning Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1156_WeaponTreeLocalElementalDamageAndElementalAilmentChance"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 9 Lightning Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_4424", 
+				["text"] = "Adds 1 to 9 Lightning Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1156_WeaponTreeLocalElementalDamageAndElementalAilmentEffect"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 9 Lightning Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_4424", 
+				["text"] = "Adds 1 to 9 Lightning Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1156_WeaponTreeLocalLightningDamage"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 9 Lightning Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_4424", 
+				["text"] = "Adds 1 to 9 Lightning Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1156_WeaponTreeLocalLightningDamageAndCriticalStrikeChance"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 9 Lightning Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_4424", 
+				["text"] = "Adds 1 to 9 Lightning Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1156_WeaponTreeLocalLightningDamageAndDamageTaken"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 9 Lightning Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_4424", 
+				["text"] = "Adds 1 to 9 Lightning Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1156_WeaponTreeLocalLightningDamageAndShockChance"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 9 Lightning Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_4424", 
+				["text"] = "Adds 1 to 9 Lightning Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1159_WeaponTreeChaosDamagePercentageDamageTakenAsChaos"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% increased Chaos Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_12527", 
+				["text"] = "15% increased Chaos Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1159_WeaponTreeChaosDamagePercentageMinusChaosResistance"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% increased Chaos Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_12527", 
+				["text"] = "15% increased Chaos Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1159_WeaponTreeIncreasedChaosDamage"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% increased Chaos Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_12527", 
+				["text"] = "15% increased Chaos Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1163_WeaponTreeLocalChaosDamage"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 6 Chaos Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_5117", 
+				["text"] = "Adds 1 to 6 Chaos Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1163_WeaponTreeLocalChaosDamageAndMaximumLife"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 6 Chaos Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_5117", 
+				["text"] = "Adds 1 to 6 Chaos Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1163_WeaponTreeLocalChaosDamageAndPoisonChance"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 6 Chaos Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_5117", 
+				["text"] = "Adds 1 to 6 Chaos Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1163_WeaponTreeLocalChaosDamageAndWitheredEffect"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 6 Chaos Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_5117", 
+				["text"] = "Adds 1 to 6 Chaos Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1176_WeaponTreeSpellAddedPhysicalDamage"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 5 Physical Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_53045", 
+				["text"] = "Adds 1 to 5 Physical Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1176_WeaponTreeSpellAddedPhysicalDamageAndCastSpeed"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 5 Physical Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_53045", 
+				["text"] = "Adds 1 to 5 Physical Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1176_WeaponTreeSpellAddedPhysicalDamageAndChaosConversion"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 5 Physical Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_53045", 
+				["text"] = "Adds 1 to 5 Physical Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1176_WeaponTreeSpellAddedPhysicalDamageAndColdConversion"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 5 Physical Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_53045", 
+				["text"] = "Adds 1 to 5 Physical Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1176_WeaponTreeSpellAddedPhysicalDamageAndFireConversion"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 5 Physical Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_53045", 
+				["text"] = "Adds 1 to 5 Physical Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1176_WeaponTreeSpellAddedPhysicalDamageAndLightningConversion"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 5 Physical Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_53045", 
+				["text"] = "Adds 1 to 5 Physical Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1176_WeaponTreeSpellAddedPhysicalDamageAndOverwhelm"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 5 Physical Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_53045", 
+				["text"] = "Adds 1 to 5 Physical Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1177_WeaponTreeSpellAddedFireDamage"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 2 to 5 Fire Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_41540", 
+				["text"] = "Adds 2 to 5 Fire Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1177_WeaponTreeSpellAddedFireDamageAndCastSpeed"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 2 to 5 Fire Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_41540", 
+				["text"] = "Adds 2 to 5 Fire Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1177_WeaponTreeSpellAddedFireDamageAndIgniteChance"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 2 to 5 Fire Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_41540", 
+				["text"] = "Adds 2 to 5 Fire Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1177_WeaponTreeSpellAddedFireDamageAndImplicitEffect"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 2 to 5 Fire Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_41540", 
+				["text"] = "Adds 2 to 5 Fire Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1178_WeaponTreeSpellAddedColdDamage"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 2 to 6 Cold Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_7221", 
+				["text"] = "Adds 2 to 6 Cold Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1178_WeaponTreeSpellAddedColdDamageAndCannotChill"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 2 to 6 Cold Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_7221", 
+				["text"] = "Adds 2 to 6 Cold Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1178_WeaponTreeSpellAddedColdDamageAndCastSpeed"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 2 to 6 Cold Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_7221", 
+				["text"] = "Adds 2 to 6 Cold Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1178_WeaponTreeSpellAddedColdDamageAndFreezeChance"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 2 to 6 Cold Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_7221", 
+				["text"] = "Adds 2 to 6 Cold Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1179_WeaponTreeSpellAddedLightningDamage"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 6 Lightning Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_14289", 
+				["text"] = "Adds 1 to 6 Lightning Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1179_WeaponTreeSpellAddedLightningDamageAndDamageTaken"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 6 Lightning Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_14289", 
+				["text"] = "Adds 1 to 6 Lightning Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1179_WeaponTreeSpellAddedLightningDamageAndShockChance"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 6 Lightning Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_14289", 
+				["text"] = "Adds 1 to 6 Lightning Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1179_WeaponTreeSpellAddedLightningDamageAndSpellCriticalStrikeChance"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 6 Lightning Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_14289", 
+				["text"] = "Adds 1 to 6 Lightning Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1180_WeaponTreeSpellAddedChaosDamage"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 5 Chaos Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_34956", 
+				["text"] = "Adds 1 to 5 Chaos Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1180_WeaponTreeSpellAddedChaosDamageAndMaximumLife"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 5 Chaos Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_34956", 
+				["text"] = "Adds 1 to 5 Chaos Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1180_WeaponTreeSpellAddedChaosDamageAndPoisonChance"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 5 Chaos Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_34956", 
+				["text"] = "Adds 1 to 5 Chaos Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1180_WeaponTreeSpellAddedChaosDamageAndWitherEffect"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Adds 1 to 5 Chaos Damage to Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_34956", 
+				["text"] = "Adds 1 to 5 Chaos Damage to Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1186_WeaponTreeLocalAttackSpeedAndLessDamage"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "8% increased Attack Speed", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_24626", 
+				["text"] = "8% increased Attack Speed (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1186_WeaponTreeLocalColdDamageAndAttackSpeed"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "8% increased Attack Speed", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_24626", 
+				["text"] = "8% increased Attack Speed (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1186_WeaponTreeLocalIncreasedAttackSpeed"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "8% increased Attack Speed", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_24626", 
+				["text"] = "8% increased Attack Speed (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1186_WeaponTreeLocalIncreasedAttackSpeedAndFrenzyOnKill"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "8% increased Attack Speed", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_24626", 
+				["text"] = "8% increased Attack Speed (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1186_WeaponTreeLocalIncreasedAttackSpeedAndOnslaughtOnKill"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "8% increased Attack Speed", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_24626", 
+				["text"] = "8% increased Attack Speed (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1235_WeaponTreeLocalBaseCriticalStrikeChance"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+0.4% to Critical Strike Chance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_5089", 
+				["text"] = "+0.4% to Critical Strike Chance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1235_WeaponTreeLocalBaseCriticalStrikeChanceAndAccuracy"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+0.4% to Critical Strike Chance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_5089", 
+				["text"] = "+0.4% to Critical Strike Chance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1235_WeaponTreeLocalBaseCriticalStrikeChanceAndAttackSpeed"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+0.4% to Critical Strike Chance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_5089", 
+				["text"] = "+0.4% to Critical Strike Chance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1235_WeaponTreeLocalBaseCriticalStrikeChanceAndMultiplier"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+0.4% to Critical Strike Chance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_5089", 
+				["text"] = "+0.4% to Critical Strike Chance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1235_WeaponTreeLocalBaseCriticalStrikeChanceAndNoExtraDamageFromCrits"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+0.4% to Critical Strike Chance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_5089", 
+				["text"] = "+0.4% to Critical Strike Chance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1235_WeaponTreeNotableDagger"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+0.4% to Critical Strike Chance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_5089", 
+				["text"] = "+0.4% to Critical Strike Chance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1235_WeaponTreeNotableMace"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+0.4% to Critical Strike Chance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_5089", 
+				["text"] = "+0.4% to Critical Strike Chance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1235_WeaponTreeNotableWand"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+0.4% to Critical Strike Chance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_5089", 
+				["text"] = "+0.4% to Critical Strike Chance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["129_WeaponTreeLocalIncreaseSocketedStrengthGemLevel"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+1 to Level of Socketed Strength Gems", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_27838", 
+				["text"] = "+1 to Level of Socketed Strength Gems (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["130_WeaponTreeLocalIncreaseSocketedDexterityGemLevel"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+1 to Level of Socketed Dexterity Gems", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_53520", 
+				["text"] = "+1 to Level of Socketed Dexterity Gems (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1311_WeaponTreeLocalArmourImplicitEffect"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+20 to Armour", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_41721", 
+				["text"] = "+20 to Armour (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1311_WeaponTreeLocalArmourIncreasedDamageFromCriticalStrikes"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+20 to Armour", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_41721", 
+				["text"] = "+20 to Armour (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1311_WeaponTreeLocalArmourIncreasedDamageOverTimeTaken"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+20 to Armour", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_41721", 
+				["text"] = "+20 to Armour (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1311_WeaponTreeLocalArmourIncreasedStrength"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+20 to Armour", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_41721", 
+				["text"] = "+20 to Armour (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1311_WeaponTreeLocalArmourLocalBlock"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+20 to Armour", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_41721", 
+				["text"] = "+20 to Armour (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1311_WeaponTreeLocalPhysicalDamageReductionRating"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+20 to Armour", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_41721", 
+				["text"] = "+20 to Armour (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1319_WeaponTreeLocalEvasionRating"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+20 to Evasion Rating", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_3583", 
+				["text"] = "+20 to Evasion Rating (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1319_WeaponTreeLocalEvasionRatingImplicitEffect"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+20 to Evasion Rating", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_3583", 
+				["text"] = "+20 to Evasion Rating (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1319_WeaponTreeLocalEvasionRatingIncreasedAilmentDurationOnSelf"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+20 to Evasion Rating", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_3583", 
+				["text"] = "+20 to Evasion Rating (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1319_WeaponTreeLocalEvasionRatingIncreasedDexterity"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+20 to Evasion Rating", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_3583", 
+				["text"] = "+20 to Evasion Rating (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1319_WeaponTreeLocalEvasionRatingReducedStunRecovery"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+20 to Evasion Rating", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_3583", 
+				["text"] = "+20 to Evasion Rating (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1319_WeaponTreeLocalEvasionRatingSuppression"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+20 to Evasion Rating", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_3583", 
+				["text"] = "+20 to Evasion Rating (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["131_WeaponTreeLocalIncreaseSocketedIntelligenceGemLevel"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+1 to Level of Socketed Intelligence Gems", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_63087", 
+				["text"] = "+1 to Level of Socketed Intelligence Gems (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1326_WeaponTreeLocalDefences"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "24% increased Armour, Evasion and Energy Shield", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_25922", 
+				["text"] = "24% increased Armour, Evasion and Energy Shield (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1326_WeaponTreeLocalDefencesOffHandAttackDamage"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "24% increased Armour, Evasion and Energy Shield", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_25922", 
+				["text"] = "24% increased Armour, Evasion and Energy Shield (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1326_WeaponTreeLocalDefencesReducedLocalBlock"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "24% increased Armour, Evasion and Energy Shield", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_25922", 
+				["text"] = "24% increased Armour, Evasion and Energy Shield (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1326_WeaponTreeLocalDefencesReducedMaximumLife"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "24% increased Armour, Evasion and Energy Shield", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_25922", 
+				["text"] = "24% increased Armour, Evasion and Energy Shield (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1326_WeaponTreeLocalDefencesReflectDamageTaken"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "24% increased Armour, Evasion and Energy Shield", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_25922", 
+				["text"] = "24% increased Armour, Evasion and Energy Shield (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1329_WeaponTreeLocalEnergyShield"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+5 to maximum Energy Shield", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_30804", 
+				["text"] = "+5 to maximum Energy Shield (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1329_WeaponTreeLocalEnergyShieldAndMana"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+5 to maximum Energy Shield", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_30804", 
+				["text"] = "+5 to maximum Energy Shield (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1329_WeaponTreeLocalEnergyShieldImplicitEffect"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+5 to maximum Energy Shield", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_30804", 
+				["text"] = "+5 to maximum Energy Shield (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1329_WeaponTreeLocalEnergyShieldIncreasedIntelligence"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+5 to maximum Energy Shield", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_30804", 
+				["text"] = "+5 to maximum Energy Shield (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1329_WeaponTreeLocalEnergyShieldReducedManaRegeneration"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+5 to maximum Energy Shield", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_30804", 
+				["text"] = "+5 to maximum Energy Shield (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1329_WeaponTreeLocalEnergyShieldReducedRechargeRate"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+5 to maximum Energy Shield", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_30804", 
+				["text"] = "+5 to maximum Energy Shield (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1339_WeaponTreeIncreasedLife"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+30 to maximum Life", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_8191", 
+				["text"] = "+30 to maximum Life (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1339_WeaponTreeIncreasedLifeAndLifeOnKill"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+30 to maximum Life", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_8191", 
+				["text"] = "+30 to maximum Life (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1339_WeaponTreeIncreasedLifeAndLifeRegen"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+30 to maximum Life", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_8191", 
+				["text"] = "+30 to maximum Life (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1339_WeaponTreeIncreasedLifeAndStunThreshold"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+30 to maximum Life", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_8191", 
+				["text"] = "+30 to maximum Life (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1339_WeaponTreeIncreasedLifeReducedAllResistance"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+30 to maximum Life", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_8191", 
+				["text"] = "+30 to maximum Life (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1339_WeaponTreeIncreasedLifeReducedDamage"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+30 to maximum Life", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_8191", 
+				["text"] = "+30 to maximum Life (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1339_WeaponTreeIncreasedLifeReducedLocalDefences"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+30 to maximum Life", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_8191", 
+				["text"] = "+30 to maximum Life (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1351_WeaponTreeBaseManaRegeneration"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Regenerate 0.5% of Mana per second", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_27842", 
+				["text"] = "Regenerate 0.5% of Mana per second (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1351_WeaponTreeBaseManaRegenerationAndManaCostOfSkills"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Regenerate 0.5% of Mana per second", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_27842", 
+				["text"] = "Regenerate 0.5% of Mana per second (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1351_WeaponTreeBaseManaRegenerationAndMultiplicativeMana"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Regenerate 0.5% of Mana per second", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_27842", 
+				["text"] = "Regenerate 0.5% of Mana per second (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1351_WeaponTreeBaseManaRegenerationAndReservationEfficiencyOfSkills"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Regenerate 0.5% of Mana per second", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_27842", 
+				["text"] = "Regenerate 0.5% of Mana per second (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["142_WeaponTreeLocalIncreaseSocketedSpellGemLevel"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+2 to Level of Socketed Spell Gems", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_23287", 
+				["text"] = "+2 to Level of Socketed Spell Gems (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["146_WeaponTreeLocalIncreaseSocketedBowGemLevel"] = {
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+1 to Level of Socketed Bow Gems", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_24421", 
+				["text"] = "+1 to Level of Socketed Bow Gems (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["147_WeaponTreeLocalIncreaseSocketedMeleeGemLevel"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+2 to Level of Socketed Melee Gems", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_37197", 
+				["text"] = "+2 to Level of Socketed Melee Gems (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["148_WeaponTreeLocalIncreaseSocketedMinionGemLevel"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+2 to Level of Socketed Minion Gems", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_54268", 
+				["text"] = "+2 to Level of Socketed Minion Gems (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1499_WeaponTreeMaxLifeLeech"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "10% increased Maximum total Life Recovery per second from Leech", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_13565", 
+				["text"] = "10% increased Maximum total Life Recovery per second from Leech (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1501_WeaponTreeMaxManaLeech"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "10% increased Maximum total Mana Recovery per second from Leech", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_37782", 
+				["text"] = "10% increased Maximum total Mana Recovery per second from Leech (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1502_WeaponTreeMaxEnergyShield"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "10% increased Maximum total Energy Shield Recovery per second from Leech", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_31754", 
+				["text"] = "10% increased Maximum total Energy Shield Recovery per second from Leech (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1526_WeaponTreeManaOnBlock"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "30 Mana gained when you Block", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_43398", 
+				["text"] = "30 Mana gained when you Block (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1527_WeaponTreeEnergyShieldOnBlock"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Gain 30 Energy Shield when you Block", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_35818", 
+				["text"] = "Gain 30 Energy Shield when you Block (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1528_WeaponTreeLifeOnBlock"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Recover 30 Life when you Block", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_21274", 
+				["text"] = "Recover 30 Life when you Block (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1536_WeaponTreeMinionMovementSpeed"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions have 12% increased Movement Speed", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_14096", 
+				["text"] = "Minions have 12% increased Movement Speed (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1557_WeaponTreeAdditionalPierce"] = {
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Projectiles Pierce 2 additional Targets", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_19393", 
+				["text"] = "Projectiles Pierce 2 additional Targets (Tier 2)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1568_WeaponTreeEnergyShieldRegenOnLowLife"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Regenerate 2% of Energy Shield per second while on Low Life", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_3323", 
+				["text"] = "Regenerate 2% of Energy Shield per second while on Low Life (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1710_WeaponTreeLifeRegenOnLowLife"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Regenerate 2% of Life per second while on Low Life", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_8527", 
+				["text"] = "Regenerate 2% of Life per second while on Low Life (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1738_WeaponTreeMinionDamage"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 10% increased Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_51892", 
+				["text"] = "Minions deal 10% increased Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1738_WeaponTreeMinionDamageAndIncreasedEnergyShield"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 10% increased Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_51892", 
+				["text"] = "Minions deal 10% increased Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1738_WeaponTreeMinionDamageAndIncreasedMana"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 10% increased Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_51892", 
+				["text"] = "Minions deal 10% increased Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1738_WeaponTreeMinionDamageAndMinionCriticalStrikeChance"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 10% increased Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_51892", 
+				["text"] = "Minions deal 10% increased Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1786_WeaponTreeLocalAccuracyRating"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+150 to Accuracy Rating", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_20722", 
+				["text"] = "+150 to Accuracy Rating (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1786_WeaponTreeLocalAccuracyRatingAndDexterityPercent"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+150 to Accuracy Rating", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_20722", 
+				["text"] = "+150 to Accuracy Rating (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1786_WeaponTreeLocalAccuracyRatingAndEvasionPercent"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+150 to Accuracy Rating", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_20722", 
+				["text"] = "+150 to Accuracy Rating (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["1786_WeaponTreeLocalBaseCriticalStrikeChanceAndAccuracy"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+150 to Accuracy Rating", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_20722", 
+				["text"] = "+150 to Accuracy Rating (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["188_WeaponTreeSupportIncreasedArea"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Increased Area of Effect", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_4568", 
+				["text"] = "Socketed Gems are Supported by Level 10 Increased Area of Effect (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["189_WeaponTreeSupportArcaneSurge"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Arcane Surge", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_51860", 
+				["text"] = "Socketed Gems are Supported by Level 10 Arcane Surge (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["190_WeaponTreeSupportArchmage"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Archmage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_47182", 
+				["text"] = "Socketed Gems are Supported by Level 30 Archmage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["191_WeaponTreeSupportDivineBlessing"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 25 Divine Blessing", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_24083", 
+				["text"] = "Socketed Gems are Supported by Level 25 Divine Blessing (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["193_WeaponTreeSupportBehead"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Behead", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_59639", 
+				["text"] = "Socketed Gems are Supported by Level 10 Behead (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["196_WeaponTreeSupportBonechill"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Bonechill", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_52828", 
+				["text"] = "Socketed Gems are Supported by Level 30 Bonechill (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["2010_WeaponTreeElementalResistanceReducedLocalBlock"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+3% Chance to Block", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_62967", 
+				["text"] = "+3% Chance to Block (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["2010_WeaponTreeLocalArmourLocalBlock"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+3% Chance to Block", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_62967", 
+				["text"] = "+3% Chance to Block (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["2010_WeaponTreeLocalBlock"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+3% Chance to Block", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_62967", 
+				["text"] = "+3% Chance to Block (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["2010_WeaponTreeLocalBlockBlockRecovery"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+3% Chance to Block", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_62967", 
+				["text"] = "+3% Chance to Block (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["2010_WeaponTreeLocalBlockCannotBlockSpells"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+3% Chance to Block", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_62967", 
+				["text"] = "+3% Chance to Block (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["2010_WeaponTreeLocalBlockDamageFromBlockedHits"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+3% Chance to Block", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_62967", 
+				["text"] = "+3% Chance to Block (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["2010_WeaponTreeLocalBlockLifeOnBlock"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+3% Chance to Block", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_62967", 
+				["text"] = "+3% Chance to Block (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["2010_WeaponTreeLocalBlockReducedLocalDefences"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+3% Chance to Block", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_62967", 
+				["text"] = "+3% Chance to Block (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["2010_WeaponTreeLocalDefencesReducedLocalBlock"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+3% Chance to Block", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_62967", 
+				["text"] = "+3% Chance to Block (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["2010_WeaponTreeSpellBlockReducedLocalBlock"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+3% Chance to Block", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_62967", 
+				["text"] = "+3% Chance to Block (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["201_WeaponTreeSupportChain"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Chain", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_16157", 
+				["text"] = "Socketed Gems are Supported by Level 10 Chain (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["202_WeaponTreeSupportChanceToBleed"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Chance To Bleed", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_49653", 
+				["text"] = "Socketed Gems are Supported by Level 10 Chance To Bleed (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["203_WeaponTreeSupportChanceToIgnite"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Combustion", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_62296", 
+				["text"] = "Socketed Gems are Supported by Level 10 Combustion (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["206_WeaponTreeSupportCullingStrike"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Culling Strike", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_38566", 
+				["text"] = "Socketed Gems are Supported by Level 10 Culling Strike (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["208_WeaponTreeSupportCursedGround"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 25 Cursed Ground", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_16150", 
+				["text"] = "Socketed Gems are Supported by Level 25 Cursed Ground (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["209_WeaponTreeSupportDeadlyAilments"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Deadly Ailments", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_21266", 
+				["text"] = "Socketed Gems are Supported by Level 30 Deadly Ailments (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["210_WeaponTreeSupportPredator"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Predator", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_20961", 
+				["text"] = "Socketed Gems are Supported by Level 10 Predator (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["211_WeaponTreeSupportDecay"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 15 Decay", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_40092", 
+				["text"] = "Socketed Gems are Supported by Level 15 Decay (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["213_WeaponTreeSupportEfficacy"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Efficacy", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_43613", 
+				["text"] = "Socketed Gems are Supported by Level 30 Efficacy (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["214_WeaponTreeSupportElementalFocus"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Elemental Focus", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_49734", 
+				["text"] = "Socketed Gems are Supported by Level 30 Elemental Focus (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["215_WeaponTreeSupportElementalPenetration"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Elemental Penetration", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_48244", 
+				["text"] = "Socketed Gems are Supported by Level 30 Elemental Penetration (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["217_WeaponTreeSupportEnergyLeech"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Energy Leech", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_47374", 
+				["text"] = "Socketed Gems are Supported by Level 10 Energy Leech (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["220_WeaponTreeSupportEternalBlessing"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 25 Eternal Blessing", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_63804", 
+				["text"] = "Socketed Gems are Supported by Level 25 Eternal Blessing (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["221_WeaponTreeSupportFeedingFrenzy"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Feeding Frenzy", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_56354", 
+				["text"] = "Socketed Gems are Supported by Level 10 Feeding Frenzy (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["230_WeaponTreeSupportHexBloom"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 25 Hex Bloom", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_27843", 
+				["text"] = "Socketed Gems are Supported by Level 25 Hex Bloom (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["231_WeaponTreeSupportIgniteProliferation"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Ignite Proliferation", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_18624", 
+				["text"] = "Socketed Gems are Supported by Level 10 Ignite Proliferation (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["232_WeaponTreeSupportImmolate"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Immolate", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_42265", 
+				["text"] = "Socketed Gems are Supported by Level 30 Immolate (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["233_WeaponTreeSupportImpale"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Impale", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_55393", 
+				["text"] = "Socketed Gems are Supported by Level 10 Impale (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["234_WeaponTreeSupportImpendingDoom"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 15 Impending Doom", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_62692", 
+				["text"] = "Socketed Gems are Supported by Level 15 Impending Doom (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["235_WeaponTreeSupportBurningDamage"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Burning Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_45950", 
+				["text"] = "Socketed Gems are Supported by Level 30 Burning Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["236_WeaponTreeSupportIncreasedCriticalStrikes"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Increased Critical Strikes", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_54278", 
+				["text"] = "Socketed Gems are Supported by Level 30 Increased Critical Strikes (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["238_WeaponTreeSupportInfernalLegion"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 15 Infernal Legion", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_55874", 
+				["text"] = "Socketed Gems are Supported by Level 15 Infernal Legion (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["23_WeaponTreeModEffectAttributes"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "10% increased Explicit Attribute Modifier magnitudes", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_2302", 
+				["text"] = "10% increased Explicit Attribute Modifier magnitudes (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["240_WeaponTreeSupportIronGrip"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Iron Grip", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_10869", 
+				["text"] = "Socketed Gems are Supported by Level 10 Iron Grip (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["242_WeaponTreeSupportItemRarity"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Item Rarity", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_60863", 
+				["text"] = "Socketed Gems are Supported by Level 10 Item Rarity (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["243_WeaponTreeSupportLifeGainOnHit"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 15 Life Gain On Hit", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_37236", 
+				["text"] = "Socketed Gems are Supported by Level 15 Life Gain On Hit (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["244_WeaponTreeSupportLifetap"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Lifetap", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_48478", 
+				["text"] = "Socketed Gems are Supported by Level 10 Lifetap (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["2459_WeaponTreeDamageYouReflectGainedAsLife"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "20% of Damage you Reflect to Enemies when Hit is leeched as Life", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_11696", 
+				["text"] = "20% of Damage you Reflect to Enemies when Hit is leeched as Life (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["245_WeaponTreeSupportLightningPenetration"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Lightning Penetration", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_42728", 
+				["text"] = "Socketed Gems are Supported by Level 30 Lightning Penetration (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["246_WeaponTreeSupportMaim"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Maim", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_40150", 
+				["text"] = "Socketed Gems are Supported by Level 10 Maim (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["2493_WeaponTreeLocalWeaponRange"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+2 to Weapon Range", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_62540", 
+				["text"] = "+2 to Weapon Range (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["24_WeaponTreeModEffectCasterDamage"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "10% increased Explicit Caster Damage Modifier magnitudes", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_45049", 
+				["text"] = "10% increased Explicit Caster Damage Modifier magnitudes (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["254_WeaponTreeSupportSpellEcho"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Spell Echo", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_3342", 
+				["text"] = "Socketed Gems are Supported by Level 30 Spell Echo (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["256_WeaponTreeSupportOnslaught"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Momentum", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_17523", 
+				["text"] = "Socketed Gems are Supported by Level 10 Momentum (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["257_WeaponTreeSupportOvercharge"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Overcharge", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_9520", 
+				["text"] = "Socketed Gems are Supported by Level 10 Overcharge (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["258_WeaponTreeSupportVolley"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Volley", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_59155", 
+				["text"] = "Socketed Gems are Supported by Level 10 Volley (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["2590_WeaponTreeFishingLineStrength"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "30% increased Fishing Line Strength", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_12534", 
+				["text"] = "30% increased Fishing Line Strength (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["2591_WeaponTreeFishingPoolConsumption"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "20% increased Fishing Pool Consumption", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_57652", 
+				["text"] = "20% increased Fishing Pool Consumption (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["2595_WeaponTreeFishingQuantity"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "20% increased Quantity of Fish Caught", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_4067", 
+				["text"] = "20% increased Quantity of Fish Caught (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["2596_WeaponTreeFishingRarity"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "40% increased Rarity of Fish Caught", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_12959", 
+				["text"] = "40% increased Rarity of Fish Caught (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["2601_WeaponTreeFishingExoticFish"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "You can catch Exotic Fish", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_735", 
+				["text"] = "You can catch Exotic Fish (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["260_WeaponTreeSupportPhysicalToLightning"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Physical To Lightning", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_11880", 
+				["text"] = "Socketed Gems are Supported by Level 10 Physical To Lightning (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["261_WeaponTreeSupportPinpoint"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Pinpoint", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_33576", 
+				["text"] = "Socketed Gems are Supported by Level 10 Pinpoint (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["262_WeaponTreeSupportPointBlank"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Point Blank", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_26574", 
+				["text"] = "Socketed Gems are Supported by Level 10 Point Blank (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["263_WeaponTreeSupportCriticalStrikeAffliction"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Critical Strike Affliction", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_23600", 
+				["text"] = "Socketed Gems are Supported by Level 30 Critical Strike Affliction (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["264_WeaponTreeSupportPowerChargeOnCrit"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Power Charge On Critical Strike", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_37407", 
+				["text"] = "Socketed Gems are Supported by Level 30 Power Charge On Critical Strike (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["2652_WeaponTreeMinionArmour"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions have +350 to Armour", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_2975", 
+				["text"] = "Minions have +350 to Armour (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["267_WeaponTreeSupportRage"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Rage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_59412", 
+				["text"] = "Socketed Gems are Supported by Level 10 Rage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["268_WeaponTreeSupportArrowNova"] = {
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Arrow Nova", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_42041", 
+				["text"] = "Socketed Gems are Supported by Level 10 Arrow Nova (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["270_WeaponTreeSupportSwiftAffliction"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Swift Affliction", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_22697", 
+				["text"] = "Socketed Gems are Supported by Level 30 Swift Affliction (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["272_WeaponTreeSupportLessDuration"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Less Duration", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_10402", 
+				["text"] = "Socketed Gems are Supported by Level 10 Less Duration (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["2736_WeaponTreeStealChargesOnHitPercent"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "5% chance to Steal Power, Frenzy, and Endurance Charges on Hit", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_65108", 
+				["text"] = "5% chance to Steal Power, Frenzy, and Endurance Charges on Hit (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["275_WeaponTreeSupportSecondWind"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 25 Second Wind", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_43937", 
+				["text"] = "Socketed Gems are Supported by Level 25 Second Wind (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["276_WeaponTreeSupportShockwave"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Shockwave", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_62098", 
+				["text"] = "Socketed Gems are Supported by Level 10 Shockwave (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["2770_WeaponTreeChargeDuration"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "50% increased Endurance, Frenzy and Power Charge Duration", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_41852", 
+				["text"] = "50% increased Endurance, Frenzy and Power Charge Duration (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["277_WeaponTreeSupportSlowerProjectiles"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Slower Projectiles", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_30297", 
+				["text"] = "Socketed Gems are Supported by Level 10 Slower Projectiles (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["279_WeaponTreeSupportSpellCascade"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Spell Cascade", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_21714", 
+				["text"] = "Socketed Gems are Supported by Level 10 Spell Cascade (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["27_WeaponTreeModEffectCritical"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "10% increased Explicit Critical Modifier magnitudes", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_932", 
+				["text"] = "10% increased Explicit Critical Modifier magnitudes (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["280_WeaponTreeSupportIntensify"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Intensify", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_36288", 
+				["text"] = "Socketed Gems are Supported by Level 10 Intensify (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["281_WeaponTreeSupportAncestralCall"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Ancestral Call", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_4505", 
+				["text"] = "Socketed Gems are Supported by Level 10 Ancestral Call (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["282_WeaponTreeSupportInfusedChannelling"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Infused Channelling", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_25513", 
+				["text"] = "Socketed Gems are Supported by Level 30 Infused Channelling (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["283_WeaponTreeSupportElementalArmy"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Elemental Army Support", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_29608", 
+				["text"] = "Socketed Gems are Supported by Level 10 Elemental Army Support (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["284_WeaponTreeSupportSummonGhostOnKill"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 15 Summon Phantasm", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_42627", 
+				["text"] = "Socketed Gems are Supported by Level 15 Summon Phantasm (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["285_WeaponTreeSupportSwiftAssembly"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Swift Assembly", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_48196", 
+				["text"] = "Socketed Gems are Supported by Level 10 Swift Assembly (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["286_WeaponTreeSupportSwiftBrand"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Swiftbrand", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_21043", 
+				["text"] = "Socketed Gems are Supported by Level 10 Swiftbrand (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["287_WeaponTreeSupportAdvancedTraps"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Advanced Traps", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_24860", 
+				["text"] = "Socketed Gems are Supported by Level 10 Advanced Traps (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["288_WeaponTreeSupportTrinity"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Trinity", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_5003", 
+				["text"] = "Socketed Gems are Supported by Level 30 Trinity (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["289_WeaponTreeSupportUnboundAilments"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Unbound Ailments", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_8484", 
+				["text"] = "Socketed Gems are Supported by Level 30 Unbound Ailments (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["290_WeaponTreeSupportUnleash"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Unleash", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_12731", 
+				["text"] = "Socketed Gems are Supported by Level 30 Unleash (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["291_WeaponTreeSupportUrgentOrders"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 25 Urgent Orders", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_31465", 
+				["text"] = "Socketed Gems are Supported by Level 25 Urgent Orders (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["293_WeaponTreeSupportWitheringTouch"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Withering Touch", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_7023", 
+				["text"] = "Socketed Gems are Supported by Level 10 Withering Touch (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["29_WeaponTreeModEffectDefence"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "10% increased Explicit Defence Modifier magnitudes", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_8402", 
+				["text"] = "10% increased Explicit Defence Modifier magnitudes (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["31_WeaponTreeModEffectLife"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "10% increased Explicit Life Modifier magnitudes", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_27218", 
+				["text"] = "10% increased Explicit Life Modifier magnitudes (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3320_WeaponTreeFishingBiteSensitivity"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "50% increased Fish Bite Sensitivity", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_45720", 
+				["text"] = "50% increased Fish Bite Sensitivity (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["338_WeaponTreeSupportConcentratedEffect"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Concentrated Effect", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_64293", 
+				["text"] = "Socketed Gems are Supported by Level 30 Concentrated Effect (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["33_WeaponTreeModEffectMana"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "10% increased Explicit Mana Modifier magnitudes", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_51812", 
+				["text"] = "10% increased Explicit Mana Modifier magnitudes (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["343_WeaponTreeSupportAddedChaos"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Added Chaos Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_20387", 
+				["text"] = "Socketed Gems are Supported by Level 30 Added Chaos Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["344_WeaponTreeSupportArrogance"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 25 Arrogance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_12962", 
+				["text"] = "Socketed Gems are Supported by Level 25 Arrogance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["347_WeaponTreeSupportColdToFire"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Cold to Fire", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_6705", 
+				["text"] = "Socketed Gems are Supported by Level 30 Cold to Fire (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["349_WeaponTreeSupportFirePenetration"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Fire Penetration", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_45600", 
+				["text"] = "Socketed Gems are Supported by Level 30 Fire Penetration (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3504_WeaponTreeMinionAddedChaosDamage"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 1 to 5 additional Chaos Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_61815", 
+				["text"] = "Minions deal 1 to 5 additional Chaos Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3504_WeaponTreeMinionAddedChaosDamageAndChaosResistance"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 1 to 5 additional Chaos Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_61815", 
+				["text"] = "Minions deal 1 to 5 additional Chaos Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3504_WeaponTreeMinionAddedChaosDamageAndMaximumLife"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 1 to 5 additional Chaos Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_61815", 
+				["text"] = "Minions deal 1 to 5 additional Chaos Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3504_WeaponTreeMinionAddedChaosDamageAndMinionPoisonChance"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 1 to 5 additional Chaos Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_61815", 
+				["text"] = "Minions deal 1 to 5 additional Chaos Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3505_WeaponTreeMinionAddedColdDamage"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 2 to 6 additional Cold Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_62339", 
+				["text"] = "Minions deal 2 to 6 additional Cold Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3505_WeaponTreeMinionAddedColdDamageAndMinionAttackAndCastSpeed"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 2 to 6 additional Cold Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_62339", 
+				["text"] = "Minions deal 2 to 6 additional Cold Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3505_WeaponTreeMinionAddedColdDamageAndMinionCriticalStrikeChance"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 2 to 6 additional Cold Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_62339", 
+				["text"] = "Minions deal 2 to 6 additional Cold Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3505_WeaponTreeMinionAddedColdDamageAndMinionFreezeChance"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 2 to 6 additional Cold Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_62339", 
+				["text"] = "Minions deal 2 to 6 additional Cold Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3506_WeaponTreeMinionAddedFireDamage"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 2 to 5 additional Fire Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_34723", 
+				["text"] = "Minions deal 2 to 5 additional Fire Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3506_WeaponTreeMinionAddedFireDamageAndImplicitEffect"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 2 to 5 additional Fire Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_34723", 
+				["text"] = "Minions deal 2 to 5 additional Fire Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3506_WeaponTreeMinionAddedFireDamageAndMinionAttackAndCastSpeed"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 2 to 5 additional Fire Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_34723", 
+				["text"] = "Minions deal 2 to 5 additional Fire Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3506_WeaponTreeMinionAddedFireDamageAndMinionIgniteChance"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 2 to 5 additional Fire Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_34723", 
+				["text"] = "Minions deal 2 to 5 additional Fire Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3507_WeaponTreeMinionAddedLightningDamage"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 1 to 6 additional Lightning Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_59256", 
+				["text"] = "Minions deal 1 to 6 additional Lightning Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3507_WeaponTreeMinionAddedLightningDamageAndDamageTaken"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 1 to 6 additional Lightning Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_59256", 
+				["text"] = "Minions deal 1 to 6 additional Lightning Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3507_WeaponTreeMinionAddedLightningDamageAndMinionCriticalStrikeChance"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 1 to 6 additional Lightning Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_59256", 
+				["text"] = "Minions deal 1 to 6 additional Lightning Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3507_WeaponTreeMinionAddedLightningDamageAndMinionShockChance"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 1 to 6 additional Lightning Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_59256", 
+				["text"] = "Minions deal 1 to 6 additional Lightning Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3508_WeaponTreeMinionAddedPhysicalDamage"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 1 to 5 additional Physical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_59259", 
+				["text"] = "Minions deal 1 to 5 additional Physical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3508_WeaponTreeMinionAddedPhysicalDamageAndMinionAttackAndCastSpeed"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 1 to 5 additional Physical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_59259", 
+				["text"] = "Minions deal 1 to 5 additional Physical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3508_WeaponTreeMinionAddedPhysicalDamageAndMinionChaosConversion"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 1 to 5 additional Physical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_59259", 
+				["text"] = "Minions deal 1 to 5 additional Physical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3508_WeaponTreeMinionAddedPhysicalDamageAndMinionColdConversion"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 1 to 5 additional Physical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_59259", 
+				["text"] = "Minions deal 1 to 5 additional Physical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3508_WeaponTreeMinionAddedPhysicalDamageAndMinionFireConversion"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 1 to 5 additional Physical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_59259", 
+				["text"] = "Minions deal 1 to 5 additional Physical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3508_WeaponTreeMinionAddedPhysicalDamageAndMinionLightningConversion"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 1 to 5 additional Physical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_59259", 
+				["text"] = "Minions deal 1 to 5 additional Physical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["3508_WeaponTreeMinionAddedPhysicalDamageAndMinionOverwhelm"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions deal 1 to 5 additional Physical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_59259", 
+				["text"] = "Minions deal 1 to 5 additional Physical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["350_WeaponTreeSupportElementalProliferation"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Elemental Proliferation", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_26551", 
+				["text"] = "Socketed Gems are Supported by Level 10 Elemental Proliferation (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["351_WeaponTreeSupportAddedLightning"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Added Lightning Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_32855", 
+				["text"] = "Socketed Gems are Supported by Level 30 Added Lightning Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["354_WeaponTreeSupportBlind"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are supported by Level 10 Blind", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_35486", 
+				["text"] = "Socketed Gems are supported by Level 10 Blind (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["355_WeaponTreeSupportMeleeSplash"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are supported by Level 10 Melee Splash", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_45258", 
+				["text"] = "Socketed Gems are supported by Level 10 Melee Splash (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["359_WeaponTreeSupportStun"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are supported by Level 10 Stun", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_53398", 
+				["text"] = "Socketed Gems are supported by Level 10 Stun (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["35_WeaponTreeModEffectResistance"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "10% increased Explicit Resistance Modifier magnitudes", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_47909", 
+				["text"] = "10% increased Explicit Resistance Modifier magnitudes (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["360_WeaponTreeSupportAdditionalAccuracy"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are supported by Level 15 Additional Accuracy", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_11814", 
+				["text"] = "Socketed Gems are supported by Level 15 Additional Accuracy (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["362_WeaponTreeSupportFasterProjectiles"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are supported by Level 10 Faster Projectiles", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_3110", 
+				["text"] = "Socketed Gems are supported by Level 10 Faster Projectiles (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["363_WeaponTreeSupportLifeLeech"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are supported by Level 10 Life Leech", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_29206", 
+				["text"] = "Socketed Gems are supported by Level 10 Life Leech (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["365_WeaponTreeSupportIncreasedCriticalDamage"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are supported by Level 30 Increased Critical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_3151", 
+				["text"] = "Socketed Gems are supported by Level 30 Increased Critical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["366_WeaponTreeSupportFork"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are supported by Level 10 Fork", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_36837", 
+				["text"] = "Socketed Gems are supported by Level 10 Fork (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["369_WeaponTreeSupportInspiration"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Inspiration", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_10770", 
+				["text"] = "Socketed Gems are Supported by Level 30 Inspiration (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["36_WeaponTreeModEffectSpeed"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "10% increased Explicit Speed Modifier magnitudes", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_46633", 
+				["text"] = "10% increased Explicit Speed Modifier magnitudes (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["370_WeaponTreeSupportGenerosity"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 25 Generosity", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_23311", 
+				["text"] = "Socketed Gems are Supported by Level 25 Generosity (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["371_WeaponTreeSupportFortify"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Fortify", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_20818", 
+				["text"] = "Socketed Gems are Supported by Level 10 Fortify (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["373_WeaponTreeSupportChanceToFlee"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are supported by Level 10 Chance to Flee", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_18820", 
+				["text"] = "Socketed Gems are supported by Level 10 Chance to Flee (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["374_WeaponTreeSupportFasterCast"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Faster Casting", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_40805", 
+				["text"] = "Socketed Gems are Supported by Level 10 Faster Casting (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["375_WeaponTreeSupportIronWill"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Iron Will", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_14505", 
+				["text"] = "Socketed Gems are Supported by Level 10 Iron Will (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["376_WeaponTreeSupportKnockback"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Knockback", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_56855", 
+				["text"] = "Socketed Gems are Supported by Level 10 Knockback (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["377_WeaponTreeSupportMinionLife"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Minion Life", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_59753", 
+				["text"] = "Socketed Gems are Supported by Level 10 Minion Life (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["378_WeaponTreeSupportLesserMultipleProjectiles"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Lesser Multiple Projectiles", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_44253", 
+				["text"] = "Socketed Gems are Supported by Level 10 Lesser Multiple Projectiles (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["37_WeaponTreeModEffectElementalDamage"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "10% increased Explicit Elemental Damage Modifier magnitudes", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_53122", 
+				["text"] = "10% increased Explicit Elemental Damage Modifier magnitudes (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["381_WeaponTreeSupportMinionSpeed"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Minion Speed", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_21302", 
+				["text"] = "Socketed Gems are Supported by Level 10 Minion Speed (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["382_WeaponTreeSupportPierce"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are supported by Level 10 Pierce", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_64810", 
+				["text"] = "Socketed Gems are supported by Level 10 Pierce (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["384_WeaponTreeSupportHypothermia"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Hypothermia", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_63124", 
+				["text"] = "Socketed Gems are Supported by Level 30 Hypothermia (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["385_WeaponTreeSupportIceBite"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Ice Bite", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_26563", 
+				["text"] = "Socketed Gems are Supported by Level 30 Ice Bite (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["386_WeaponTreeSupportColdPenetration"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Cold Penetration", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_20469", 
+				["text"] = "Socketed Gems are Supported by Level 30 Cold Penetration (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["387_WeaponTreeSupportManaLeech"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Mana Leech", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_32875", 
+				["text"] = "Socketed Gems are Supported by Level 10 Mana Leech (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["388_WeaponTreeSupportAddedCold"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Added Cold Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_51067", 
+				["text"] = "Socketed Gems are Supported by Level 30 Added Cold Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["38_WeaponTreeModEffectMinion"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "10% increased Explicit Minion Modifier magnitudes", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_44018", 
+				["text"] = "10% increased Explicit Minion Modifier magnitudes (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["390_WeaponTreeSupportBlasphemy"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 25 Blasphemy", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_58553", 
+				["text"] = "Socketed Gems are Supported by Level 25 Blasphemy (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["391_WeaponTreeSupportInnervate"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Innervate", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_1810", 
+				["text"] = "Socketed Gems are Supported by Level 30 Innervate (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["393_WeaponTreeSupportChanceToPoison"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 10 Chance to Poison", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_26244", 
+				["text"] = "Socketed Gems are Supported by Level 10 Chance to Poison (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["395_WeaponTreeSupportControlledDestruction"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "Socketed Gems are Supported by Level 30 Controlled Destruction", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_18084", 
+				["text"] = "Socketed Gems are Supported by Level 30 Controlled Destruction (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["39_WeaponTreeModEffectPhysicalAndChaosDamage"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "10% increased Explicit Physical and Chaos Damage Modifier magnitudes", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_25650", 
+				["text"] = "10% increased Explicit Physical and Chaos Damage Modifier magnitudes (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4274_WeaponTreeSkillAncestralProtectorAncestralWarchief"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "20% of Damage Dealt by Ancestor Totems Leeched to you as Energy Shield", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_34556", 
+				["text"] = "20% of Damage Dealt by Ancestor Totems Leeched to you as Energy Shield (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4283_WeaponTreeSkillAnimateWeapon"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Animated Lingering Blades have +1.5% to Critical Strike Chance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_8849", 
+				["text"] = "Animated Lingering Blades have +1.5% to Critical Strike Chance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4307_WeaponTreeAreaOfEffectIfLowIntelligence"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "14% increased Area of Effect if Intelligence is below 100", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_37005", 
+				["text"] = "14% increased Area of Effect if Intelligence is below 100 (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4490_WeaponTreeAvoidAilmentsFromCriticalStrikes"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "50% chance to avoid Ailments from Critical Strikes", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_26435", 
+				["text"] = "50% chance to avoid Ailments from Critical Strikes (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4521_WeaponTreeSkillBarrageFrenzy"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Barrage and Frenzy have 25% increased Critical Strike Chance per Endurance Charge", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_36169", 
+				["text"] = "Barrage and Frenzy have 25% increased Critical Strike Chance per Endurance Charge (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4588_WeaponTreeSkillBearTrapSiphoningTrap"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Bear Trap and Siphoning Trap Debuffs also apply 15% reduced Cooldown Recovery Rate to affected Enemies", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_21872", 
+				["text"] = "Bear Trap and Siphoning Trap Debuffs also apply 15% reduced Cooldown Recovery Rate to affected Enemies (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4615_WeaponTreeSkillRageVortexBladestorm"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Enemies in your Rage Vortex or Bladestorms are Hindered and Unnerved", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_64041", 
+				["text"] = "Enemies in your Rage Vortex or Bladestorms are Hindered and Unnerved (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4623_WeaponTreeSkillBlazingSalvoFlameWall"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Blazing Salvo Projectiles Fork when they pass through a Flame Wall", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_45031", 
+				["text"] = "Blazing Salvo Projectiles Fork when they pass through a Flame Wall (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4804_WeaponTreeSkillBurningArrowExplosiveArrow"] = {
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Killing Blows with Burning Arrow or Explosive Arrow Shatter Enemies as though Frozen", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_7137", 
+				["text"] = "Killing Blows with Burning Arrow or Explosive Arrow Shatter Enemies as though Frozen (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4864_WeaponTreeSkillBladeFlurryChargedDash"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Trigger a Socketed Spell every second while Channelling Blade Flurry or Charged Dash", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_27861", 
+				["text"] = "Trigger a Socketed Spell every second while Channelling Blade Flurry or Charged Dash (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4866_WeaponTreeSkillBodySwapDetonateDead"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Trigger Level 20 Bodyswap when you Explode a Corpse with Detonate Dead", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_49146", 
+				["text"] = "Trigger Level 20 Bodyswap when you Explode a Corpse with Detonate Dead (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4867_WeaponTreeSkillHeavyStrikeBoneshatter"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Trigger Level 20 Bone Corpses when you Stun an Enemy with Heavy Strike or Boneshatter", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_5366", 
+				["text"] = "Trigger Level 20 Bone Corpses when you Stun an Enemy with Heavy Strike or Boneshatter (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4868_WeaponTreeSkillStormBurstDivineIre"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Trigger Level 20 Gravity Sphere when you Cast Storm Burst or Divine Ire", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_23452", 
+				["text"] = "Trigger Level 20 Gravity Sphere when you Cast Storm Burst or Divine Ire (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4869_WeaponTreeSkillWinterOrbHydrosphere"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Trigger Level 20 Hydrosphere while you Channel Winter Orb", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_18389", 
+				["text"] = "Trigger Level 20 Hydrosphere while you Channel Winter Orb (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4870_WeaponTreeSkillGlacialCascadeIceNova"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Trigger Level 20 Ice Nova from the Final Burst location of Glacial Cascades you Cast", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_38413", 
+				["text"] = "Trigger Level 20 Ice Nova from the Final Burst location of Glacial Cascades you Cast (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4882_WeaponTreeSkillLaceratePerforate"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Trigger Level 20 Stance Swap when you Attack with Perforate or Lacerate", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_42448", 
+				["text"] = "Trigger Level 20 Stance Swap when you Attack with Perforate or Lacerate (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4883_WeaponTreeSkillCleaveReave"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Trigger Level 20 Summon Spectral Wolf on Critical Strike with Cleave or Reave", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_22704", 
+				["text"] = "Trigger Level 20 Summon Spectral Wolf on Critical Strike with Cleave or Reave (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4884_WeaponTreeSkillTornadoShotSplitArrow"] = {
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Trigger Level 20 Tornado when you Attack with Split Arrow or Tornado Shot", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_2899", 
+				["text"] = "Trigger Level 20 Tornado when you Attack with Split Arrow or Tornado Shot (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4887_WeaponTreeSkillCausticArrowScourgeArrow"] = {
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Caustic Arrow and Scourge Arrow fire 25% more projectiles", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_16086", 
+				["text"] = "Caustic Arrow and Scourge Arrow fire 25% more projectiles (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4891_WeaponTreeSkillChainHookShieldCharge"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Shield Charge and Chain Hook have 2% increased Attack Speed per 10 Rampage Kills", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_44299", 
+				["text"] = "Shield Charge and Chain Hook have 2% increased Attack Speed per 10 Rampage Kills (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["4896_WeaponTreeChainingRange"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "20% increased Chaining range", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_17027", 
+				["text"] = "20% increased Chaining range (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5040_WeaponTreeForkExtraProjectileChance"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Projectiles have 30% chance for an additional Projectile when Forking", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_17809", 
+				["text"] = "Projectiles have 30% chance for an additional Projectile when Forking (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5070_WeaponTreeBrittleOnBlock"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% chance to inflict Brittle on Enemies when you Block their Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_40408", 
+				["text"] = "15% chance to inflict Brittle on Enemies when you Block their Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5074_WeaponTreeSapOnBlock"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% chance to Sap Enemies when you Block their Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_30229", 
+				["text"] = "15% chance to Sap Enemies when you Block their Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5075_WeaponTreeScorchOnBlock"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% chance to Scorch Enemies when you Block their Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_65050", 
+				["text"] = "15% chance to Scorch Enemies when you Block their Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5121_WeaponTreeChillOnBlock"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Chill Attackers for 4 seconds on Block", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_37758", 
+				["text"] = "Chill Attackers for 4 seconds on Block (Tier 2)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5471_WeaponTreeDebuffTimePassed"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Debuffs on you expire 15% faster", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_48224", 
+				["text"] = "Debuffs on you expire 15% faster (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5472_WeaponTreeSkillDecoyTotemRejuvenationTotemDevouringTotem"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Decoy, Devouring and Rejuvenation Totems Reflect 100% of their maximum Life as Fire Damage to nearby Enemies when Hit", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_23155", 
+				["text"] = "Decoy, Devouring and Rejuvenation Totems Reflect 100% of their maximum Life as Fire Damage to nearby Enemies when Hit (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5498_WeaponTreeSkillVoltaxicBurstDischarge"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Discharge and Voltaxic Burst are Cast at the targeted location instead of around you", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_48251", 
+				["text"] = "Discharge and Voltaxic Burst are Cast at the targeted location instead of around you (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5556_WeaponTreeSkillDominatingBlowAbsolution"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Increases and Reductions to Minion Damage also affect Dominating Blow and Absolution at 150% of their value", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_19478", 
+				["text"] = "Increases and Reductions to Minion Damage also affect Dominating Blow and Absolution at 150% of their value (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5560_WeaponTreeSkillDoubleStrikeDualStrike"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "50% chance to gain Soul Eater for 20 seconds on Killing Blow against Rare and Unique Enemies with Double Strike or Dual Strike", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_53537", 
+				["text"] = "50% chance to gain Soul Eater for 20 seconds on Killing Blow against Rare and Unique Enemies with Double Strike or Dual Strike (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5561_WeaponTreeDoubleDamageChanceIfLowStrength"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "6% chance to deal Double Damage if Strength is below 100", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_40803", 
+				["text"] = "6% chance to deal Double Damage if Strength is below 100 (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5580_WeaponTreeSkillEarthquakeEarthshatter"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Killing Blows with Earthquake and Earthshatter Shatter Enemies as though Frozen", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_11560", 
+				["text"] = "Killing Blows with Earthquake and Earthshatter Shatter Enemies as though Frozen (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5615_WeaponTreeSkillSummonFlameGolemSummonIceGolemSummonLightningGolem"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Maximum Life of Summoned Elemental Golems is Doubled", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_56226", 
+				["text"] = "Maximum Life of Summoned Elemental Golems is Doubled (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5649_WeaponTreeSkillBaneContagion"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Enemies inflicted with Bane or Contagion are Chilled", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_27307", 
+				["text"] = "Enemies inflicted with Bane or Contagion are Chilled (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5739_WeaponTreeSkillEtherealKnives"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Ethereal Knives requires 2 fewer Projectiles Fired to leave each Lingering Blade", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_18766", 
+				["text"] = "Ethereal Knives requires 2 fewer Projectiles Fired to leave each Lingering Blade (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5802_WeaponTreeSkillFireTrapExplosiveTrap"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Fire Trap and Explosive Trap Throw an additional Trap when used by a Mine", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_41467", 
+				["text"] = "Fire Trap and Explosive Trap Throw an additional Trap when used by a Mine (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5843_WeaponTreeSkillFirestormBladefall"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% chance for Firestorm and Bladefall to affect the same area again when they finish", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_28927", 
+				["text"] = "15% chance for Firestorm and Bladefall to affect the same area again when they finish (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5845_WeaponTreeFishingBestiaryLuresAtFishingHoles"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Can use Bestiary Lures at Fishing Holes", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_47493", 
+				["text"] = "Can use Bestiary Lures at Fishing Holes (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5846_WeaponTreeFishingCanCatchDivineFish"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "You can catch Divine Fish", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_13623", 
+				["text"] = "You can catch Divine Fish (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5847_WeaponTreeFishingChanceToCatchBoots"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "25% reduced chance to catch Boots", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_39645", 
+				["text"] = "25% reduced chance to catch Boots (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5848_WeaponTreeFishingChanceToCatchDivineOrb"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "5% increased chance to catch a Divine Orb", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_36068", 
+				["text"] = "5% increased chance to catch a Divine Orb (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5849_WeaponTreeFishingCorruptedFishCleansedChance"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Corrupted Fish have 10% chance to be Cleansed", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_54305", 
+				["text"] = "Corrupted Fish have 10% chance to be Cleansed (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5850_WeaponTreeFishingFishAlwaysTellTruthWithThisRod"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Fish caught with this Fishing Rod will always tell the truth", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_11897", 
+				["text"] = "Fish caught with this Fishing Rod will always tell the truth (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5851_WeaponTreeFishingGhastlyFishermanCannotSpawn"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "The Ghastly Fisherman cannot spawn", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_13569", 
+				["text"] = "The Ghastly Fisherman cannot spawn (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5852_WeaponTreeFishingGhastlyFishermanSpawnsBehindYou"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "The Ghastly Fisherman always appears behind you", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_17222", 
+				["text"] = "The Ghastly Fisherman always appears behind you (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5853_WeaponTreeFishingKrillsonAffectionPerFishGifted"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "23% increased Krillson Affection per Fish Gifted", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_47980", 
+				["text"] = "23% increased Krillson Affection per Fish Gifted (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5854_WeaponTreeFishingLifeOfFishWithThisRod"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "40% increased Life of Fish caught with this Fishing Rod", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_12413", 
+				["text"] = "40% increased Life of Fish caught with this Fishing Rod (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5855_WeaponTreeFishingMagmaticFishAreCooked"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Fish caught from Magmatic Fishing Holes are already Cooked", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_61359", 
+				["text"] = "Fish caught from Magmatic Fishing Holes are already Cooked (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5856_WeaponTreeFishingMoltenOneConfusionPerFishGifted"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% increased Molten One confusion per Fish Gifted", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_59398", 
+				["text"] = "15% increased Molten One confusion per Fish Gifted (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5857_WeaponTreeFishingReelStability"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "100% increased Reeling Stability", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_26301", 
+				["text"] = "100% increased Reeling Stability (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5858_WeaponTreeFishingTasalioIrePerFishCaught"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "20% reduced Tasalio's Ire per Fish caught", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_30831", 
+				["text"] = "20% reduced Tasalio's Ire per Fish caught (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5859_WeaponTreeFishingValakoAidPerStormyDay"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "20% increased Valako's Aid per Stormy Day", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_54071", 
+				["text"] = "20% increased Valako's Aid per Stormy Day (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5860_WeaponTreeFishingWishEffectOfAncientFish"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "50% increased effect of Wishes granted by Ancient Fish", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_27846", 
+				["text"] = "50% increased effect of Wishes granted by Ancient Fish (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5861_WeaponTreeFishingWishPerFish"] = {
+			["FishingRod"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+3 Wishes per Ancient Fish caught", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_47244", 
+				["text"] = "+3 Wishes per Ancient Fish caught (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["5895_WeaponTreeSkillForbiddenRiteDarkPact"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Forbidden Rite and Dark Pact gains Added Chaos Damage equal to 12% of Mana Cost, if Mana Cost is not higher than the maximum you could spend", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_58877", 
+				["text"] = "Forbidden Rite and Dark Pact gains Added Chaos Damage equal to 12% of Mana Cost, if Mana Cost is not higher than the maximum you could spend (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["6051_WeaponTreeSkillGalvanicArrowStormRain"] = {
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Galvanic Arrow and Storm Rain Repeat an additional time when used by a Mine", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_2281", 
+				["text"] = "Galvanic Arrow and Storm Rain Repeat an additional time when used by a Mine (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["6093_WeaponTreeSkillGroundSlamSunder"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Poisons inflicted by Sunder or Ground Slam on non-Poisoned Enemies deal 400% increased Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_44433", 
+				["text"] = "Poisons inflicted by Sunder or Ground Slam on non-Poisoned Enemies deal 400% increased Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["6299_WeaponTreeSkillHexblastDoomBlast"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "10% of Hexblast and Doom Blast Overkill Damage is Leeched as Life", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_39700", 
+				["text"] = "10% of Hexblast and Doom Blast Overkill Damage is Leeched as Life (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["6329_WeaponTreeSkillHolyFlameTotemShockwaveTotem"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Holy Flame Totem and Shockwave Totem gain 35% of Physical Damage as Extra Fire Damage when Cast by a Totem linked to by Searing Bond", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_20624", 
+				["text"] = "Holy Flame Totem and Shockwave Totem gain 35% of Physical Damage as Extra Fire Damage when Cast by a Totem linked to by Searing Bond (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["6339_WeaponTreeSkillIceCrashGlacialHammer"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Enemies Frozen by Ice Crash or Glacial Hammer become Covered in Frost for 4 seconds as they Unfreeze", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_1345", 
+				["text"] = "Enemies Frozen by Ice Crash or Glacial Hammer become Covered in Frost for 4 seconds as they Unfreeze (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["6559_WeaponTreeSkillLightningConduitGalvanicField"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Killing Blows with Lightning Conduit and Galvanic Field Shatter Enemies as though Frozen", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_31906", 
+				["text"] = "Killing Blows with Lightning Conduit and Galvanic Field Shatter Enemies as though Frozen (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["7035_LocalItemQuality"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "+8% to Quality", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_363", 
+				["text"] = "+8% to Quality (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8025_WeaponTreeMinionFlatAccuracyRating"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions have +200 to Accuracy Rating", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_47097", 
+				["text"] = "Minions have +200 to Accuracy Rating (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8025_WeaponTreeMinionFlatAccuracyRatingAndEffectOfAurasOnMinions"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions have +200 to Accuracy Rating", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_47097", 
+				["text"] = "Minions have +200 to Accuracy Rating (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8025_WeaponTreeMinionFlatAccuracyRatingAndMinionEvasionPercent"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions have +200 to Accuracy Rating", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_47097", 
+				["text"] = "Minions have +200 to Accuracy Rating (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8028_WeaponTreeMinionBaseCriticalStrikeChance"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions have +0.4% to Critical Strike Chance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_65116", 
+				["text"] = "Minions have +0.4% to Critical Strike Chance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8028_WeaponTreeMinionBaseCriticalStrikeChanceAndAuraEffectOnMinions"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions have +0.4% to Critical Strike Chance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_65116", 
+				["text"] = "Minions have +0.4% to Critical Strike Chance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8028_WeaponTreeMinionBaseCriticalStrikeChanceAndMinionAttackAndCastSpeed"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions have +0.4% to Critical Strike Chance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_65116", 
+				["text"] = "Minions have +0.4% to Critical Strike Chance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8028_WeaponTreeMinionBaseCriticalStrikeChanceAndMultiplier"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions have +0.4% to Critical Strike Chance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_65116", 
+				["text"] = "Minions have +0.4% to Critical Strike Chance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8030_WeaponTreeMinionAddedColdDamageAndMinionAttackAndCastSpeed"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions have 8% increased Attack and Cast Speed", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_41072", 
+				["text"] = "Minions have 8% increased Attack and Cast Speed (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8030_WeaponTreeMinionAttackSpeedAndCastSpeed"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions have 8% increased Attack and Cast Speed", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_41072", 
+				["text"] = "Minions have 8% increased Attack and Cast Speed (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8030_WeaponTreeMinionAttackSpeedAndCastSpeedAndMinionDamageTaken"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions have 8% increased Attack and Cast Speed", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_41072", 
+				["text"] = "Minions have 8% increased Attack and Cast Speed (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8030_WeaponTreeMinionAttackSpeedAndCastSpeedAndMinionNoExtraCritDamage"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions have 8% increased Attack and Cast Speed", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_41072", 
+				["text"] = "Minions have 8% increased Attack and Cast Speed (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8036_WeaponTreeMinionBlindOnHitChance"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions have 10% chance to Blind on Hit with Attacks", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_11024", 
+				["text"] = "Minions have 10% chance to Blind on Hit with Attacks (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8059_WeaponTreeMinionEvasion"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions have 20% increased Evasion Rating", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_22251", 
+				["text"] = "Minions have 20% increased Evasion Rating (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8059_WeaponTreeMinionFlatAccuracyRatingAndMinionEvasionPercent"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions have 20% increased Evasion Rating", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_22251", 
+				["text"] = "Minions have 20% increased Evasion Rating (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8071_WeaponTreeMinionMaximumElementalResistances"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions have +1% to all maximum Elemental Resistances", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_45474", 
+				["text"] = "Minions have +1% to all maximum Elemental Resistances (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8080_WeaponTreeMinionProjectileSpeed"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions have 15% increased Projectile Speed", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_62349", 
+				["text"] = "Minions have 15% increased Projectile Speed (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8086_WeaponTreeMinionHinderOnHitChance"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minions have 10% chance to Hinder Enemies on Hit with Spells", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_14928", 
+				["text"] = "Minions have 10% chance to Hinder Enemies on Hit with Spells (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8127_WeaponTreeMovementSpeedIfLowDexterity"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "8% increased Movement Speed if Dexterity is below 100", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_15586", 
+				["text"] = "8% increased Movement Speed if Dexterity is below 100 (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8401_WeaponTreeSkillPunctureEnsnaringArrow"] = {
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Enemies you Kill with Puncture or Ensnaring Arrow Hits Explode, dealing 10% of their Life as Physical Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_38853", 
+				["text"] = "Enemies you Kill with Puncture or Ensnaring Arrow Hits Explode, dealing 10% of their Life as Physical Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8406_WeaponTreeSkillWaveofConviction"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+10% to Wave of Conviction Damage over Time Multiplier per 0.1 seconds of Duration expired", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_55654", 
+				["text"] = "+10% to Wave of Conviction Damage over Time Multiplier per 0.1 seconds of Duration expired (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8425_WeaponTreeQuiverModEffect"] = {
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% increased bonuses gained from Equipped Quiver", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_7899", 
+				["text"] = "15% increased bonuses gained from Equipped Quiver (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8474_WeaponTreeLifeOnSupress"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Recover 2% of Life when you Suppress Spell Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_63571", 
+				["text"] = "Recover 2% of Life when you Suppress Spell Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8483_WeaponTreeSkillSplittingSteelLancingSteelShatteringSteel"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Recover 1% of Energy Shield per Steel Shard Consumed", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_20692", 
+				["text"] = "Recover 1% of Energy Shield per Steel Shard Consumed (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8552_WeaponTreeSkillRighteousFireScorchingRay"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Regenerate 15 Mana per second while any Enemy is in your Righteous Fire or Scorching Ray", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_5727", 
+				["text"] = "Regenerate 15 Mana per second while any Enemy is in your Righteous Fire or Scorching Ray (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8603_WeaponTreeShockOnBlock"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "50% chance to Shock Attackers for 4 seconds on Block", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_36676", 
+				["text"] = "50% chance to Shock Attackers for 4 seconds on Block (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["860_WeaponTreeLocalAttributeRequirements"] = {
+			["specialCaseData"] = {
+				["overrideModLine"] = "20% reduced Attribute Requirements", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_9495", 
+				["text"] = "20% reduced Attribute Requirements (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8677_WeaponTreeSkillStaticStrikeSmite"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Killing Blows from Smite and Static Strike Consume corpses to Recover 5% of Life", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_40918", 
+				["text"] = "Killing Blows from Smite and Static Strike Consume corpses to Recover 5% of Life (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8707_WeaponTreeSkillRaiseSpectreRaiseZombie"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Raised Zombies and Spectres gain Adrenaline for 8 seconds when Raised", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_56565", 
+				["text"] = "Raised Zombies and Spectres gain Adrenaline for 8 seconds when Raised (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8712_WeaponTreeAdditionalCriticalStrikeChanceWithSpells"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+0.4% to Spell Critical Strike Chance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_43608", 
+				["text"] = "+0.4% to Spell Critical Strike Chance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8712_WeaponTreeAdditionalCriticalStrikeChanceWithSpellsAndNoExtraDamageWithCrits"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+0.4% to Spell Critical Strike Chance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_43608", 
+				["text"] = "+0.4% to Spell Critical Strike Chance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8712_WeaponTreeAdditionalCriticalStrikeChanceWithSpellsAndReservationEfficiencyOfSkills"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+0.4% to Spell Critical Strike Chance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_43608", 
+				["text"] = "+0.4% to Spell Critical Strike Chance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8712_WeaponTreeAdditionalCriticalStrikeChanceWithSpellsAndSpellCriticalStrikeMultiplier"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+0.4% to Spell Critical Strike Chance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_43608", 
+				["text"] = "+0.4% to Spell Critical Strike Chance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8807_WeaponTreeSkillStormArmageddonBrandSummonReaper"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Storm and Armageddon Brands can be attached to your Summoned Reaper", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_16249", 
+				["text"] = "Storm and Armageddon Brands can be attached to your Summoned Reaper (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8921_WeaponTreeSkillTectonicSlamInfernalBlow2H"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Tectonic Slam and Infernal Blow deal 1% increased Attack Damage per 700 Armour", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_7655", 
+				["text"] = "Tectonic Slam and Infernal Blow deal 1% increased Attack Damage per 700 Armour (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["8922_WeaponTreeSkillTectonicSlamInfernalBlow"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Tectonic Slam and Infernal Blow deal 1% increased Attack Damage per 700 Armour", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_7655", 
+				["text"] = "Tectonic Slam and Infernal Blow deal 1% increased Attack Damage per 700 Armour (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9052_WeaponTreeSkillVolcanicFissureMoltenStrike"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Vaal Volcanic Fissure and Vaal Molten Strike have 40% reduced Soul Gain Prevention Duration", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_29593", 
+				["text"] = "Vaal Volcanic Fissure and Vaal Molten Strike have 40% reduced Soul Gain Prevention Duration (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9054_WeaponTreeSkillVigilantStrikeFlickerStrike"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Flicker Strike and Vigilant Strike's Cooldown can be bypassed by Power Charges instead of Frenzy or Endurance Charges", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_11098", 
+				["text"] = "Flicker Strike and Vigilant Strike's Cooldown can be bypassed by Power Charges instead of Frenzy or Endurance Charges (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9055_WeaponTreeSkillViperStrikePestilentStrike"] = {
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Viper Strike and Pestilent Strike deal 25% increased Attack Damage per Frenzy Charge", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_45635", 
+				["text"] = "Viper Strike and Pestilent Strike deal 25% increased Attack Damage per Frenzy Charge (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9067_WeaponTreeSkillVolatileDeadCremation"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Volatile Dead and Cremation Penetrate 2% Fire Resistance per 100 Dexterity", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_23345", 
+				["text"] = "Volatile Dead and Cremation Penetrate 2% Fire Resistance per 100 Dexterity (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9078_WeaponTreeSkillVortexFrostbolt"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "+15% to Vortex Critical Strike Chance when Cast on Frostbolt", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_31198", 
+				["text"] = "+15% to Vortex Critical Strike Chance when Cast on Frostbolt (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9101_WeaponTreeCastSpeed"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "4% more Cast Speed", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_37408", 
+				["text"] = "4% more Cast Speed (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9101_WeaponTreeCastSpeedAndDamage"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "4% more Cast Speed", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_37408", 
+				["text"] = "4% more Cast Speed (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9101_WeaponTreeCastSpeedAndSkillCost"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "4% more Cast Speed", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_37408", 
+				["text"] = "4% more Cast Speed (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9105_WeaponTreeSellNodeAwakenedSextant"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for 15 additional Awakened Sextant", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_48243", 
+				["text"] = "Item sells for 15 additional Awakened Sextant (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9105_WeaponTreeSellNodeAwakenedSextantHigh"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for 15 additional Awakened Sextant", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_48243", 
+				["text"] = "Item sells for 15 additional Awakened Sextant (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9106_WeaponTreeSellNodeBlessedOrb"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for 10 additional Blessed Orbs", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_47569", 
+				["text"] = "Item sells for 10 additional Blessed Orbs (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9106_WeaponTreeSellNodeBlessedOrbHigh"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for 10 additional Blessed Orbs", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_47569", 
+				["text"] = "Item sells for 10 additional Blessed Orbs (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9107_WeaponTreeSellNodeChaosOrb"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for 20 additional Chaos Orbs", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_49649", 
+				["text"] = "Item sells for 20 additional Chaos Orbs (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9107_WeaponTreeSellNodeChaosOrbHigh"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for 20 additional Chaos Orbs", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_49649", 
+				["text"] = "Item sells for 20 additional Chaos Orbs (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9108_WeaponTreeSellNodeCrystallineGeode"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for an additional Crystalline Geode", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_4855", 
+				["text"] = "Item sells for an additional Crystalline Geode (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9109_WeaponTreeSellNodeDivineOrb"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for an additional Divine Orb", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_18496", 
+				["text"] = "Item sells for an additional Divine Orb (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9109_WeaponTreeSellNodeDivineOrbHigh"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for 3 additional Divine Orbs", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_6400", 
+				["text"] = "Item sells for 3 additional Divine Orbs (Tier 2)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9110_WeaponTreeSellNodeExaltedOrb"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for an additional Exalted Orb", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_2402", 
+				["text"] = "Item sells for an additional Exalted Orb (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9110_WeaponTreeSellNodeExaltedOrbHigh"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for 3 additional Exalted Orbs", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_64992", 
+				["text"] = "Item sells for 3 additional Exalted Orbs (Tier 2)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9111_WeaponTreeSellPriceMagmaticOre"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for an additional Magmatic Ore", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_47181", 
+				["text"] = "Item sells for an additional Magmatic Ore (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9114_WeaponTreeSellNodeGemcutters"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for 15 additional Gemcutter's Prisms", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_45159", 
+				["text"] = "Item sells for 15 additional Gemcutter's Prisms (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9114_WeaponTreeSellNodeGemcuttersHigh"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for 15 additional Gemcutter's Prisms", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_45159", 
+				["text"] = "Item sells for 15 additional Gemcutter's Prisms (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9115_WeaponTreeSellNodeIgneousGeode"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for an additional Igneous Geode", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_8869", 
+				["text"] = "Item sells for an additional Igneous Geode (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9117_WeaponTreeSellNodeDouble"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Crucible Passives that sell for items sell for twice as much", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_5779", 
+				["text"] = "Crucible Passives that sell for items sell for twice as much (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9118_WeaponTreeSellNodeOrbOfAnnulment"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for an additional Orb of Annulment", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_62042", 
+				["text"] = "Item sells for an additional Orb of Annulment (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9118_WeaponTreeSellNodeOrbOfAnnulmentHigh"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for 3 additional Orbs of Annulment", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_1751", 
+				["text"] = "Item sells for 3 additional Orbs of Annulment (Tier 2)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9119_WeaponTreeSellNodeOrbOfRegret"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for 15 additional Orbs of Regret", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_30417", 
+				["text"] = "Item sells for 15 additional Orbs of Regret (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9119_WeaponTreeSellNodeOrbOfRegretHigh"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for 15 additional Orbs of Regret", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_30417", 
+				["text"] = "Item sells for 15 additional Orbs of Regret (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9120_WeaponTreeSellNodeRegalOrb"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for 10 additional Regal Orbs", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_60323", 
+				["text"] = "Item sells for 10 additional Regal Orbs (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9120_WeaponTreeSellNodeRegalOrbHigh"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for 10 additional Regal Orbs", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_60323", 
+				["text"] = "Item sells for 10 additional Regal Orbs (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9121_WeaponTreeSellNodeSacredOrb"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for an additional Sacred Orb", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_36660", 
+				["text"] = "Item sells for an additional Sacred Orb (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9121_WeaponTreeSellNodeSacredOrbHigh"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for 3 additional Sacred Orbs", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_54710", 
+				["text"] = "Item sells for 3 additional Sacred Orbs (Tier 2)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9122_WeaponTreeSellNodeScouringOrb"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for 20 additional Orbs of Scouring", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_20871", 
+				["text"] = "Item sells for 20 additional Orbs of Scouring (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9122_WeaponTreeSellNodeScouringOrbHigh"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for 20 additional Orbs of Scouring", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_20871", 
+				["text"] = "Item sells for 20 additional Orbs of Scouring (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9123_WeaponTreeSellNodeVaalOrb"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for 15 additional Vaal Orbs", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_1189", 
+				["text"] = "Item sells for 15 additional Vaal Orbs (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9123_WeaponTreeSellNodeVaalOrbHigh"] = {
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Item sells for 15 additional Vaal Orbs", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_1189", 
+				["text"] = "Item sells for 15 additional Vaal Orbs (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9136_WeaponTreeSkillWintertideBrandArcanistBrand"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Enemies Branded by Wintertide Brand or Arcanist Brand Explode on Death dealing a quarter of their maximum Life as Chaos damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_12418", 
+				["text"] = "Enemies Branded by Wintertide Brand or Arcanist Brand Explode on Death dealing a quarter of their maximum Life as Chaos damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9232_WeaponTreeAcrobatics"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Acrobatics", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_55846", 
+				["text"] = "Acrobatics (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9233_WeaponTreePerfectAgony"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Perfect Agony", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_26382", 
+				["text"] = "Perfect Agony (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9234_WeaponTreeAncestralBond"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Ancestral Bond", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_1524", 
+				["text"] = "Ancestral Bond (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9235_WeaponTreeAvatarOfFire"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Avatar of Fire", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_734", 
+				["text"] = "Avatar of Fire (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9237_WeaponTreeBloodMagic"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Blood Magic", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_40831", 
+				["text"] = "Blood Magic (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9238_WeaponTreeCallToArms"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Call to Arms", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_43883", 
+				["text"] = "Call to Arms (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9240_WeaponTreeConduit"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Conduit", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_13026", 
+				["text"] = "Conduit (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9242_WeaponTreeCrimsonDance"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Crimson Dance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_5964", 
+				["text"] = "Crimson Dance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9244_WeaponTreeDivineShield"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Divine Shield", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_33292", 
+				["text"] = "Divine Shield (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9245_WeaponTreeEldritchBattery"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Eldritch Battery", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_13138", 
+				["text"] = "Eldritch Battery (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9246_WeaponTreeElementalEquilibrium"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Elemental Equilibrium", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_54440", 
+				["text"] = "Elemental Equilibrium (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9247_WeaponTreeElementalOverload"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Elemental Overload", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_5084", 
+				["text"] = "Elemental Overload (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9249_WeaponTreeEternalYouth"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Eternal Youth", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_63167", 
+				["text"] = "Eternal Youth (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9251_WeaponTreeGhostDance"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Ghost Dance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_51989", 
+				["text"] = "Ghost Dance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9252_WeaponTreeKeystoneGhostReaver"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Ghost Reaver", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_54546", 
+				["text"] = "Ghost Reaver (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9253_WeaponTreeGlancingBlows"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Glancing Blows", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_13719", 
+				["text"] = "Glancing Blows (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9254_WeaponTreeHexMaster"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Hex Master", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_11654", 
+				["text"] = "Hex Master (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9256_WeaponTreeImpaler"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "The Impaler", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_2589", 
+				["text"] = "The Impaler (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9257_WeaponTreeIronReflexes"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Iron Reflexes", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_28028", 
+				["text"] = "Iron Reflexes (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9258_WeaponTreeLetheShade"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Lethe Shade", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_48723", 
+				["text"] = "Lethe Shade (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9259_WeaponTreeMagebane"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Magebane", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_17221", 
+				["text"] = "Magebane (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9260_WeaponTreeManaShield"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Mind Over Matter", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_20902", 
+				["text"] = "Mind Over Matter (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9261_WeaponTreeMinionInstability"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Minion Instability", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_47597", 
+				["text"] = "Minion Instability (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9262_WeaponTreeTheAgnostic"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "The Agnostic", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_47429", 
+				["text"] = "The Agnostic (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9263_WeaponTreePainAttunement"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Pain Attunement", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_40058", 
+				["text"] = "Pain Attunement (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9264_WeaponTreePointBlank"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Point Blank", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_55555", 
+				["text"] = "Point Blank (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9265_WeaponTreePreciseTechnique"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Precise Technique", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_58601", 
+				["text"] = "Precise Technique (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9266_WeaponTreeArrowDodging"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Arrow Dancing", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_55817", 
+				["text"] = "Arrow Dancing (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9268_WeaponTreeZealotsOath"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Zealot's Oath", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_57589", 
+				["text"] = "Zealot's Oath (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9269_WeaponTreeRunebinder"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Runebinder", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_31512", 
+				["text"] = "Runebinder (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9270_WeaponTreeSacredBastion"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Imbalanced Guard", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_54463", 
+				["text"] = "Imbalanced Guard (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9273_WeaponTreeSolipsism"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Solipsism", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_11917", 
+				["text"] = "Solipsism (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9275_WeaponTreeIronGrip"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Iron Grip", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_49401", 
+				["text"] = "Iron Grip (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9276_WeaponTreeSupremeEgo"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Supreme Ego", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_9834", 
+				["text"] = "Supreme Ego (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9277_WeaponTreeUnwaveringStance"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Unwavering Stance", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_63722", 
+				["text"] = "Unwavering Stance (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9278_WeaponTreeVaalPact"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Vaal Pact", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_32554", 
+				["text"] = "Vaal Pact (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9279_WeaponTreeVersatileCombatant"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Versatile Combatant", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_12316", 
+				["text"] = "Versatile Combatant (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9280_WeaponTreeWickedWard"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Wicked Ward", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_23100", 
+				["text"] = "Wicked Ward (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9281_WeaponTreeWindDancer"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Wind Dancer", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_38218", 
+				["text"] = "Wind Dancer (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9283_WeaponTreeResoluteTechnique"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Resolute Technique", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_53600", 
+				["text"] = "Resolute Technique (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["9284_WeaponTreeIronWill"] = {
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "Iron Will", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_23672", 
+				["text"] = "Iron Will (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["938_WeaponTreeSpellBlock"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "3% Chance to Block Spell Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_44918", 
+				["text"] = "3% Chance to Block Spell Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["938_WeaponTreeSpellBlockDamageFromBlockedHits"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "3% Chance to Block Spell Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_44918", 
+				["text"] = "3% Chance to Block Spell Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["938_WeaponTreeSpellBlockMoreMana"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "3% Chance to Block Spell Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_44918", 
+				["text"] = "3% Chance to Block Spell Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["938_WeaponTreeSpellBlockNoChanceToBlock"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "3% Chance to Block Spell Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_44918", 
+				["text"] = "3% Chance to Block Spell Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["938_WeaponTreeSpellBlockReducedLocalBlock"] = {
+			["Shield"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "3% Chance to Block Spell Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_44918", 
+				["text"] = "3% Chance to Block Spell Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["969_WeaponTreeAllDamageOnWeapon"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% increased Global Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_8535", 
+				["text"] = "15% increased Global Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["969_WeaponTreeIncreasedDamageAndIncreasedAttributes"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% increased Global Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_8535", 
+				["text"] = "15% increased Global Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["969_WeaponTreeIncreasedDamageAndSkillCost"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "15% increased Global Damage", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_8535", 
+				["text"] = "15% increased Global Damage (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["987_WeaponTreeDamageOverTime"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "10% increased Damage over Time", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_4268", 
+				["text"] = "10% increased Damage over Time (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["987_WeaponTreeDamageOverTimeAndLifeRecoveryRate"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "10% increased Damage over Time", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_4268", 
+				["text"] = "10% increased Damage over Time (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["987_WeaponTreeDamageOverTimeAndSelfAilmentDuration"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "10% increased Damage over Time", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_4268", 
+				["text"] = "10% increased Damage over Time (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+		["987_WeaponTreeDamageOverTimeAndSkillEffectDuration"] = {
+			["1HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["1HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HAxe"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HMace"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HSword"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["2HWeapon"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Bow"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Claw"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Dagger"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Staff"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["Wand"] = {
+				["max"] = 1, 
+				["min"] = 1, 
+			}, 
+			["specialCaseData"] = {
+				["overrideModLine"] = "10% increased Damage over Time", 
+			}, 
+			["tradeMod"] = {
+				["id"] = "crucible.mod_4268", 
+				["text"] = "10% increased Damage over Time (Tier 1)", 
+				["type"] = "crucible", 
+			}, 
+		}, 
+	}, 
 	["Eater"] = {
 		["1000_SpellDamage"] = {
 			["Amulet"] = {
