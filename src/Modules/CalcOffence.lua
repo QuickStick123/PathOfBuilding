@@ -1490,14 +1490,14 @@ function calcs.offence(env, actor, activeSkill)
 				val.totalBaseCost = round(costs[manaType].totalBaseCost * extraLifeFromMana) + val.totalBaseCost
 			end
 			if manaToLifeConversion > 0 then -- Life Mana Mastery
-				val.totalBaseCost = floor(costs[manaType].totalBaseCost * manaToLifeConversion) + val.totalBaseCost
+				val.totalBaseCost = floor((output[manaCost] or 0) * manaToLifeConversion) + val.totalBaseCost
 
 				if breakdown and breakdown[manaCost] then
 					breakdown[manaCost][#breakdown[manaCost]] = nil -- remove last line
-					t_insert(breakdown[manaCost], s_format("%d x %.2f (totalManaBaseCost x (1 - manaToLifeConversion))", costs[manaType].totalBaseCost, 1 - manaToLifeConversion))
-					t_insert(breakdown[manaCost], s_format("= %d", ceil(costs[manaType].totalBaseCost * (1 - manaToLifeConversion))))
+					t_insert(breakdown[manaCost], s_format("x %.2f (1 - manaToLifeConversion)", 1 - manaToLifeConversion))
+					t_insert(breakdown[manaCost], s_format("= %d", math.ceil((output[manaCost] or 0) * (1 - manaToLifeConversion))))
 				end
-				costs[manaType].totalBaseCost = ceil(costs[manaType].totalBaseCost * (1 - manaToLifeConversion))
+				output[manaCost] = math.ceil((output[manaCost] or 0) * (1 - manaToLifeConversion))
 			end
 		elseif val.type == "Rage" then
 			if skillModList:Flag(skillCfg, "CostRageInsteadOfSouls") then -- Hateforge
