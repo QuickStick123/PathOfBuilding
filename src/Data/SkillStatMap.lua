@@ -332,7 +332,7 @@ return {
 	mult = -1,
 },
 ["base_mana_cost_+"] = {
-	mod("ManaCostNoMult", "BASE", nil),
+	mod("ManaSkillCostBase", "BASE", nil),
 },
 ["no_mana_cost"] = {
 	mod("ManaCost", "MORE", nil),
